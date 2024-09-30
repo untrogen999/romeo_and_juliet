@@ -1,6 +1,8 @@
-Romeo and Juliet project for HUMAN-1030 Fall 2024. We're working on an analysis of Romeo and Juliet. The project's done by four people:
+This is the Romeo and Juliet project for HUMAN-1030 Fall 2024. We're working on an analysis of that play.
 
-* Myles
-* Aania
-* Nidhi
-* Avi
+The project's done by four people:
+
+* Myles: Documentation Officer and Web Designer
+* Aania: Subject Expert
+* Nidhi: Quality Control Officer
+* Avi: Team Co-Ordinator
