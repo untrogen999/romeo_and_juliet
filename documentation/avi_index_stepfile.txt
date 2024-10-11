@@ -1,0 +1,23 @@
+Avi Zilberman's stepfile, for reproducing everything I've done with marking up the index.
+Anything in backticks (`) is a command of some sort. When running it make sure not to copy the backticks themselves.
+
+Steps:
+
+1. Delete line 11907 and everything after it. This removes the Project Gutenberg end text.
+2. Delete lines 11631 to 11889 (both inclusive). This removes the advertisements and info about the book company. Also, the transcriber's notes should still be further indented than the index.
+3. Delete everything before line 10380. The first line should now have the text "INDEX OF WORDS AND PHRASES EXPLAINED" and there now should be only one blank line after the bottom border of the "Transcriber's notes".
+4. Find `&`, `<` and `>`, in that order: I saw none after doing the previous steps, so no need to do any replacements.
+5. Find `^\s{2}(\w)([-'\w!\? ]*),? (\d+)$`
+	* Replace with `  <phrase>$1$2</phrase><pages><page>$3</page></pages>`
+	* This finds a line beginning with two spaces followed by a letter and then zero or more letters, spaces, hyphens, apostrophes, and exclamation and question marks, before a comma and space and lastly some digits.
+	  In other words, this will find the "simplest" entries in the index that have no content in parentheses and that appear in only a single page.
+	* The first capture group is the first letter of the word/phrase, the second group is the remainder of the word/phrase, and the third is the (single) page number.
+	* The comma doesn't always appear so it's optional in the find.
+
+
+
+Notes to self:
+
+* Entries are sorted alphabetically.
+* The case of the first letter doesn't matter. So for example "Capel" in the index acts like "capel" in that it comes after "cankered" in the index.
+* The index has both words and phrases mixed together. A phrase obviously has multiple words in it, but is there a phrase of only one word? Either way, entries with multiple words should be filtered out.

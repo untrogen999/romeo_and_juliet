@@ -1,0 +1,19 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+# TODO: Add additional elements somewhere to handle the stuff in parentheses.
+# The word "as" for example appears as four different entries and the
+# content in parentheses is different for each one.
+
+start = index
+# Each entry has a phrase, some stuff in parentheses, and page numbers.
+# TODO: Could put entries inside a parent <letter l=""> element
+index = element index {phrase, pages}
+
+# The phrase people look for in dictionaries. May appear multiple times because
+# the content in parentheses is different.
+# TODO: This includes all entries. Separate actual phrases from words.
+phrase = element phrase {text}
+
+# There can be more than one page, but each entry always links to at least one page.
+pages = element pages {page+}
+page = element page {xsd:integer}
