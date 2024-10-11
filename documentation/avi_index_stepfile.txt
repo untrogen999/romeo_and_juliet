@@ -3,7 +3,8 @@ Anything in backticks (`) is a command of some sort. When running it make sure n
 
 Steps:
 
-1. Delete line 11907 and everything after it. This removes the Project Gutenberg end text.
+1. Make a copy of the source file and make it an XML file.
+2. Delete line 11907 and everything after it. This removes the Project Gutenberg end text.
 2. Delete lines 11631 to 11889 (both inclusive). This removes the advertisements and info about the book company. Also, the transcriber's notes should still be further indented than the index.
 3. Delete everything before line 10380. The first line should now have the text "INDEX OF WORDS AND PHRASES EXPLAINED" and there now should be only one blank line after the bottom border of the "Transcriber's notes".
 4. Find `&`, `<` and `>`, in that order: I saw none after doing the previous steps, so no need to do any replacements.
