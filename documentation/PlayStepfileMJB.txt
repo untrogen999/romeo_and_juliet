@@ -1,0 +1,29 @@
+1. Searched for <,>,&
+
+2. Searched \n{3,} replaced with \n\n
+
+3. Searched    and replaced with [blank] to get rid of the extra spaces before the lines
+
+4. Searched  +[\d]+ replaced with [blank] to get rid of line numbers
+
+5. Searched \n\n replaced with </line>\0<line>
+    a. Manually added in start tag at the beginning of the text 
+    b. Manually added in end tag at the end of the text 
+
+6. Searched ^<line>  _([a-z ]+).+?_ + replaced with <line><speaker char="\1">\1</speaker>
+
+7. Searched _(\d [a-z]+)\._ replaced with <speaker char="\1">\1</speaker>
+
+8. Searched <line>(_.+_)</line> replaced with <stagedirection>\1</stagedirection>
+
+9. Searched <line>(_.+(_|[a-z]))</line> replaced with <stagedirection>\1</stagedirection>
+
+10. Searched \[_([a-z ]+).+_</line> replaced with <stagedirection>\1</stagedirection></line>
+
+11. Searched \[_([a-z ]+).+(_|\]) replaced with <stagedirection>\1</stagedirection>
+
+12. Searched <line>(SCENE )([IV]+)(\. )_([a-z ';\.]+)_(\.|</line>)(</line>|) replaced with <scene n="\2">\1\2\3\4</scene>
+
+13. Searched <line>(ACT )([IV]+)</line> replaced with <act n="\2">\1\2</act>
+
+14. Added <ShakespearPlay> root element
