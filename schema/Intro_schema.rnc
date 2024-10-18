@@ -1,0 +1,20 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+#introduction as root element, maybe change it later?
+#put all the information above the actual play as the child elements of introduction. 
+
+start = introduction
+introduction = element introduction {title, publishinginfo, preface, contents, history, source, comments, prologue} 
+#seperate it later? 
+#ROMEO AND JULIET _DRAMATIS PERSONÆ_(didn't add this yet)
+title = element title {text}
+publishinginfo = element publishinginfo {text}
+#have to include the numbers(years) here
+preface = element preface {text}
+contents = element contents {text}
+#have to include the numbers here
+history = element history{text}
+#have to markup parts of this simliar to the markup of the play, will add attributes later
+source = element source {text}
+comments = element comments {text} 
+# have to markup parts of the comments like the actual play
+prologue = element prologue {text} 
