@@ -1,0 +1,17 @@
+Nidhi Step file - introduction
+
+1. Deleted the Project Gutenberg information and the publishing information. 
+2. Removed - "SHAKESPEARE'S TRAGEDY OF ROMEO AND JULIET" from its previous position and put it before the preface. 
+3. tagging the preface 
+- find: ^PREFACE\s* ; replace:  <preface>
+- find: <preface>\n ; replace: <preface><p number= "1">
+4. tagging history 
+- find: ^THE HISTORY OF THE PLAY\s ; replace: <history of play>
+- 
+
+
+
+
+
+
+started the schema and added comments on what to add later

@@ -1,0 +1,593 @@
+<introduction>
+
+<title>SHAKESPEARE'S TRAGEDY OF ROMEO AND JULIET</title>
+
+
+<preface><p number= "1">This edition of _Romeo and Juliet_, first published in 1879, is now
+thoroughly revised on the same general plan as its predecessors in the
+new series.</p>
+
+<p number= "2">While I have omitted most of the notes on textual variations, I have
+retained a sufficient number to illustrate the curious and significant
+differences between the first and second quartos. Among the many new
+notes are some calling attention to portions of the early draft of the
+play--some of them very bad--which Shakespeare left unchanged when he
+revised it.</p>
+
+<p number= "3">The references to Dowden in the notes are to his recent and valuable
+edition of the play, which I did not see until this of mine was on the
+point of going to the printer. The quotation on page 288 of the Appendix
+is from his _Shakspere: His Mind and Art_, which, by the way, was
+reprinted in this country at my suggestion.</p>
+</preface>
+
+
+<contents>
+<!-- wasn't sure how to markup the contents--> 
+                                                            PAGE
+
+    INTRODUCTION TO ROMEO AND JULIET                           9
+
+    The History of the Play                                    9
+
+    The Sources of the Plot                                   14
+
+    General Comments on the Play                              17
+
+
+    ROMEO AND JULIET                                          27
+
+    Act I                                                     29
+
+    Act II                                                    58
+
+    Act III                                                   85
+
+    Act IV                                                   118
+
+    Act V                                                    136
+
+
+    NOTES                                                    157
+
+
+    APPENDIX
+
+    Concerning Arthur Brooke                                 275
+
+    Comments on Some of the Characters                       278
+
+    The Time-Analysis of the Play                            290
+
+    List of Characters in the Play                           291
+
+
+    INDEX OF WORDS AND PHRASES EXPLAINED                     293
+
+[Illustration: FUNERAL OF JULIET]
+
+[Illustration: Verona]
+
+
+
+
+
+<history of play>
+
+The earliest edition of _Romeo and Juliet_, so far as we know, was a
+quarto printed in 1597, the title-page of which asserts that "it hath
+been often (with great applause) plaid publiquely." A second quarto
+appeared in 1599, declared to be "newly corrected, augmented, and
+amended."
+
+Two other quartos appeared before the folio of 1623, one in 1609 and the
+other undated; and it is doubtful which was the earlier. The undated
+quarto is the first that bears the name of the author ("Written by W.
+_Shake-speare_"), but this does not occur in some copies of the edition.
+A fifth quarto was published in 1637.
+
+The first quarto is much shorter than the second, the former having only
+2232 lines, including the prologue, while the latter has 3007 lines
+(Daniel). Some editors believe that the first quarto gives the author's
+first draft of the play, and the second the form it took after he had
+revised and enlarged it; but the majority of the best critics agree
+substantially in the opinion that the first quarto was a pirated
+edition, and represents in an abbreviated and imperfect form the play
+subsequently printed in full in the second. The former was "made up
+partly from copies of portions of the original play, partly from
+recollection and from notes taken during the performance;" the latter
+was from an authentic copy, and a careful comparison of the text with
+the earlier one shows that in the meantime the play "underwent revision,
+received some slight augmentation, and in some few places must have been
+entirely rewritten." A marked instance of this rewriting--the only one
+of considerable length--is in ii. 6. 6-37, where the first quarto reads
+thus (spelling and pointing being modernized):--
+
+  _Jul._ Romeo.
+
+  _Rom._ My Juliet, welcome. As do waking eyes
+  Closed in Night's mists attend the frolick Day,
+  So Romeo hath expected Juliet,
+  And thou art come.
+
+  _Jul._                I am, if I be Day,
+  Come to my Sun: shine forth and make me fair.
+
+  _Rom._ All beauteous fairness dwelleth in thine eyes.
+
+  _Jul._ Romeo, from thine all brightness doth arise.
+
+  _Fri._ Come, wantons, come, the stealing hours do pass,
+  Defer embracements till some fitter time.
+  Part for a while, you shall not be alone
+  Till holy Church have joined ye both in one.
+
+  _Rom._ Lead, holy Father, all delay seems long.
+
+  _Jul._ Make haste, make haste, this lingering doth us wrong.
+
+For convenient comparison I quote the later text here:--
+
+  _Juliet._ Good even to my ghostly confessor.
+
+  _Friar Laurence._ Romeo shall thank thee, daughter, for us both.
+
+  _Juliet._ As much to him, else is his thanks too much.
+
+  _Romeo._ Ah, Juliet, if the measure of thy joy
+  Be heap'd like mine and that thy skill be more
+  To blazon it, then sweeten with thy breath
+  This neighbour air, and let rich music's tongue
+  Unfold the imagin'd happiness that both
+  Receive in either by this dear encounter.
+
+  _Juliet._ Conceit, more rich in matter than in words,
+  Brags of his substance, not of ornament.
+  They are but beggars that can count their worth;
+  But my true love is grown to such excess
+  I cannot sum up half my sum of wealth.
+
+  _Friar Laurence._ Come, come with me, and we will make short work;
+  For, by your leaves, you shall not stay alone
+  Till holy church incorporate two in one.
+
+The "omission, mutilation, or botching" by which some German editors
+would explain all differences between the earlier and later texts will
+not suffice to account for such divergence as this. "The two dialogues
+do not differ merely in expressiveness and effect; they embody different
+conceptions of the characters;" and yet we cannot doubt that both were
+written by Shakespeare.
+
+But while the second quarto is "unquestionably our best authority" for
+the text of the play, it is certain that it "was not printed from the
+author's manuscript, but from a transcript, the writer of which was not
+only careless, but thought fit to take unwarrantable liberties with the
+text." The first quarto, with all its faults and imperfections, is often
+useful in the detection and correction of these errors and corruptions,
+and all the modern editors have made more or less use of its readings.
+
+The third quarto (1609) was a reprint of the second, from which it
+"differs by a few corrections, and more frequently by additional
+errors." It is from this edition that the text of the first folio is
+taken, with some changes, accidental or intentional, "all generally for
+the worse," except in the punctuation, which is more correct, and the
+stage directions, which are more complete, than in the quarto.
+
+The date of the first draft of the play has been much discussed, but
+cannot be said to have been settled. The majority of the editors believe
+that it was begun as early as 1561, but I think that most of them lay
+too much stress on the Nurse's reference (i. 3. 22, 35) to the
+"earthquake," which occurred "eleven years" earlier, and which these
+critics suppose to have been the one felt in England in 1580.
+
+Aside from this and other attempts to fix the date by external evidence
+of a doubtful character, the internal evidence confirms the opinion that
+the tragedy was an early work of the poet, and that it was subsequently
+"corrected, augmented, and amended." There is a good deal of rhyme, and
+much of it in the form of alternate rhyme. The alliteration, the
+frequent playing upon words, and the lyrical character of many passages
+also lead to the same conclusion.
+
+The latest editors agree substantially with this view. Herford says:
+"The evidence points to 1594-1595 as the time at which the play was
+substantially composed, though it is tolerably certain that some parts
+of our present text were written as late as 1596-1598, and possibly that
+others are as early as 1591." Dowden sums up the matter thus: "On the
+whole, we might place _Romeo and Juliet_, on grounds of internal
+evidence, near _The Rape of Lucrece_; portions may be earlier in date;
+certain passages of the revised version are certainly later; but I think
+that 1595 may serve as an approximation to a central date, and cannot be
+far astray."
+
+For myself, while agreeing substantially with these authorities, I think
+that a careful comparison of what are evidently the earliest portions
+of the text with similar work in _Love's Labour's Lost_ (a play revised
+like this, but retaining traces of the original form), _The Two
+Gentlemen of Verona_, and other plays which the critics generally assign
+to 1591 or 1592, proves conclusively that parts of _Romeo and Juliet_
+must be of quite as early a date.
+
+The earliest reference to the play in the literature of the time is in a
+sonnet to Shakespeare by John Weever, written probably in 1595 or 1596,
+though not published until 1599. After referring to _Venus and Adonis_
+and _Lucrece_, Weever adds:--
+
+  "_Romeo_, _Richard_, more whose names I know not,
+  Their sugred tongues and power attractive beuty
+  Say they are saints," etc.
+
+No other allusion of earlier date than the publication of the first
+quarto has been discovered.
+
+
+THE SOURCES OF THE PLOT
+
+Girolamo della Corte, in his _Storia di Verona_, 1594, relates the story
+of the play as a true event occurring in 1303; but the earlier annalists
+of the city are silent on the subject. A tale very similar, the scene of
+which is laid in Siena, appears in a collection of novels by Masuccio di
+Salerno, printed at Naples in 1476; but Luigi da Porto, in his _La
+Giulietta_,[1] published about 1530, is the first to call the lovers
+Romeo and Juliet, and to make them the children of the rival Veronese
+houses. The story was retold in French by Adrian Sevin, about 1542; and
+a poetical version of it was published at Venice in 1553. It is also
+found in Bandello's _Novelle_, 1554; and five years later Pierre
+Boisteau translated it, with some variations, into French in his
+_Histoire de Deux Amans_. The earliest English version of the romance
+appeared in 1562 in a poem by Arthur Brooke founded upon Boisteau's
+novel, and entitled _Romeus and Juliet_. A prose translation of
+Boisteau's novel was given in Paynter's _Palace of Pleasure_, in 1567.
+It was undoubtedly from these English sources, and chiefly from the poem
+by Brooke, that Shakespeare drew his material. It is to be noted,
+however, that Brooke speaks of having seen "the same argument lately set
+forth on stage"; and it is possible that this lost play may also have
+been known to Shakespeare, though we have no reason to suppose that he
+made any use of it. That he followed Brooke's poem rather than Paynter's
+prose version is evident from a careful comparison of the two with the
+play.
+
+Grant White remarks: "The tragedy follows the poem with a faithfulness
+which might be called slavish, were it not that any variation from the
+course of the old story was entirely unnecessary for the sake of
+dramatic interest, and were there not shown in the progress of the
+action, in the modification of one character and in the disposal of
+another, all peculiar to the play, self-reliant dramatic intuition of
+the highest order. For the rest, there is not a personage or a
+situation, hardly a speech, essential to Brooke's poem, which has not
+its counterpart--its exalted and glorified counterpart--in the
+tragedy.... In brief, _Romeo and Juliet_ owes to Shakespeare only its
+dramatic form and its poetic decoration. But what an exception is the
+latter! It is to say that the earth owes to the sun only its verdure and
+its flowers, the air only its perfume and its balm, the heavens only
+their azure and their glow. Yet this must not lead us to forget that the
+original tale is one of the most truthful and touching among the few
+that have entranced the ear and stirred the heart of the world for ages,
+or that in Shakespeare's transfiguration of it his fancy and his
+youthful fire had a much larger share than his philosophy or his
+imagination.
+
+"The only variations from the story in the play are the three which have
+just been alluded to: the compression of the action, which in the story
+occupies four or five months, to within as many days, thus adding
+impetuosity to a passion which had only depth, and enhancing dramatic
+effect by quickening truth to vividness; the conversion of Mercutio from
+a mere courtier, 'bolde emong the bashfull maydes,' 'courteous of his
+speech and pleasant of devise,' into that splendid union of the knight
+and the fine gentleman, in portraying which Shakespeare, with prophetic
+eye piercing a century, shows us the fire of faded chivalry expiring in
+a flash of wit; and the bringing-in of Paris (forgotten in the story
+after his bridal disappointment) to die at Juliet's bier by the hand of
+Romeo, thus gathering together all the threads of this love entanglement
+to be cut at once by Fate."
+
+[Footnote 1: A translation of _La Giulietta_, with an historical and
+critical introduction by me, was published in Boston, 1893.]
+
+
+GENERAL COMMENTS ON THE PLAY
+
+Coleridge, in his _Notes and Lectures upon Shakespeare_, says: "The
+stage in Shakespeare's time was a naked room with a blanket for a
+curtain, but he made it a field for monarchs. That law of unity which
+has its foundations, not in the factitious necessity of custom, but in
+nature itself, the unity of feeling, is everywhere and at all times
+observed by Shakespeare in his plays. Read _Romeo and Juliet_: all is
+youth and spring--youth with its follies, its virtues, its
+precipitancies; spring with its odours, its flowers, and its transiency.
+It is one and the same feeling that commences, goes through, and ends
+the play. The old men, the Capulets and the Montagues, are not common
+old men; they have an eagerness, a heartiness, a vehemence, the effect
+of spring; with Romeo, his change of passion, his sudden marriage, and
+his rash death, are all the effects of youth; whilst in Juliet love has
+all that is tender and melancholy in the nightingale, all that is
+voluptuous in the rose, with whatever is sweet in the freshness of
+spring; but it ends with a long deep sigh like the last breeze of the
+Italian evening."
+
+The play, like _The Merchant of Venice_, is thoroughly Italian in
+atmosphere and colour. The season, though Coleridge refers to it
+figuratively as spring, is really midsummer. The time is definitely
+fixed by the Nurse's talk about the age of Juliet. She asks Lady Capulet
+how long it is to Lammas-tide--that is, to August 1--and the reply is,
+"A fortnight and odd days"--sixteen or seventeen days we may suppose,
+making the time of the conversation not far from the middle of July.
+This is confirmed by allusions to the weather and other natural
+phenomena in the play. At the beginning of act iii, for instance,
+Benvolio says to his friends:--
+
+  "I pray thee, good Mercutio, let's retire;
+  The day is hot, the Capulets abroad,
+  And if we meet we shall not scape a brawl,
+  For now, these hot days, is the mad blood stirring."
+
+When the Nurse goes on the errand to Romeo (ii. 4), Peter carries her
+fan, and she finds occasion to use it. "The nights are only softer days,
+not made for sleep, but for lingering in moonlit gardens, where the
+fruit-tree tops are tipped with silver and the nightingale sings on the
+pomegranate bough." It is only in the coolness of the dawn that Friar
+Laurence goes forth to gather herbs; and it is
+
+  "An hour before the worshipp'd sun
+  Peer'd forth the golden window of the east,"
+
+that we find Romeo wandering in the grove of sycamore, "with tears
+augmenting the fresh morning's dew," because Rosaline will not return
+his love.
+
+In one instance, overlooked by the commentators generally, Shakespeare
+seems to forget the time of year. In the masquerade scene (i. 5) Old
+Capulet bids the servants "quench the fire" because "the room is grown
+too hot." In Brooke's poem, where the action covers four or five months,
+this scene is in the winter. Shakespeare, in condensing the time to less
+than a single week in summer, neglected to omit this reference to a
+colder season.
+
+Aside from this little slip, the time is the Italian summer from first
+to last. And, as a French critic remarks, "the very form of the language
+comes from the South." The tale originated in Italy; "it breathes the
+very spirit of her national records, her old family feuds, the amorous
+and bloody intrigues which fill her annals. No one can fail to recognize
+Italy in its lyric rhythm, its blindness of passion, its blossoming and
+abundant vitality, in its brilliant imagery, its bold composition." All
+the characters are distinctively Italian. "In total effect," as another
+has said, "the play is so Italian that one may read it with increasing
+surprise and delight in Verona itself."
+
+Although, as I have said, it is doubtful whether the story has any
+historical basis, the Montagues and the Capulets were famous old
+families in Verona. Dante alludes to them in the _Purgatorio_ (vi. 107),
+though not as enemies:--
+
+  "Vieni a veder Montecchi e Cappelletti,
+  Monaldi e Filippeschi, uom senza cura,
+  Color già tristi, e costor con sospetti."[2]
+
+The palace of the Capulets is to this day pointed out in Verona. It is
+degraded to plebeian occupancy, and the only mark of its ancient dignity
+is the badge of the family, the _cap_ carved in stone on the inner side
+of the entrance to the court, which is of ample size, surrounded by
+buildings that probably formed the main part of the mansion, but are now
+divided into many tenements. The garden has disappeared, having been
+covered with other buildings centuries ago.
+
+The so-called "tomb of Juliet" is in a less disagreeable locality, but
+is unquestionably a fraud, though it has been exhibited for a century or
+two, and has received many tributes from credulous and sentimental
+tourists. It is in the garden of an ancient convent, and consists of an
+open, dilapidated stone sarcophagus (perhaps only an old horse-trough),
+without inscription or any authentic history. It is kept in a kind of
+shed, the walls of which are hung with faded wreaths and other mementoes
+from visitors. One pays twenty-five centesimi (five cents) for the
+privilege of inspecting it. Byron went to see it in 1816, and writes
+(November 6) to his sister Augusta: "I brought away four small pieces
+of it for you and the babes (at least the female part of them), and for
+Ada and her mother, if she will accept it from you. I thought the
+situation more appropriate to the history than if it had been less
+blighted. This struck me more than all the antiquities, more even than
+the amphitheatre." Maria Louisa, the French empress, got a piece of it,
+which she had made into hearts and other forms for bracelets and
+necklaces; and many other sentimental ladies followed the royal example
+before the mutilation of the relic was prohibited by its guardians.
+
+To return to the play--one would suppose that the keynote was struck
+with sufficient clearness in the prologue to indicate Shakespeare's
+purpose and the moral lesson that he meant to impress; but many of the
+critics have nevertheless failed to understand it. They have assumed
+that the misfortunes of the hero and heroine were mainly due to their
+own rashness or imprudence in yielding to the impulses of passion
+instead of obeying the dictates of reason. They think that the dramatist
+speaks through Friar Laurence when he warns them against haste in the
+marriage (ii. 6. 9 fol.):--
+
+  "These violent delights have violent ends,
+  And in their triumph die, like fire and powder,
+  Which as they kiss consume; the sweetest honey
+  Is loathsome in his own deliciousness,
+  And in the taste confounds the appetite.
+  Therefore love moderately, long love doth so;
+  Too swift arrives as tardy as too slow."
+
+But the venerable celibate speaks for himself and in keeping with the
+character, not for Shakespeare.
+
+Neither does the poet, as some believe, intend to read a lesson against
+clandestine marriage and disregard for the authority or approval of
+parents in the match. The Friar, even at the first suggestion of the
+hurried and secret marriage, does not oppose or discourage it on any
+such grounds; nor, in the closing scene, does he blame either the lovers
+or himself on that account. Nowhere in the play is there the slightest
+suggestion of so-called "poetic justice" or retribution in the fate that
+overtakes the unhappy pair.
+
+It is the parents, not the children, that have sinned, and the sin of
+the parents is visited upon their innocent offspring. This is the burden
+of the prologue; and it is most emphatically repeated at the close of
+the play.
+
+The feud of the two households and the civil strife that it has caused
+are the first things to which the attention of those who are to witness
+the play is called. Next they are told that the children of these two
+foes become lovers--not foolish, rash, imprudent lovers, not victims of
+disobedience to their parents, not in any way responsible for what they
+afterwards suffer--but "star-cross'd lovers." The fault is not in
+themselves, but in their stars--in their _fate_ as the offspring of
+these hostile parents. But their unfortunate and piteous overthrow is
+the means by which the fatal feud of the two families is brought to an
+end. The "death-mark'd love" of the children--love as pure as it was
+passionate, love true from first to last to the divine law of
+love--while by an evil destiny it brings death to themselves, involves
+also the death of the _hate_ which was the primal cause of all the
+tragic consequences.
+
+This is no less distinctly expressed in the last speeches of the play.
+After hearing the Friar's story, the Prince says:--
+
+  "Where be these enemies?--Capulet!--Montague!
+  See what a scourge is laid upon your hate,
+  That heaven finds means to kill your joys with love!
+  And I, for winking at your discords too,
+  Have lost a brace of kinsmen; all are punish'd.
+
+  _Capulet._ O brother Montague, give me thy hand;
+  This is my daughter's jointure, for no more
+  Can I demand.
+
+  _Montague._ But I can give thee more;
+  For I will raise her statue in pure gold,
+  That while Verona by that name is known
+  There shall no figure at such rate be set
+  As that of true and faithful Juliet.
+
+  _Capulet._ As rich shall Romeo by his lady lie;
+  Poor sacrifices of our enmity!"
+
+It is the parents who are punished. The scourge is laid upon their
+_hate_, and it was the _love_ of their children by which Heaven found
+the means to wield that scourge. The Prince himself has a share in the
+penalty for tolerating the discords of the families. "We all," he says,
+"_all_ are punished." But the good Friar's hope, expressed when he
+consented to perform the marriage,--
+
+  "For this alliance may so happy prove
+  To turn your households' rancour to pure love,"--
+
+is now fulfilled. Both Capulet and Montague, as they join hands in amity
+over the dead bodies of their children, acknowledge the debt they owe to
+the "star-cross'd" love of those "poor sacrifices of their enmity." They
+vie with each other in doing honour to the guiltless victims of their
+"pernicious rage." Montague will raise the golden statue to Juliet, and
+Capulet promises as rich a monument to Romeo.
+
+Da Porto and Paynter and Brooke, in like manner, refer to the
+reconciliation of the rival families as the fortunate result of the
+tragic history. Da Porto says: "Their fathers, weeping over the bodies
+of their children and overcome by mutual pity, embraced each other; so
+that the long enmity between them and their houses, which neither the
+prayers of their friends, nor the menaces of the Prince, nor even time
+itself had been able to extinguish, was ended by the piteous death of
+the two lovers." As Paynter puts it, "The Montesches and Capellets
+poured forth such abundance of tears, as with the same they did evacuate
+their ancient grudge and choler, whereby they were then reconciled: and
+they which could not be brought to atonement[3] by any wisdom or human
+counsel were in the end vanquished and made friends by pity." So
+Brooke, in his lumbering verse:--
+
+  "The straungenes of the chaunce, when tryed was the truth,
+  The Montagewes and Capelets hath moved so to ruth,
+  That with their emptyed teares, theyr choler and theyr rage
+  Was emptied quite; and they whose wrath no wisdom could asswage,
+  Nor threatning of the prince, ne mynd of murthers donne
+  At length (so mighty Jove it would) by pitye they are wonne."
+
+And then the poem, like the play, ends with a reference to the
+monumental honour done to the lovers:
+
+  "And lest that length of time might from our myndes remove
+  The memory of so perfect, sound, and so approved love,
+  The bodies dead, removed from vaulte where they did dye,
+  In stately tombe, on pillers great of marble, rayse they hye.
+  On every syde above were set, and eke beneath,
+  Great store of cunning Epitaphes, in honor of theyr death.
+  And even at this day the tombe is to be seene;
+  So that among the monumentes that in Verona been,
+  There is no monument more worthy of the sight,
+  Then is the tombe of Juliet and Romeus her knight."
+
+[Footnote 2:
+
+  "Come see the Capulets and Montagues,--
+  Monaldi,--Filippeschi, reckless one!
+  These now in fear, already wretched those."
+
+  (Wright's translation.)
+]
+
+[Footnote 3: In the original sense of reconciliation; as in _Rich. III_.
+i. 3. 36:
+
+                "he desires to make atonement
+  Betwixt the Duke of Gloster and your brothers," etc.
+]
+
+
+
+
+ROMEO AND JULIET _DRAMATIS PERSONÆ_
+
+  ESCALUS, prince of Verona.
+  PARIS, a young nobleman, kinsman to the prince.
+  MONTAGUE, }
+  CAPULET,  } heads of two houses at variance with each other.
+  An old man of the Capulet family.
+  ROMEO, son to Montague.
+  MERCUTIO, kinsman to the prince, and friend to Romeo.
+  BENVOLIO, nephew to Montague, and friend to Romeo.
+  TYBALT, nephew to Lady Capulet.
+  FRIAR LAURENCE, }
+  FRIAR JOHN,     } Franciscans.
+  BALTHASAR, servant to Romeo.
+  SAMPSON, }
+  GREGORY, } servants to Capulet.
+  PETER, servant to Juliet's nurse.
+  ABRAM, servant to Montague.
+  An Apothecary.
+  Three Musicians.
+  Page to Paris; another Page; an Officer.
+
+  LADY MONTAGUE, wife to Montague.
+  LADY CAPULET, wife to Capulet.
+  JULIET, daughter to Capulet.
+  Nurse to Juliet.
+
+Citizens of Verona; Kinsfolk of both houses; Maskers, Guards, Watchmen,
+and Attendants.
+
+Chorus.
+
+SCENE: _Verona_; _Mantua_.
+
+[Illustration: THE "MEASURE"]
+
+
+
+PROLOGUE
+
+
+  Two households, both alike in dignity,
+    In fair Verona, where we lay our scene,
+  From ancient grudge break to new mutiny,
+    Where civil blood makes civil hands unclean.
+  From forth the fatal loins of these two foes
+    A pair of star-cross'd lovers take their life,
+  Whose misadventur'd piteous overthrows
+    Doth with their death bury their parents' strife.
+
+  The fearful passage of their death-mark'd love,
+   And the continuance of their parents' rage,
+  Which, but their children's end, nought could remove,
+   Is now the two hours' traffic of our stage,
+  The which if you with patient ears attend,
+  What here shall miss, our toil shall strive to mend.
+
+  
+  </introduction>
