@@ -1,19 +1,46 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
-# TODO: Add additional elements somewhere to handle the stuff in parentheses.
-# The word "as" for example appears as four different entries and the
-# content in parentheses is different for each one.
-
 start = index
-# Each entry has a phrase, some stuff in parentheses, and page numbers.
-# TODO: Could put entries inside a parent <letter l=""> element
-index = element index {phrase, pages}
+index = element index {title, entry+}
 
-# The phrase people look for in dictionaries. May appear multiple times because
+# The title of the section with the index in the source.
+title = attribute title {text}
+
+# Each entry has a word or phrase (multiple words), (possibly) some stuff in parentheses,
+# and one or more page numbers.
+# TODO: Could put entries inside a parent <letter l=""> element
+# TODO: There are commas and/or spaces between many elements inside <entry>. Remove them and
+# then disallow raw text inside <entry> here.
+entry = element entry {mixed {entry_type, term, additive?, pages}}
+
+# Whether the entry is of a word or phrase (multiple words).
+# Note that the attribute actually appears in the XML as just "type".
+entry_type = attribute type {"word" | "phrase"}
+
+# The term people look up in dictionaries. May appear multiple times because
 # the content in parentheses is different.
-# TODO: This includes all entries. Separate actual phrases from words.
-phrase = element phrase {text}
+term = element term {text}
+
+# The stuff in parentheses after the term.
+# The text inside may or may not be prefixed with an equals sign and space.
+# If there is an equals sign (and space), then the stuff in parentheses is an equivalent meaning
+# for the term. For example, the term "advise" and the word "consider" in parentheses means that
+# "to advise" in the given context means "to consider."
+additive = element additive {add_type, text}
+
+# The type of the content in parentheses for an entry.
+# "equiv" means the stuff in parentheses is an alternative meaning of the term.
+# "desc" means the stuff in parentheses explains something about the term.
+#
+# For the content tagged as "equiv", the original text began with an equals sign.
+# For the content tagged as "desc", the original text did NOT begin with an equals sign.
+#
+# Note that the attribute actually appears in the XML as just "type".
+add_type = attribute type {"equiv" | "desc"}
 
 # There can be more than one page, but each entry always links to at least one page.
-pages = element pages {page+}
+# Note that <pages> also holds text. That's because the index's raw text has a comma and
+# space between each page number (if there are multiple for an entry), so we could simply string()
+# everything in a <pages> element together with XPath and display it all as-is.
+pages = element pages {mixed {page+}}
 page = element page {xsd:integer}
