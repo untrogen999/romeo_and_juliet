@@ -15,10 +15,12 @@ entry = element entry {mixed {entry_type, term, additive?, pages}}
 
 # Whether the entry is of a word or phrase (multiple words).
 # Note that the attribute actually appears in the XML as just "type".
+# TODO: There are some words and phrases that seem clearly like names, such as "Abraham Cupid". Maybe
+# add a "name" value to entry_type and re-do some steps using the capital letters as an indicator of a name.
 entry_type = attribute type {"word" | "phrase"}
 
-# The term people look up in dictionaries. May appear multiple times because
-# the content in parentheses is different.
+# The term people look up in dictionaries. May appear multiple times because the content in
+# parentheses is different.
 term = element term {text}
 
 # The stuff in parentheses after the term.
