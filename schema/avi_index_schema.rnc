@@ -1,5 +1,7 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
+# Written by Avi Zilberman.
+
 start = index
 index = element index {title, entry+}
 

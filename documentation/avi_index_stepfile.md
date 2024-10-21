@@ -31,6 +31,7 @@ Steps:
 	3. Associate the schema with the index XML.
 	4. Add a new blank line at the top of the file and paste the text "<?xml version="1.0" encoding="UTF-8"?>" into the blank line.
 	5. Remove the "Transcriber's notes" entirely.
+	6. Add credits above "index".
 
 
 

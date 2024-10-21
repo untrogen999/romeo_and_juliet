@@ -1,5 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="../schema/avi_index_schema.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- File and XML created by Avi Zilberman -->
 <index title="INDEX OF WORDS AND PHRASES EXPLAINED">
 
 
