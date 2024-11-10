@@ -1,20 +1,53 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
-#introduction as root element, maybe change it later?
 #put all the information above the actual play as the child elements of introduction. 
 
 start = introduction
-introduction = element introduction {title, publishinginfo, preface, contents, history, source, comments, prologue} 
-#seperate it later? 
-#ROMEO AND JULIET _DRAMATIS PERSONÆ_(didn't add this yet)
-title = element title {text}
-publishinginfo = element publishinginfo {text}
-#have to include the numbers(years) here
-preface = element preface {text}
-contents = element contents {text}
-#have to include the numbers here
-history = element history{text}
-#have to markup parts of this simliar to the markup of the play, will add attributes later
-source = element source {text}
+introduction = element introduction {Title, preface, contents,history_of_play, sources_of_plot,comments,characters, prologue} 
+Title = element Title {text}
+preface = element preface {p}
+p = element p{number, text}
+number= attribute number{xsd:int}
+
+contents = element contents {section, Illustration}
+section = element section {title, subsection, act}
+title = attribute title {text}
+subsection = element subsection{n, text}
+act = element act{Number, text}
+n= attribute n{xsd:int}
+Number = attribute Number{xsd:int}
+Illustration = element Illustration{description}
+description = attribute description{text}
+
+history_of_play= element history_of_play{edition, comparison}
+edition = element edition{ no, text}
+no= attribute no{xsd:int}
+comparison = element comparison{Description, passage, additional_notes}
+Description = attribute Description {id, text}
+id = attribute id{xsd:int}
+passage= element passage {version, text, line}
+version=attribute version{text}
+line=element line{speaker, text}
+speaker=attribute speaker{char}
+char=attribute char{text}
+additional_notes=element additional_notes{text}
+
+sources_of_plot = element sources_of_plot{Introduction, Source, Qoute, Footnote}
+Introduction = element Introduction{text}
+Source=element Source {ref, author,name, date, explanation, language}
+ref=attribute ref{text}
+author=element author{text}
+name=element name{text}
+date=element date{xsd:int}
+explanation=element explanation{text}
+language=element language{text}
+Qoute=element qoute{dialogue,commentary}
+dialogue=element dialogue{text}
+commentary=element commentary{text}
+Footnote=element Footnote{text}
+
 comments = element comments {text} 
-# have to markup parts of the comments like the actual play
-prologue = element prologue {text} 
+characters = element characters {text}
+
+prologue = element prologue {para} 
+para=element para{value, text}
+value=attribute value{xsd:int}
