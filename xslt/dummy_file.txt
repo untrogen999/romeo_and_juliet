@@ -1,1 +1,0 @@
-This file is here just because git doesn't like it when folders are empty. It can be deleted when we add actual content to this folder.
