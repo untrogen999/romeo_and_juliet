@@ -1,0 +1,12 @@
+h2
+    {
+        font-size: 40px;
+        text-align: center;
+    }
+
+p
+    {
+     padding-left: 100px;  /* Adds space to the left for all lines */
+     max-width: 1500px;   /* Limits the width of the text for wrapping */
+     font-size: 20px;
+    }
