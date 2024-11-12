@@ -1,0 +1,10 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+# Schema for the list of speakers XML file, by Avi Zilberman
+
+start = speakers
+speakers = element speakers {set+}
+set = element set {sex, house, ch+}
+sex = attribute sex {text}
+house = attribute house {text}
+ch = element ch {text}

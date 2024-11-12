@@ -123,8 +123,8 @@
        Have at thee, coward!
         <stagedirection>They fight</stagedirection></line>
        
-       <line>_Enter several of both houses who join the fray; then enter_ Citizens,
-       _with clubs_</line>
+      <stagedirection>_Enter several of both houses who join the fray; then enter_ Citizens,
+        _with clubs_</stagedirection>
        
        <line><speaker char="First Citizen">First Citizen</speaker>Clubs, bills, and partisans! strike! beat them down!
        Down with the Capulets! down with the Montagues!</line>
@@ -453,14 +453,18 @@
       
       <line><speaker char="Romeo">Romeo</speaker>Stay, fellow; I can read.</line>
       
+<<<<<<< HEAD
   <line><stagedirection>Reads</stagedirection>'Signior Martino and his wife and daughters;
+=======
+      <stagedirection>[Reads] _'Signior Martino and his wife and daughters;
+>>>>>>> 4e3b3acca91e32dd33389cce53008adc059df068
       County Anselme and his beauteous sisters; the
       lady widow of Vitruvio; Signior Placentio and his
       lovely nieces; Mercutio and his brother Valentine;
       mine uncle Capulet, his wife and daughters; my fair
       niece Rosaline; Livia; Signior Valentio and his
       cousin Tybalt; Lucio and the lively Helena?'_
-      A fair assembly; whither should they come?</line>
+      A fair assembly; whither should they come?</stagedirection>
       
       <line><speaker char="Servant">Servant</speaker>Up.</line>
       
@@ -589,7 +593,7 @@
       
       <line><speaker char="Nurse">Nurse</speaker>Nay, he's a flower; in faith, a very flower.</line>
       
-      <line>Lady Capulet. What say you? can you love the gentleman?
+  <line><speaker char="Lady Capulet">Lady Capulet</speaker>What say you? can you love the gentleman?
       This night you shall behold him at our feast;
       Read o'er the volume of young Paris' face,
       And find delight writ there with beauty's pen.
@@ -626,8 +630,8 @@
     
     <scene n="IV">SCENE IV. A Street</scene>
     
-      <line>_Enter_ ROMEO, MERCUTIO, BENVOLIO, _with five or six_ Maskers,
-      Torch-bearers, _and others_</line>
+  <stagedirection>_Enter_ ROMEO, MERCUTIO, BENVOLIO, _with five or six_ Maskers,
+      Torch-bearers, _and others_</stagedirection>
       
       <line><speaker char="Romeo">Romeo</speaker>What, shall this speech be spoke for our excuse?
       Or shall we on without apology?</line>
@@ -776,29 +780,29 @@
     
     <scene n="V">SCENE V. A Hall in Capulet's House</scene>
     
-      <line>Musicians _waiting_. _Enter_ Servingmen _with napkins_</line>
+      <stagedirection>Musicians _waiting_. _Enter_ Servingmen _with napkins_</stagedirection>
       
-      <line>1 _Servingman._ Where's Potpan, that he helps not to take away? He shift
-      a trencher! he scrape a trencher!</line>
+  <line><speaker char="Servingman">Servingman</speaker>Where's Potpan, that he helps not to take away? He shift
+    a trencher! he scrape a trencher!</line>
       
-      <line>2 _Servingman._ When good manners shall lie all in one or two men's
-      hands and they unwashed too, 'tis a foul thing.</line>
+  <line><speaker char="Servingman">Servingman</speaker>When good manners shall lie all in one or two men's
+        hands and they unwashed too, 'tis a foul thing.</line>
       
-      <line>1 _Servingman._ Away with the joint-stools, remove the court-cupboard,
+  <line><speaker char="Servingman">Servingman</speaker>Away with the joint-stools, remove the court-cupboard,
       look to the plate.--Good thou, save me a piece of marchpane; and, as
       thou lovest me, let the porter let in Susan Grindstone and
       Nell.--Antony!--and Potpan!</line>
       
-      <line>2 _Servingman._ Ay, boy, ready.</line>
+  <line><speaker char="Servingman">Servingman</speaker>Ay, boy, ready.</line>
       
-      <line>1 _Servingman._ You are looked for and called for, asked for and sought
-      for, in the great chamber.</line>
+  <line><speaker char="Servingman">Servingman</speaker>You are looked for and called for, asked for and sought
+        for, in the great chamber.</line>
       
-      <line>2 _Servingman._ We cannot be here and there too.--Cheerly, boys; be
+  <line><speaker char="Servingman">Servingman</speaker>We cannot be here and there too.--Cheerly, boys; be
       brisk a while, and the longer liver take all.</line>
       
-      <line>_Enter_ CAPULET, _with_ JULIET _and others of his house_, _meeting the_
-      GUESTS _and_ Maskers</line>
+      <stagedirection>_Enter_ CAPULET, _with_ JULIET _and others of his house_, _meeting the_
+      GUESTS _and_ Maskers</stagedirection>
       
       <line><speaker char="Capulet">Capulet</speaker>Welcome, gentlemen! ladies that have their toes
       Unplagu'd with corns will have a bout with you.--
@@ -813,7 +817,7 @@
       A hall, a hall! give room! and foot it, girls.--
       <stagedirection>Music plays</stagedirection></line>
       
-      <line>More light, you knaves; and turn the tables up,
+  <line><speaker char="Capulet">Capulet</speaker>More light, you knaves; and turn the tables up,
       And quench the fire, the room is grown too hot.--
       Ah, sirrah, this unlook'd-for sport comes well.--
       Nay, sit, nay, sit, good cousin Capulet,
@@ -991,12 +995,12 @@
       Come, let's away; the strangers all are gone.<stagedirection>Exeunt</stagedirection></line>
       
       <line>[Illustration: Capulet's Garden]</line>
-  
+  <!--not part of the play but part of the book-->
   <act n="II">ACT II</act>
   
     <stagedirection>_Enter_ Chorus</stagedirection>
     
-    <line>Now old desire doth in his death-bed lie,
+  <line><speaker char="Chorus">Chorus</speaker>Now old desire doth in his death-bed lie,
     And young affection gapes to be his heir;
     That fair for which love groan'd for and would die,
     With tender Juliet match'd, is now not fair.
@@ -1009,7 +1013,8 @@
     And she as much in love, her means much less
     To meet her new-beloved any where.
     But passion lends them power, time means, to meet,
-    Tempering extremities with extreme sweet.<stagedirection>Exit</stagedirection></line>
+    Tempering extremities with extreme sweet.
+      <stagedirection>Exit</stagedirection></line>
     
     <scene n="I">SCENE I. A Lane by the Wall of Capulet's Orchard</scene>
     
@@ -1248,7 +1253,7 @@
       Anon, good nurse!--Sweet Montague, be true.
       Stay but a little, I will come again.<stagedirection>Exit</stagedirection></line>
       
-      <line>_Romeo_. O blessed, blessed night! I am afeard,
+  <line><speaker char="Romeo">Romeo</speaker>O blessed, blessed night! I am afeard,
       Being in night, all this is but a dream,
       Too flattering-sweet to be substantial.</line>
       
@@ -1787,7 +1792,7 @@
       
       <stagedirection>_Enter_ NURSE _and_ PETER</stagedirection>
       
-      <line>O God, she comes!--O honey nurse, what news?
+  <line><speaker char="Juliet">Juliet</speaker>O God, she comes!--O honey nurse, what news?
       Hast thou met with him? Send thy man away.</line>
       
       <line><speaker char="Nurse">Nurse</speaker>Peter, stay at the gate.<stagedirection>Exit Peter</stagedirection></line>
@@ -1893,7 +1898,7 @@
       
       <stagedirection>_Enter_ JULIET</stagedirection>
       
-      <line>Here comes the lady. O, so light a foot
+  <line><speaker char="Friar Laurence">Friar Laurence</speaker>Here comes the lady. O, so light a foot
       Will ne'er wear out the everlasting flint!
       A lover may bestride the gossamer
       That idles in the wanton summer air,
@@ -1923,7 +1928,7 @@
       Till holy church incorporate two in one. <stagedirection>Exeunt</stagedirection></line>
       
       <line>[Illustration: Loggia of Capulet's House]</line>
-  
+  <!--not part of the play but part of the book-->
   <act n="III">ACT III</act>
   
     <scene n="I">SCENE I. A Public Place</scene>
@@ -2064,7 +2069,7 @@
       
       <line><speaker char="Benvolio">Benvolio</speaker>What, art thou hurt?</line>
       
-      <line>Mercutio. Ay, ay, a scratch, a scratch; marry, 'tis enough.--
+  <line><speaker char="Mercutio">Mercutio</speaker>Ay, ay, a scratch, a scratch; marry, 'tis enough.--
       Where is my page?--Go, villain, fetch a surgeon.<stagedirection>Exit Page</stagedirection></line>
       
       <line><speaker char="Romeo">Romeo</speaker>Courage, man; the hurt cannot be much.</line>
@@ -2133,7 +2138,7 @@
       <line><speaker char="Benvolio">Benvolio</speaker>Why dost thou stay?
        <stagedirection>Exit Romeo</stagedirection></line>
       
-      <line>_Enter_ Citizens, _etc_.</line>
+      <stagedirection>_Enter_ Citizens, _etc_.</stagedirection>
       
       <line><speaker char="1 Citizen">1 Citizen</speaker>Which way ran he that kill'd Mercutio?
       Tybalt, that murtherer, which way ran he?</line>
@@ -2143,8 +2148,8 @@
       <line><speaker char="1 Citizen">1 Citizen</speaker>Up, sir, go with me;
       I charge thee in the prince's name, obey.</line>
       
-      <line>_Enter_ Prince, _attended_; MONTAGUE, CAPULET, _their_ Wives, _and
-      others_</line>
+  <stagedirection>_Enter_ Prince, _attended_; MONTAGUE, CAPULET, _their_ Wives, _and
+      others_</stagedirection>
       
       <line><speaker char="Prince">Prince</speaker>Where are the vile beginners of this fray?</line>
       
@@ -2254,7 +2259,7 @@
       
       <stagedirection>_Enter_ Nurse, _with cords_</stagedirection>
       
-      <line>Now, nurse, what news? What hast thou there? the cords
+  <line><speaker char="Juliet">Juliet</speaker>Now, nurse, what news? What hast thou there? the cords
       That Romeo bid thee fetch?</line>
       
       <line><speaker char="Nurse">Nurse</speaker>Ay, ay, the Cords.
@@ -3003,7 +3008,7 @@
       If all else fail, myself have power to die.<stagedirection>Exit</stagedirection></line>
       
       <line>[Illustration: JULIET AT LAURENCE'S CELL.]</line>
-  
+  <!--not part of the play but part of the book-->
   <act n="IV">ACT IV</act>
   
     <scene n="I">SCENE I. Friar Laurence's Cell</scene>
@@ -3283,7 +3288,7 @@
       No, no!--this shall forbid it.--Lie thou there.--
        <stagedirection>Laying down a dagger</stagedirection></line>
       
-      <line>What if it be a poison, which the friar
+  <line><speaker char="Juliet">Juliet</speaker>What if it be a poison, which the friar
       Subtly hath minister'd to have me dead,
       Lest in this marriage he should be dishonour'd
       Because he married me before to Romeo?
@@ -3350,7 +3355,7 @@
       
       <stagedirection>_Enter three or four_ Servingmen, _with spits, logs, and baskets_</stagedirection>
       
-      <line> Now, fellow,
+  <line><speaker char="Capulet">Capulet</speaker>Now, fellow,
       What's there?</line>
       
       <line><speaker char="1 Servant">1 Servant</speaker>Things for the cook, sir, but I know not what.</line>
@@ -3367,11 +3372,11 @@
       The county will be here with music straight,
       For so he said he would. I hear him near.--<stagedirection>Music within</stagedirection></line>
       
-      <line>Nurse!--Wife!--What, ho!--What, nurse, I say!</line>
+  <line><speaker char="Capulet">Capulet</speaker>Nurse!--Wife!--What, ho!--What, nurse, I say!</line>
       
       <line><speaker char="Re">Re</speaker>Nurse</line>
       
-      <line>Go waken Juliet, go and trim her up;
+  <line><speaker char="Re">Re</speaker>Go waken Juliet, go and trim her up;
       I'll go and chat with Paris.--Hie, make haste,
       Make haste; the bridegroom he is come already;
       Make haste, I say. <stagedirection>Exeunt</stagedirection></line>
@@ -3389,7 +3394,7 @@
       He'll fright you up, i' faith.--Will it not be?
        <stagedirection>Undraws the curtains</stagedirection></line>
       
-      <line>What, dress'd! and in your clothes! and down again!
+  <line><speaker char="Nurse">Nurse</speaker>What, dress'd! and in your clothes! and down again!
       I must needs wake you. Lady! lady! lady!--
       Alas, alas!--Help, help! my lady's dead!--
       O, well-a-day, that ever I was born!--
@@ -3556,11 +3561,11 @@
       drybeat you with an iron wit, and put up my iron
       dagger. Answer me like men:</line>
       
-      <line>'When griping grief the heart doth wound,
+  <line><speaker char="Peter">Peter</speaker>'When griping grief the heart doth wound,
       And doleful dumps the mind oppress,
       Then music with her silver sound'--</line>
       
-      <line>why 'silver sound'? why 'music with her silver
+  <line><speaker char="Peter">Peter</speaker>why 'silver sound'? why 'music with her silver
       sound'?--What say you, Simon Catling?</line>
       
       <line><speaker char="1 Musician">1 Musician</speaker>Marry, sir, because silver hath a
@@ -3579,7 +3584,7 @@
       will say for you. It is 'music with her silver sound,'
       because musicians have no gold for sounding.</line>
       
-      <line>'Then music with her silver sound
+  <line><speaker char="Peter">Peter</speaker>'Then music with her silver sound
       With speedy help doth lend redress.' <stagedirection>Exit</stagedirection></line>
       
       <line><speaker char="1 Musician">1 Musician</speaker>What a pestilent knave is this same!</line>
@@ -3588,7 +3593,7 @@
       here, tarry for the mourners, and stay dinner. <stagedirection>Exeunt</stagedirection></line>
       
       <line>[Illustration: TOMB OF THE SCALIGERS, VERONA]</line>
-  
+  <!--not part of the play but part of the book-->
   <act n="V">ACT V</act>
   
     <scene n="I">SCENE I. Mantua. A Street</scene>
@@ -3609,7 +3614,7 @@
       
       <stagedirection>_Enter_ BALTHASAR</stagedirection>
       
-      <line>News from Verona!--How now, Balthasar!
+  <line><speaker char="Romeo">Romeo</speaker>News from Verona!--How now, Balthasar!
       Dost thou not bring me letters from the friar?
       How doth my lady? Is my father well?
       How fares my Juliet? that I ask again,
@@ -3774,13 +3779,13 @@
       Nightly shall be to strew thy grave and weep.--
       <stagedirection>The Page whistles</stagedirection></line>
       
-      <line>The boy gives warning something doth approach.
+  <line><speaker char="Paris">Paris</speaker>The boy gives warning something doth approach.
       What cursed foot wanders this way to-night,
       To cross my obsequies and true love's rite?
       What, with a torch!--muffle me, night, awhile.
       <stagedirection>Retires</stagedirection></line>
       
-      <line>_Enter_ ROMEO _and_ BALTHASAR, _with a torch, mattock, etc_.</line>
+      <stagedirection>_Enter_ ROMEO _and_ BALTHASAR, _with a torch, mattock, etc_.</stagedirection>
       
       <line><speaker char="Romeo">Romeo</speaker>Give me that mattock and the wrenching iron.
       Hold, take this letter; early in the morning
@@ -3897,8 +3902,8 @@
       Here's to my love! <stagedirection>Drinks</stagedirection>--O true apothecary!
       Thy drugs are quick.--Thus with a kiss I die.<stagedirection>Dies</stagedirection></line>
       
-      <line>_Enter_, _at the other end of the churchyard_, FRIAR LAURENCE, _with a
-      lantern_, _crow_, _and spade_</line>
+      <stagedirection>_Enter_, _at the other end of the churchyard_, FRIAR LAURENCE, _with a
+      lantern_, _crow_, _and spade_</stagedirection>
       
       <line><speaker char="Friar Laurence">Friar Laurence</speaker>Saint Francis be my speed! how oft to-night
       Have my old feet stumbled at graves!--Who's there?</line>
@@ -3964,7 +3969,7 @@
       <line><speaker char="Juliet">Juliet</speaker>Go, get thee hence, for I will not away.
       <stagedirection>Exit Friar Laurence</stagedirection></line>
       
-      <line>What's here? a cup, clos'd in my true love's hand?
+  <line><speaker char="Juliet">Juliet</speaker>What's here? a cup, clos'd in my true love's hand?
       Poison, I see, hath been his timeless end.--
       O churl! drunk all, and left no friendly drop
       To help me after?--I will kiss thy lips;
@@ -3977,7 +3982,7 @@
       <line><speaker char="Juliet">Juliet</speaker>Yea, noise? then I'll be brief.--O happy dagger!
       <stagedirection>Snatching Romeo</stagedirection></line>
       
-      <line>This is thy sheath <stagedirection>Stabs herself</stagedirection>; there rest, and let me die.
+  <line><speaker char="Juliet">Juliet</speaker>This is thy sheath <stagedirection>Stabs herself</stagedirection>; there rest, and let me die.
       <stagedirection>Falls on Romeo</stagedirection></line>
       
       <stagedirection>_Enter_ Watch, _with the_ Page _of_ PARIS</stagedirection>
@@ -4159,7 +4164,7 @@
       <line><speaker char="Capulet">Capulet</speaker>As rich shall Romeo by his lady lie,
       Poor sacrifices of our enmity!</line>
       
-      <line>Prince. A glooming peace this morning with it brings;
+  <line><speaker char="Prince">Prince</speaker>. A glooming peace this morning with it brings;
       The sun for sorrow will not show his head.
       Go hence, to have more talk of these sad things;
       Some shall be pardon'd and some punished;

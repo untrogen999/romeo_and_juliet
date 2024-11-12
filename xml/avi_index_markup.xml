@@ -1,1267 +1,1257 @@
-﻿INDEX OF WORDS AND PHRASES EXPLAINED
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/avi_index_schema.rnc" type="application/relax-ng-compact-syntax"?>
 
+<!-- File and XML created by Avi Zilberman -->
+<index title="INDEX OF WORDS AND PHRASES EXPLAINED">
 
-  a (= one), 215
 
-  a hall, a hall! 190
+  <entry type="word"><term>a</term><additive type="equiv">one</additive>, <pages><page>215</page></pages></entry>
 
-  <phrase>a la stoccata</phrase><pages><page>221</page></pages>
+  <entry type="phrase"><term>a hall, a hall!</term><pages><page>190</page></pages></entry>
 
-  <phrase>Abraham Cupid</phrase><pages><page>197</page></pages>
+  <entry type="phrase"><term>a la stoccata</term><pages><page>221</page></pages></entry>
 
-  abused (= marred), 247
+  <entry type="phrase"><term>Abraham Cupid</term><pages><page>197</page></pages></entry>
 
-  <phrase>ache</phrase><pages><page>216</page></pages>
+  <entry type="word"><term>abused</term><additive type="equiv">marred</additive>, <pages><page>247</page></pages></entry>
 
-  adventure (verb), 200, 266
+  <entry type="word"><term>ache</term><pages><page>216</page></pages></entry>
 
-  advise (= consider), 244
+  <entry type="word"><term>adventure</term><additive type="desc">verb</additive>, <pages><page>200</page>, <page>266</page></pages></entry>
 
-  <phrase>afeard</phrase><pages><page>202</page></pages>
+  <entry type="word"><term>advise</term><additive type="equiv">consider</additive>, <pages><page>244</page></pages></entry>
 
-  <phrase>affections</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>afeard</term><pages><page>202</page></pages></entry>
 
-  affray (verb), 238
+  <entry type="word"><term>affections</term><pages><page>169</page></pages></entry>
 
-  <phrase>afore</phrase><pages><page>214</page></pages>
+  <entry type="word"><term>affray</term><additive type="desc">verb</additive>, <pages><page>238</page></pages></entry>
 
-  <phrase>afore me</phrase><pages><page>236</page></pages>
+  <entry type="word"><term>afore</term><pages><page>214</page></pages></entry>
 
-  against (of time), 236
+  <entry type="phrase"><term>afore me</term><pages><page>236</page></pages></entry>
 
-  <phrase>agate</phrase><pages><page>186</page></pages>
+  <entry type="word"><term>against</term><additive type="desc">of time</additive>, <pages><page>236</page></pages></entry>
 
-  <phrase>airy tongue</phrase><pages><page>203</page></pages>
+  <entry type="word"><term>agate</term><pages><page>186</page></pages></entry>
 
-  all (intensive), 170
+  <entry type="phrase"><term>airy tongue</term><pages><page>203</page></pages></entry>
 
-  <phrase>alligator</phrase><pages><page>263</page></pages>
+  <entry type="word"><term>all</term><additive type="desc">intensive</additive>, <pages><page>170</page></pages></entry>
 
-  <phrase>amazed</phrase><pages><page>224</page></pages>
+  <entry type="word"><term>alligator</term><pages><page>263</page></pages></entry>
 
-  <phrase>ambling</phrase><pages><page>183</page></pages>
+  <entry type="word"><term>amazed</term><pages><page>224</page></pages></entry>
 
-  <phrase>ambuscadoes</phrase><pages><page>187</page></pages>
+  <entry type="word"><term>ambling</term><pages><page>183</page></pages></entry>
 
-  <phrase>amerce</phrase><pages><page>225</page></pages>
+  <entry type="word"><term>ambuscadoes</term><pages><page>187</page></pages></entry>
 
-  <phrase>anatomy</phrase><pages><page>234</page></pages>
+  <entry type="word"><term>amerce</term><pages><page>225</page></pages></entry>
 
-  ancient, 168, 206
+  <entry type="word"><term>anatomy</term><pages><page>234</page></pages></entry>
 
-  <phrase>and there an end</phrase><pages><page>236</page></pages>
+  <entry type="word"><term>ancient</term><pages><page>168</page>, <page>206</page></pages></entry>
 
-  <phrase>antic</phrase><pages><page>191</page></pages>
+  <entry type="phrase"><term>and there an end</term><pages><page>236</page></pages></entry>
 
-  <phrase>apace</phrase><pages><page>215</page></pages>
+  <entry type="word"><term>antic</term><pages><page>191</page></pages></entry>
 
-  <phrase>ape</phrase><pages><page>198</page></pages>
+  <entry type="word"><term>apace</term><pages><page>215</page></pages></entry>
 
-  apt to, 219, 235
+  <entry type="word"><term>ape</term><pages><page>198</page></pages></entry>
 
-  as (= as if), 216
+  <entry type="phrase"><term>apt to</term><pages><page>219</page>, <page>235</page></pages></entry>
 
-  as (= namely), 254
+  <entry type="word"><term>as</term><additive type="equiv">as if</additive>, <pages><page>216</page></pages></entry>
 
-  as (omitted), 170
+  <entry type="word"><term>as</term><additive type="equiv">namely</additive>, <pages><page>254</page></pages></entry>
 
-  as (redundant), 272
+  <entry type="word"><term>as</term><additive type="desc">omitted</additive>, <pages><page>170</page></pages></entry>
 
-  <phrase>associate me</phrase><pages><page>265</page></pages>
+  <entry type="word"><term>as</term><additive type="desc">redundant</additive>, <pages><page>272</page></pages></entry>
 
-  aspire (transitive), 223
+  <entry type="phrase"><term>associate me</term><pages><page>265</page></pages></entry>
 
-  <phrase>atomies</phrase><pages><page>186</page></pages>
+  <entry type="word"><term>aspire</term><additive type="desc">transitive</additive>, <pages><page>223</page></pages></entry>
 
-  attach (= arrest), 271
+  <entry type="word"><term>atomies</term><pages><page>186</page></pages></entry>
 
-  attending (= attentive), 203
+  <entry type="word"><term>attach</term><additive type="equiv">arrest</additive>, <pages><page>271</page></pages></entry>
 
-  <phrase>ay</phrase><pages><page>229</page></pages>
+  <entry type="word"><term>attending</term><additive type="equiv">attentive</additive>, <pages><page>203</page></pages></entry>
 
-  <phrase>ay me! 197</phrase><pages><page>262</page></pages>
+  <entry type="word"><term>ay</term><pages><page>229</page></pages></entry>
 
+  <entry type="phrase"><term>ay me!</term><pages><page>197</page>, <page>262</page></pages></entry>
 
-  <phrase>baked meats</phrase><pages><page>256</page></pages>
 
-  Balthasar (accent), 262
+  <entry type="phrase"><term>baked meats</term><pages><page>256</page></pages></entry>
 
-  bandying, 216, 222
+  <entry type="word"><term>Balthasar</term><additive type="desc">accent</additive>, <pages><page>262</page></pages></entry>
 
-  bankrupt (spelling), 229
+  <entry type="word"><term>bandying</term><pages><page>216</page>, <page>222</page></pages></entry>
 
-  banquet (= dessert), 195
+  <entry type="word"><term>bankrupt</term><additive type="desc">spelling</additive>, <pages><page>229</page></pages></entry>
 
-  bate (in falconry), 227
+  <entry type="word"><term>banquet</term><additive type="equiv">dessert</additive>, <pages><page>195</page></pages></entry>
 
-  bear a brain, to, 179
+  <entry type="word"><term>bate</term><additive type="desc">in falconry</additive>, <pages><page>227</page></pages></entry>
 
-  <phrase>beetle-brows</phrase><pages><page>183</page></pages>
+  <entry type="phrase"><term>bear a brain, to</term><pages><page>179</page></pages></entry>
 
-  <phrase>behoveful</phrase><pages><page>253</page></pages>
+  <entry type="word"><term>beetle-brows</term><pages><page>183</page></pages></entry>
 
-  bent (= inclination), 202
+  <entry type="word"><term>behoveful</term><pages><page>253</page></pages></entry>
 
-  <phrase>be-rhyme</phrase><pages><page>209</page></pages>
+  <entry type="word"><term>bent</term><additive type="equiv">inclination</additive>, <pages><page>202</page></pages></entry>
 
-  <phrase>bescreened</phrase><pages><page>199</page></pages>
+  <entry type="word"><term>be-rhyme</term><pages><page>209</page></pages></entry>
 
-  beshrew, 216, 244, 265
+  <entry type="word"><term>bescreened</term><pages><page>199</page></pages></entry>
 
-  <phrase>betossed</phrase><pages><page>267</page></pages>
+  <entry type="word"><term>beshrew</term><pages><page>216</page>, <page>244</page>, <page>265</page></pages></entry>
 
-  <phrase>better tempered</phrase><pages><page>234</page></pages>
+  <entry type="word"><term>betossed</term><pages><page>267</page></pages></entry>
 
-  bills (weapons), 167
+  <entry type="phrase"><term>better tempered</term><pages><page>234</page></pages></entry>
 
-  bite by the ear, to, 211
+  <entry type="word"><term>bills</term><additive type="desc">weapons</additive>, <pages><page>167</page></pages></entry>
 
-  bite the thumb, to, 167
+  <entry type="phrase"><term>bite by the ear, to</term><pages><page>211</page></pages></entry>
 
-  <phrase>blaze</phrase><pages><page>235</page></pages>
+  <entry type="phrase"><term>bite the thumb, to</term><pages><page>167</page></pages></entry>
 
-  <phrase>blazon</phrase><pages><page>218</page></pages>
+  <entry type="word"><term>blaze</term><pages><page>235</page></pages></entry>
 
-  <phrase>bons</phrase><pages><page>209</page></pages>
+  <entry type="word"><term>blazon</term><pages><page>218</page></pages></entry>
 
-  bosom's lord, my, 262
+  <entry type="word"><term>bons</term><pages><page>209</page></pages></entry>
 
-  <phrase>both our remedies</phrase><pages><page>206</page></pages>
+  <entry type="phrase"><term>bosom's lord, my</term><pages><page>262</page></pages></entry>
 
-  bound (play upon) 174, 183
+  <entry type="phrase"><term>both our remedies</term><pages><page>206</page></pages></entry>
 
-  <phrase>bow of lath</phrase><pages><page>182</page></pages>
+  <entry type="word"><term>bound</term><additive type="desc">play upon</additive> <pages><page>174</page>, <page>183</page></pages></entry>
 
-  boy (contemptuous), 221
+  <entry type="phrase"><term>bow of lath</term><pages><page>182</page></pages></entry>
 
-  <phrase>brace</phrase><pages><page>273</page></pages>
+  <entry type="word"><term>boy</term><additive type="desc">contemptuous</additive>, <pages><page>221</page></pages></entry>
 
-  bride (masculine), 243
+  <entry type="word"><term>brace</term><pages><page>273</page></pages></entry>
 
-  broad (goose), 212
+  <entry type="word"><term>bride</term><additive type="desc">masculine</additive>, <pages><page>243</page></pages></entry>
 
-  <phrase>broken music</phrase><pages><page>220</page></pages>
+  <entry type="word"><term>broad</term><additive type="desc">goose</additive>, <pages><page>212</page></pages></entry>
 
-  burn daylight, to, 185
+  <entry type="phrase"><term>broken music</term><pages><page>220</page></pages></entry>
 
-  <phrase>button</phrase><pages><page>208</page></pages>
+  <entry type="phrase"><term>burn daylight, to</term><pages><page>185</page></pages></entry>
 
-  <phrase>butt-shaft</phrase><pages><page>207</page></pages>
+  <entry type="word"><term>button</term><pages><page>208</page></pages></entry>
 
-  by and by (= presently), 224, 236, 273
+  <entry type="word"><term>butt-shaft</term><pages><page>207</page></pages></entry>
 
+  <entry type="phrase"><term>by and by</term><additive type="equiv">presently</additive>, <pages><page>224</page>, <page>236</page>, <page>273</page></pages></entry>
 
-  candles (night's), 237
 
-  canker (= worm), 205
+  <entry type="word"><term>candles</term><additive type="desc">night's</additive>, <pages><page>237</page></pages></entry>
 
-  <phrase>cankered</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>canker</term><additive type="equiv">worm</additive>, <pages><page>205</page></pages></entry>
 
-  Capel's, 262, 270
+  <entry type="word"><term>cankered</term><pages><page>168</page></pages></entry>
 
-  <phrase>captain of compliments</phrase><pages><page>207</page></pages>
+  <entry type="word"><term>Capel's</term><pages><page>262</page>, <page>270</page></pages></entry>
 
-  <phrase>carries it away</phrase><pages><page>221</page></pages>
+  <entry type="phrase"><term>captain of compliments</term><pages><page>207</page></pages></entry>
 
-  carry coals, to, 166
+  <entry type="phrase"><term>carries it away</term><pages><page>221</page></pages></entry>
 
-  <phrase>carry no crotchets</phrase><pages><page>261</page></pages>
+  <entry type="phrase"><term>carry coals, to</term><pages><page>166</page></pages></entry>
 
-  case (play upon), 183, 259
+  <entry type="phrase"><term>carry no crotchets</term><pages><page>261</page></pages></entry>
 
-  cat, nine lives of, 221
+  <entry type="word"><term>case</term><additive type="desc">play upon</additive>, <pages><page>183</page>, <page>259</page></pages></entry>
 
-  <phrase>catched</phrase><pages><page>258</page></pages>
+  <entry type="phrase"><term>cat, nine lives of</term><pages><page>221</page></pages></entry>
 
-  <phrase>catling</phrase><pages><page>261</page></pages>
+  <entry type="word"><term>catched</term><pages><page>258</page></pages></entry>
 
-  <phrase>charge</phrase><pages><page>265</page></pages>
+  <entry type="word"><term>catling</term><pages><page>261</page></pages></entry>
 
-  <phrase>cheerly</phrase><pages><page>190</page></pages>
+  <entry type="word"><term>charge</term><pages><page>265</page></pages></entry>
 
-  <phrase>cheveril</phrase><pages><page>212</page></pages>
+  <entry type="word"><term>cheerly</term><pages><page>190</page></pages></entry>
 
-  <phrase>chinks</phrase><pages><page>194</page></pages>
+  <entry type="word"><term>cheveril</term><pages><page>212</page></pages></entry>
 
-  choler (play upon), 166
+  <entry type="word"><term>chinks</term><pages><page>194</page></pages></entry>
 
-  <phrase>chop-logic</phrase><pages><page>243</page></pages>
+  <entry type="word"><term>choler</term><additive type="desc">play upon</additive>, <pages><page>166</page></pages></entry>
 
-  <phrase>Chorus</phrase><pages><page>165</page></pages>
+  <entry type="word"><term>chop-logic</term><pages><page>243</page></pages></entry>
 
-  circle (magician's), 198
+  <entry type="word"><term>Chorus</term><pages><page>165</page></pages></entry>
 
-  circumstance, 216, 271
+  <entry type="word"><term>circle</term><additive type="desc">magician's</additive>, <pages><page>198</page></pages></entry>
 
-  civil (= grave), 227
+  <entry type="word"><term>circumstance</term><pages><page>216</page>, <page>271</page></pages></entry>
 
-  closed (= enclosed), 188
+  <entry type="word"><term>civil</term><additive type="equiv">grave</additive>, <pages><page>227</page></pages></entry>
 
-  closet (= chamber), 253
+  <entry type="word"><term>closed</term><additive type="equiv">enclosed</additive>, <pages><page>188</page></pages></entry>
 
-  <phrase>clout</phrase><pages><page>207</page></pages>
+  <entry type="word"><term>closet</term><additive type="equiv">chamber</additive>, <pages><page>253</page></pages></entry>
 
-  <phrase>clubs</phrase><pages><page>167</page></pages>
+  <entry type="word"><term>clout</term><pages><page>207</page></pages></entry>
 
-  <phrase>cock-a-hoop</phrase><pages><page>192</page></pages>
+  <entry type="word"><term>clubs</term><pages><page>167</page></pages></entry>
 
-  coil (= ado), 216
+  <entry type="word"><term>cock-a-hoop</term><pages><page>192</page></pages></entry>
 
-  <phrase>colliers</phrase><pages><page>166</page></pages>
+  <entry type="word"><term>coil</term><additive type="equiv">ado</additive>, <pages><page>216</page></pages></entry>
 
-  <phrase>come near</phrase><pages><page>190</page></pages>
+  <entry type="word"><term>colliers</term><pages><page>166</page></pages></entry>
 
-  comfortable (active), 271
+  <entry type="phrase"><term>come near</term><pages><page>190</page></pages></entry>
 
-  <phrase>commission</phrase><pages><page>248</page></pages>
+  <entry type="word"><term>comfortable</term><additive type="desc">active</additive>, <pages><page>271</page></pages></entry>
 
-  compare (noun), 216, 246
+  <entry type="word"><term>commission</term><pages><page>248</page></pages></entry>
 
-  <phrase>compliment</phrase><pages><page>200</page></pages>
+  <entry type="word"><term>compare</term><additive type="desc">noun</additive>, <pages><page>216</page>, <page>246</page></pages></entry>
 
-  <phrase>concealed</phrase><pages><page>234</page></pages>
+  <entry type="word"><term>compliment</term><pages><page>200</page></pages></entry>
 
-  <phrase>conceit</phrase><pages><page>218</page></pages>
+  <entry type="word"><term>concealed</term><pages><page>234</page></pages></entry>
 
-  conclude (transitive), 225
+  <entry type="word"><term>conceit</term><pages><page>218</page></pages></entry>
 
-  conduct (= conductor), 223, 270
+  <entry type="word"><term>conclude</term><additive type="desc">transitive</additive>, <pages><page>225</page></pages></entry>
 
-  <phrase>conduit</phrase><pages><page>242</page></pages>
+  <entry type="word"><term>conduct</term><additive type="equiv">conductor</additive>, <pages><page>223</page>, <page>270</page></pages></entry>
 
-  confessor (accent), 218, 233
+  <entry type="word"><term>conduit</term><pages><page>242</page></pages></entry>
 
-  confidence (= conference), 212
+  <entry type="word"><term>confessor</term><additive type="desc">accent</additive>, <pages><page>218</page>, <page>233</page></pages></entry>
 
-  confound (= destroy), 217
+  <entry type="word"><term>confidence</term><additive type="equiv">conference</additive>, <pages><page>212</page></pages></entry>
 
-  <phrase>confusions</phrase><pages><page>258</page></pages>
+  <entry type="word"><term>confound</term><additive type="equiv">destroy</additive>, <pages><page>217</page></pages></entry>
 
-  <phrase>conjurations</phrase><pages><page>267</page></pages>
+  <entry type="word"><term>confusions</term><pages><page>258</page></pages></entry>
 
-  conjure (accent), 197
+  <entry type="word"><term>conjurations</term><pages><page>267</page></pages></entry>
 
-  consort (noun), 219
+  <entry type="word"><term>conjure</term><additive type="desc">accent</additive>, <pages><page>197</page></pages></entry>
 
-  consort (transitive), 223
+  <entry type="word"><term>consort</term><additive type="desc">noun</additive>, <pages><page>219</page></pages></entry>
 
-  <phrase>consort with</phrase><pages><page>219</page></pages>
+  <entry type="word"><term>consort</term><additive type="desc">transitive</additive>, <pages><page>223</page></pages></entry>
 
-  <phrase>content thee</phrase><pages><page>192</page></pages>
+  <entry type="phrase"><term>consort with</term><pages><page>219</page></pages></entry>
 
-  contract (accent), 201
+  <entry type="phrase"><term>content thee</term><pages><page>192</page></pages></entry>
 
-  contrary (accent), 229
+  <entry type="word"><term>contract</term><additive type="desc">accent</additive>, <pages><page>201</page></pages></entry>
 
-  contrary (verb), 193
+  <entry type="word"><term>contrary</term><additive type="desc">accent</additive>, <pages><page>229</page></pages></entry>
 
-  convert (intransitive), 193
+  <entry type="word"><term>contrary</term><additive type="desc">verb</additive>, <pages><page>193</page></pages></entry>
 
-  <phrase>cot-quean</phrase><pages><page>257</page></pages>
+  <entry type="word"><term>convert</term><additive type="desc">intransitive</additive>, <pages><page>193</page></pages></entry>
 
-  county(= count), 181, 241
+  <entry type="word"><term>cot-quean</term><pages><page>257</page></pages></entry>
 
-  <phrase>court-cupboard</phrase><pages><page>189</page></pages>
+  <entry type="word"><term>county</term><additive type="equiv">count</additive>, <pages><page>181</page>, <page>241</page></pages></entry>
 
-  <phrase>courtship</phrase><pages><page>233</page></pages>
+  <entry type="word"><term>court-cupboard</term><pages><page>189</page></pages></entry>
 
-  cousin (= kinsman), 223
+  <entry type="word"><term>courtship</term><pages><page>233</page></pages></entry>
 
-  cousin (= uncle), 190
+  <entry type="word"><term>cousin</term><additive type="equiv">kinsman</additive>, <pages><page>223</page></pages></entry>
 
-  cover (play upon), 180
+  <entry type="word"><term>cousin</term><additive type="equiv">uncle</additive>, <pages><page>190</page></pages></entry>
 
-  cross (= perverse), 253
+  <entry type="word"><term>cover</term><additive type="desc">play upon</additive>, <pages><page>180</page></pages></entry>
 
-  cross (= thwart), 267
+  <entry type="word"><term>cross</term><additive type="equiv">perverse</additive>, <pages><page>253</page></pages></entry>
 
-  <phrase>crow-keeper</phrase><pages><page>182</page></pages>
+  <entry type="word"><term>cross</term><additive type="equiv">thwart</additive>, <pages><page>267</page></pages></entry>
 
-  <phrase>crush a cup</phrase><pages><page>176</page></pages>
+  <entry type="word"><term>crow-keeper</term><pages><page>182</page></pages></entry>
 
-  <phrase>crystal scales</phrase><pages><page>176</page></pages>
+  <entry type="phrase"><term>crush a cup</term><pages><page>176</page></pages></entry>
 
-  cure (intransitive), 174
+  <entry type="phrase"><term>crystal scales</term><pages><page>176</page></pages></entry>
 
-  <phrase>curfew-bell</phrase><pages><page>256</page></pages>
+  <entry type="word"><term>cure</term><additive type="desc">intransitive</additive>, <pages><page>174</page></pages></entry>
 
-  <phrase>Cynthia</phrase><pages><page>238</page></pages>
+  <entry type="word"><term>curfew-bell</term><pages><page>256</page></pages></entry>
 
+  <entry type="word"><term>Cynthia</term><pages><page>238</page></pages></entry>
 
-  damnation (concrete), 245
 
-  dare (play upon), 207
+  <entry type="word"><term>damnation</term><additive type="desc">concrete</additive>, <pages><page>245</page></pages></entry>
 
-  <phrase>dark heaven</phrase><pages><page>173</page></pages>
+  <entry type="word"><term>dare</term><additive type="desc">play upon</additive>, <pages><page>207</page></pages></entry>
 
-  date (= duration), 188
+  <entry type="phrase"><term>dark heaven</term><pages><page>173</page></pages></entry>
 
-  <phrase>dateless</phrase><pages><page>269</page></pages>
+  <entry type="word"><term>date</term><additive type="equiv">duration</additive>, <pages><page>188</page></pages></entry>
 
-  dear, 232, 265, 267
+  <entry type="word"><term>dateless</term><pages><page>269</page></pages></entry>
 
-  <phrase>dear hap</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>dear</term><pages><page>232</page>, <page>265</page>, <page>267</page></pages></entry>
 
-  <phrase>dear mercy</phrase><pages><page>232</page></pages>
+  <entry type="phrase"><term>dear hap</term><pages><page>204</page></pages></entry>
 
-  death (concrete), 268
+  <entry type="phrase"><term>dear mercy</term><pages><page>232</page></pages></entry>
 
-  <phrase>death-darting eye</phrase><pages><page>229</page></pages>
+  <entry type="word"><term>death</term><additive type="desc">concrete</additive>, <pages><page>268</page></pages></entry>
 
-  defy (= refuse), 267
+  <entry type="phrase"><term>death-darting eye</term><pages><page>229</page></pages></entry>
 
-  deny (= refuse), 190
+  <entry type="word"><term>defy</term><additive type="equiv">refuse</additive>, <pages><page>267</page></pages></entry>
 
-  depart (= part), 220
+  <entry type="word"><term>deny</term><additive type="equiv">refuse</additive>, <pages><page>190</page></pages></entry>
 
-  depend (impend), 223
+  <entry type="word"><term>depart</term><additive type="equiv">part</additive>, <pages><page>220</page></pages></entry>
 
-  <phrase>desperate</phrase><pages><page>236</page></pages>
+  <entry type="word"><term>depend</term><additive type="desc">impend</additive>, <pages><page>223</page></pages></entry>
 
-  <phrase>determine of</phrase><pages><page>229</page></pages>
+  <entry type="word"><term>desperate</term><pages><page>236</page></pages></entry>
 
-  detestable (accent), 258
+  <entry type="phrase"><term>determine of</term><pages><page>229</page></pages></entry>
 
-  devotion (quadrisyllable), 248
+  <entry type="word"><term>detestable</term><additive type="desc">accent</additive>, <pages><page>258</page></pages></entry>
 
-  <phrase>Dian's wit</phrase><pages><page>171</page></pages>
+  <entry type="word"><term>devotion</term><additive type="desc">quadrisyllable</additive>, <pages><page>248</page></pages></entry>
 
-  <phrase>digressing</phrase><pages><page>235</page></pages>
+  <entry type="phrase"><term>Dian's wit</term><pages><page>171</page></pages></entry>
 
-  discover (= reveal), 201, 224
+  <entry type="word"><term>digressing</term><pages><page>235</page></pages></entry>
 
-  dislike (= displease), 200
+  <entry type="word"><term>discover</term><additive type="equiv">reveal</additive>, <pages><page>201</page>, <page>224</page></pages></entry>
 
-  <phrase>displant</phrase><pages><page>233</page></pages>
+  <entry type="word"><term>dislike</term><additive type="equiv">displease</additive>, <pages><page>200</page></pages></entry>
 
-  dispute (= reason), 233
+  <entry type="word"><term>displant</term><pages><page>233</page></pages></entry>
 
-  dissemblers (metre), 230
+  <entry type="word"><term>dispute</term><additive type="equiv">reason</additive>, <pages><page>233</page></pages></entry>
 
-  <phrase>distemperature</phrase><pages><page>206</page></pages>
+  <entry type="word"><term>dissemblers</term><additive type="desc">metre</additive>, <pages><page>230</page></pages></entry>
 
-  <phrase>distraught</phrase><pages><page>255</page></pages>
+  <entry type="word"><term>distemperature</term><pages><page>206</page></pages></entry>
 
-  division (in music), 238
+  <entry type="word"><term>distraught</term><pages><page>255</page></pages></entry>
 
-  <phrase>do danger</phrase><pages><page>265</page></pages>
+  <entry type="word"><term>division</term><additive type="desc">in music</additive>, <pages><page>238</page></pages></entry>
 
-  <phrase>do disparagement</phrase><pages><page>192</page></pages>
+  <entry type="phrase"><term>do danger</term><pages><page>265</page></pages></entry>
 
-  <phrase>do hate</phrase><pages><page>234</page></pages>
+  <entry type="phrase"><term>do disparagement</term><pages><page>192</page></pages></entry>
 
-  doctrine (= instruction), 172
+  <entry type="phrase"><term>do hate</term><pages><page>234</page></pages></entry>
 
-  <phrase>doom thee death</phrase><pages><page>223</page></pages>
+  <entry type="word"><term>doctrine</term><additive type="equiv">instruction</additive>, <pages><page>172</page></pages></entry>
 
-  doth (plural), 165
+  <entry type="phrase"><term>doom thee death</term><pages><page>223</page></pages></entry>
 
-  doubt (= distrust), 267
+  <entry type="word"><term>doth</term><additive type="desc">plural</additive>, <pages><page>165</page></pages></entry>
 
-  <phrase>drawn</phrase><pages><page>167</page></pages>
+  <entry type="word"><term>doubt</term><additive type="equiv">distrust</additive>, <pages><page>267</page></pages></entry>
 
-  drift (= scheme), 252
+  <entry type="word"><term>drawn</term><pages><page>167</page></pages></entry>
 
-  dry-beat, 222, 261
+  <entry type="word"><term>drift</term><additive type="equiv">scheme</additive>, <pages><page>252</page></pages></entry>
 
-  <phrase>dump</phrase><pages><page>260</page></pages>
+  <entry type="word"><term>dry-beat</term><pages><page>222</page>, <page>261</page></pages></entry>
 
-  <phrase>Dun in the mire</phrase><pages><page>184</page></pages>
+  <entry type="word"><term>dump</term><pages><page>260</page></pages></entry>
 
-  <phrase>dun's the mouse</phrase><pages><page>184</page></pages>
+  <entry type="phrase"><term>Dun in the mire</term><pages><page>184</page></pages></entry>
 
+  <entry type="phrase"><term>dun's the mouse</term><pages><page>184</page></pages></entry>
 
-  earth, 173, 196
 
-  <phrase>elf-locks</phrase><pages><page>187</page></pages>
+  <entry type="word"><term>earth</term><pages><page>173</page>, <page>196</page></pages></entry>
 
-  empty (= hungry), 267
+  <entry type="word"><term>elf-locks</term><pages><page>187</page></pages></entry>
 
-  <phrase>encamp them</phrase><pages><page>205</page></pages>
+  <entry type="word"><term>empty</term><additive type="equiv">hungry</additive>, <pages><page>267</page></pages></entry>
 
-  <phrase>encounter</phrase><pages><page>218</page></pages>
+  <entry type="phrase"><term>encamp them</term><pages><page>205</page></pages></entry>
 
-  <phrase>endart</phrase><pages><page>181</page></pages>
+  <entry type="word"><term>encounter</term><pages><page>218</page></pages></entry>
 
-  enforce (= force), 267
+  <entry type="word"><term>endart</term><pages><page>181</page></pages></entry>
 
-  <phrase>engrossing</phrase><pages><page>269</page></pages>
+  <entry type="word"><term>enforce</term><additive type="equiv">force</additive>, <pages><page>267</page></pages></entry>
 
-  <phrase>enpierced</phrase><pages><page>183</page></pages>
+  <entry type="word"><term>engrossing</term><pages><page>269</page></pages></entry>
 
-  entrance (trisyllable), 182
+  <entry type="word"><term>enpierced</term><pages><page>183</page></pages></entry>
 
-  envious (= malicious), 224, 228
+  <entry type="word"><term>entrance</term><additive type="desc">trisyllable</additive>, <pages><page>182</page></pages></entry>
 
-  <phrase>Ethiope</phrase><pages><page>191</page></pages>
+  <entry type="word"><term>envious</term><additive type="equiv">malicious</additive>, <pages><page>224</page>, <page>228</page></pages></entry>
 
-  <phrase>evening mass</phrase><pages><page>247</page></pages>
+  <entry type="word"><term>Ethiope</term><pages><page>191</page></pages></entry>
 
-  exile (accent), 225, 232
+  <entry type="phrase"><term>evening mass</term><pages><page>247</page></pages></entry>
 
-  expire (transitive), 188
+  <entry type="word"><term>exile</term><additive type="desc">accent</additive>, <pages><page>225</page>, <page>232</page></pages></entry>
 
-  <phrase>extremes</phrase><pages><page>248</page></pages>
+  <entry type="word"><term>expire</term><additive type="desc">transitive</additive>, <pages><page>188</page></pages></entry>
 
-  <phrase>extremities</phrase><pages><page>196</page></pages>
+  <entry type="word"><term>extremes</term><pages><page>248</page></pages></entry>
 
+  <entry type="word"><term>extremities</term><pages><page>196</page></pages></entry>
 
-  <phrase>faintly</phrase><pages><page>182</page></pages>
 
-  <phrase>fairies' midwife</phrase><pages><page>186</page></pages>
+  <entry type="word"><term>faintly</term><pages><page>182</page></pages></entry>
 
-  familiar (metre), 232
+  <entry type="phrase"><term>fairies' midwife</term><pages><page>186</page></pages></entry>
 
-  <phrase>fantasticoes</phrase><pages><page>208</page></pages>
+  <entry type="word"><term>familiar</term><additive type="desc">metre</additive>, <pages><page>232</page></pages></entry>
 
-  <phrase>fashion-mongers</phrase><pages><page>209</page></pages>
+  <entry type="word"><term>fantasticoes</term><pages><page>208</page></pages></entry>
 
-  fay (= faith), 195
+  <entry type="word"><term>fashion-mongers</term><pages><page>209</page></pages></entry>
 
-  fearful (= afraid), 232
+  <entry type="word"><term>fay</term><additive type="equiv">faith</additive>, <pages><page>195</page></pages></entry>
 
-  feeling (= heartfelt), 240
+  <entry type="word"><term>fearful</term><additive type="equiv">afraid</additive>, <pages><page>232</page></pages></entry>
 
-  <phrase>festering</phrase><pages><page>254</page></pages>
+  <entry type="word"><term>feeling</term><additive type="equiv">heartfelt</additive>, <pages><page>240</page></pages></entry>
 
-  <phrase>fettle</phrase><pages><page>243</page></pages>
+  <entry type="word"><term>festering</term><pages><page>254</page></pages></entry>
 
-  fine (= penance), 193
+  <entry type="word"><term>fettle</term><pages><page>243</page></pages></entry>
 
-  <phrase>fire drives out fire</phrase><pages><page>174</page></pages>
+  <entry type="word"><term>fine</term><additive type="equiv">penance</additive>, <pages><page>193</page></pages></entry>
 
-  five wits, 185, 211
+  <entry type="phrase"><term>fire drives out fire</term><pages><page>174</page></pages></entry>
 
-  flattering (= illusive), 261
+  <entry type="phrase"><term>five wits</term><pages><page>185</page>, <page>211</page></pages></entry>
 
-  <phrase>flecked</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>flattering</term><additive type="equiv">illusive</additive>, <pages><page>261</page></pages></entry>
 
-  <phrase>fleer</phrase><pages><page>191</page></pages>
+  <entry type="word"><term>flecked</term><pages><page>204</page></pages></entry>
 
-  <phrase>flirt-gills</phrase><pages><page>213</page></pages>
+  <entry type="word"><term>fleer</term><pages><page>191</page></pages></entry>
 
-  flowered (pump), 211
+  <entry type="word"><term>flirt-gills</term><pages><page>213</page></pages></entry>
 
-  fond (= foolish), 233, 259
+  <entry type="word"><term>flowered</term><additive type="desc">pump</additive>, <pages><page>211</page></pages></entry>
 
-  <phrase>fool</phrase><pages><page>179</page></pages>
+  <entry type="word"><term>fond</term><additive type="equiv">foolish</additive>, <pages><page>233</page>, <page>259</page></pages></entry>
 
-  <phrase>foolish</phrase><pages><page>195</page></pages>
+  <entry type="word"><term>fool</term><pages><page>179</page></pages></entry>
 
-  <phrase>fool's paradise</phrase><pages><page>214</page></pages>
+  <entry type="word"><term>foolish</term><pages><page>195</page></pages></entry>
 
-  for (repeated), 196
+  <entry type="phrase"><term>fool's paradise</term><pages><page>214</page></pages></entry>
 
-  form (play upon), 209
+  <entry type="word"><term>for</term><additive type="desc">repeated</additive>, <pages><page>196</page></pages></entry>
 
-  <phrase>forth</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>form</term><additive type="desc">play upon</additive>, <pages><page>209</page></pages></entry>
 
-  <phrase>fortune's fool</phrase><pages><page>224</page></pages>
+  <entry type="word"><term>forth</term><pages><page>169</page></pages></entry>
 
-  frank (= bountiful), 201
+  <entry type="phrase"><term>fortune's fool</term><pages><page>224</page></pages></entry>
 
-  <phrase>Freetown</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>frank</term><additive type="equiv">bountiful</additive>, <pages><page>201</page></pages></entry>
 
-  <phrase>fret</phrase><pages><page>237</page></pages>
+  <entry type="word"><term>Freetown</term><pages><page>169</page></pages></entry>
 
-  friend (= lover), 239
+  <entry type="word"><term>fret</term><pages><page>237</page></pages></entry>
 
-  <phrase>from forth</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>friend</term><additive type="equiv">lover</additive>, <pages><page>239</page></pages></entry>
 
+  <entry type="phrase"><term>from forth</term><pages><page>204</page></pages></entry>
 
-  <phrase>gapes</phrase><pages><page>196</page></pages>
 
-  <phrase>garish</phrase><pages><page>228</page></pages>
+  <entry type="word"><term>gapes</term><pages><page>196</page></pages></entry>
 
-  gear (= matter), 212, 264
+  <entry type="word"><term>garish</term><pages><page>228</page></pages></entry>
 
-  <phrase>ghostly</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>gear</term><additive type="equiv">matter</additive>, <pages><page>212</page>, <page>264</page></pages></entry>
 
-  <phrase>give leave awhile</phrase><pages><page>178</page></pages>
+  <entry type="word"><term>ghostly</term><pages><page>204</page></pages></entry>
 
-  <phrase>give me</phrase><pages><page>252</page></pages>
+  <entry type="phrase"><term>give leave awhile</term><pages><page>178</page></pages></entry>
 
-  <phrase>give me leave</phrase><pages><page>216</page></pages>
+  <entry type="phrase"><term>give me</term><pages><page>252</page></pages></entry>
 
-  <phrase>gleek</phrase><pages><page>260</page></pages>
+  <entry type="phrase"><term>give me leave</term><pages><page>216</page></pages></entry>
 
-  <phrase>glooming</phrase><pages><page>273</page></pages>
+  <entry type="word"><term>gleek</term><pages><page>260</page></pages></entry>
 
-  <phrase>God save the mark!</phrase><pages><page>229</page></pages>
+  <entry type="word"><term>glooming</term><pages><page>273</page></pages></entry>
 
-  <phrase>God shall mend my soul!</phrase><pages><page>192</page></pages>
+  <entry type="phrase"><term>God save the mark!</term><pages><page>229</page></pages></entry>
 
-  <phrase>God shield</phrase><pages><page>248</page></pages>
+  <entry type="phrase"><term>God shall mend my soul!</term><pages><page>192</page></pages></entry>
 
-  <phrase>God ye good morrow!</phrase><pages><page>212</page></pages>
+  <entry type="phrase"><term>God shield</term><pages><page>248</page></pages></entry>
 
-  good-den (or god-den), 170, 175, 219, 243
+  <entry type="phrase"><term>God ye good morrow!</term><pages><page>212</page></pages></entry>
 
-  good goose, bite not, 211
+  <entry type="word"><term>good-den</term><additive type="desc">or god-den</additive>, <pages><page>170</page>, <page>175</page>, <page>219</page>, <page>243</page></pages></entry>
 
-  <phrase>good hap</phrase><pages><page>235</page></pages>
+  <entry type="phrase"><term>good goose, bite not</term><pages><page>211</page></pages></entry>
 
-  good morrow, 170, 205
+  <entry type="phrase"><term>good hap</term><pages><page>235</page></pages></entry>
 
-  <phrase>good thou</phrase><pages><page>189</page></pages>
+  <entry type="phrase"><term>good morrow</term><pages><page>170</page>, <page>205</page></pages></entry>
 
-  <phrase>gore-blood</phrase><pages><page>229</page></pages>
+  <entry type="phrase"><term>good thou</term><pages><page>189</page></pages></entry>
 
-  <phrase>gossamer</phrase><pages><page>217</page></pages>
+  <entry type="word"><term>gore-blood</term><pages><page>229</page></pages></entry>
 
-  <phrase>grandsire</phrase><pages><page>209</page></pages>
+  <entry type="word"><term>gossamer</term><pages><page>217</page></pages></entry>
 
-  grave (play upon), 223
+  <entry type="word"><term>grandsire</term><pages><page>209</page></pages></entry>
 
-  <phrase>grave beseeming</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>grave</term><additive type="desc">play upon</additive>, <pages><page>223</page></pages></entry>
 
-  green (eyes), 245
+  <entry type="phrase"><term>grave beseeming</term><pages><page>168</page></pages></entry>
 
-  green (= fresh), 254
+  <entry type="word"><term>green</term><additive type="desc">eyes</additive>, <pages><page>245</page></pages></entry>
 
-  grey-eyed, 204, 209
+  <entry type="word"><term>green</term><additive type="equiv">fresh</additive>, <pages><page>254</page></pages></entry>
 
+  <entry type="word"><term>grey-eyed</term><pages><page>204</page>, <page>209</page></pages></entry>
 
-  haggard (noun), 203
 
-  <phrase>hap</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>haggard</term><additive type="desc">noun</additive>, <pages><page>203</page></pages></entry>
 
-  <phrase>harlotry</phrase><pages><page>253</page></pages>
+  <entry type="word"><term>hap</term><pages><page>204</page></pages></entry>
 
-  have at thee, 167, 261
+  <entry type="word"><term>harlotry</term><pages><page>253</page></pages></entry>
 
-  <phrase>haviour</phrase><pages><page>200</page></pages>
+  <entry type="phrase"><term>have at thee</term><pages><page>167</page>, <page>261</page></pages></entry>
 
-  hay (in fencing), 208
+  <entry type="word"><term>haviour</term><pages><page>200</page></pages></entry>
 
-  he (= him), 240
+  <entry type="word"><term>hay</term><additive type="desc">in fencing</additive>, <pages><page>208</page></pages></entry>
 
-  he (= man), 264
+  <entry type="word"><term>he</term><additive type="equiv">him</additive>, <pages><page>240</page></pages></entry>
 
-  <phrase>healthsome</phrase><pages><page>254</page></pages>
+  <entry type="word"><term>he</term><additive type="equiv">man</additive>, <pages><page>264</page></pages></entry>
 
-  heartless (= cowardly), 167
+  <entry type="word"><term>healthsome</term><pages><page>254</page></pages></entry>
 
-  <phrase>Heart's-ease</phrase><pages><page>260</page></pages>
+  <entry type="word"><term>heartless</term><additive type="equiv">cowardly</additive>, <pages><page>167</page></pages></entry>
 
-  heavy (play upon), 170
+  <entry type="word"><term>Heart's-ease</term><pages><page>260</page></pages></entry>
 
-  <phrase>held him carelessly</phrase><pages><page>236</page></pages>
+  <entry type="word"><term>heavy</term><additive type="desc">play upon</additive>, <pages><page>170</page></pages></entry>
 
-  <phrase>highmost</phrase><pages><page>216</page></pages>
+  <entry type="phrase"><term>held him carelessly</term><pages><page>236</page></pages></entry>
 
-  <phrase>high-top-gallant</phrase><pages><page>214</page></pages>
+  <entry type="word"><term>highmost</term><pages><page>216</page></pages></entry>
 
-  hilding, 209, 243
+  <entry type="word"><term>high-top-gallant</term><pages><page>214</page></pages></entry>
 
-  his (= its), 259, 270
+  <entry type="word"><term>hilding</term><pages><page>209</page>, <page>243</page></pages></entry>
 
-  hoar (= mouldy), 213
+  <entry type="word"><term>his</term><additive type="equiv">its</additive>, <pages><page>259</page>, <page>270</page></pages></entry>
 
-  hold the candle, to, 184
+  <entry type="word"><term>hoar</term><additive type="equiv">mouldy</additive>, <pages><page>213</page></pages></entry>
 
-  <phrase>holp</phrase><pages><page>174</page></pages>
+  <entry type="phrase"><term>hold the candle, to</term><pages><page>184</page></pages></entry>
 
-  <phrase>homely in thy drift</phrase><pages><page>206</page></pages>
+  <entry type="word"><term>holp</term><pages><page>174</page></pages></entry>
 
-  honey (adjective), 216
+  <entry type="phrase"><term>homely in thy drift</term><pages><page>206</page></pages></entry>
 
-  <phrase>hood</phrase><pages><page>227</page></pages>
+  <entry type="word"><term>honey</term><additive type="desc">adjective</additive>, <pages><page>216</page></pages></entry>
 
-  hour (dissyllable), 216, 225
+  <entry type="word"><term>hood</term><pages><page>227</page></pages></entry>
 
-  house (= sheath), 270
+  <entry type="word"><term>hour</term><additive type="desc">dissyllable</additive>, <pages><page>216</page>, <page>225</page></pages></entry>
 
-  <phrase>humorous</phrase><pages><page>198</page></pages>
+  <entry type="word"><term>house</term><additive type="equiv">sheath</additive>, <pages><page>270</page></pages></entry>
 
-  <phrase>humours</phrase><pages><page>197</page></pages>
+  <entry type="word"><term>humorous</term><pages><page>198</page></pages></entry>
 
-  <phrase>hunts-up</phrase><pages><page>238</page></pages>
+  <entry type="word"><term>humours</term><pages><page>197</page></pages></entry>
 
+  <entry type="word"><term>hunts-up</term><pages><page>238</page></pages></entry>
 
-  I (repeated), 220
 
-  <phrase>idle worms</phrase><pages><page>186</page></pages>
+  <entry type="word"><term>I</term><additive type="desc">repeated</additive>, <pages><page>220</page></pages></entry>
 
-  <phrase>ill-beseeming</phrase><pages><page>234</page></pages>
+  <entry type="phrase"><term>idle worms</term><pages><page>186</page></pages></entry>
 
-  importuned (accent), 170
+  <entry type="word"><term>ill-beseeming</term><pages><page>234</page></pages></entry>
 
-  in (= into), 262, 267
+  <entry type="word"><term>importuned</term><additive type="desc">accent</additive>, <pages><page>170</page></pages></entry>
 
-  <phrase>in extremity</phrase><pages><page>181</page></pages>
+  <entry type="word"><term>in</term><additive type="equiv">into</additive>, <pages><page>262</page>, <page>267</page></pages></entry>
 
-  <phrase>in happy time</phrase><pages><page>241</page></pages>
+  <entry type="phrase"><term>in extremity</term><pages><page>181</page></pages></entry>
 
-  <phrase>in his view</phrase><pages><page>170</page></pages>
+  <entry type="phrase"><term>in happy time</term><pages><page>241</page></pages></entry>
 
-  <phrase>in post</phrase><pages><page>273</page></pages>
+  <entry type="phrase"><term>in his view</term><pages><page>170</page></pages></entry>
 
-  in spite, 168, 192
+  <entry type="phrase"><term>in post</term><pages><page>273</page></pages></entry>
 
-  <phrase>inconstant</phrase><pages><page>252</page></pages>
+  <entry type="phrase"><term>in spite</term><pages><page>168</page>, <page>192</page></pages></entry>
 
-  indite (= invite), 213
+  <entry type="word"><term>inconstant</term><pages><page>252</page></pages></entry>
 
-  infection (quadrisyllable), 265
+  <entry type="word"><term>indite</term><additive type="equiv">invite</additive>, <pages><page>213</page></pages></entry>
 
-  inherit (= possess), 173
+  <entry type="word"><term>infection</term><additive type="desc">quadrisyllable</additive>, <pages><page>265</page></pages></entry>
 
-  <phrase>it fits</phrase><pages><page>192</page></pages>
+  <entry type="word"><term>inherit</term><additive type="equiv">possess</additive>, <pages><page>173</page></pages></entry>
 
+  <entry type="phrase"><term>it fits</term><pages><page>192</page></pages></entry>
 
-  Jack, 213, 219, 261
 
-  jealous (= suspicious), 267
+  <entry type="word"><term>Jack</term><pages><page>213</page>, <page>219</page>, <page>261</page></pages></entry>
 
-  <phrase>jealous-hood</phrase><pages><page>257</page></pages>
+  <entry type="word"><term>jealous</term><additive type="equiv">suspicious</additive>, <pages><page>267</page></pages></entry>
 
-  <phrase>joint-stools</phrase><pages><page>188</page></pages>
+  <entry type="word"><term>jealous-hood</term><pages><page>257</page></pages></entry>
 
+  <entry type="word"><term>joint-stools</term><pages><page>188</page></pages></entry>
 
-  <phrase>keep ado</phrase><pages><page>236</page></pages>
 
-  kindly, 211, 271
+  <entry type="phrase"><term>keep ado</term><pages><page>236</page></pages></entry>
 
-  <phrase>king of cats</phrase><pages><page>221</page></pages>
+  <entry type="word"><term>kindly</term><pages><page>211</page>, <page>271</page></pages></entry>
 
-  knife (worn by ladies), 248, 254
+  <entry type="phrase"><term>king of cats</term><pages><page>221</page></pages></entry>
 
+  <entry type="word"><term>knife</term><additive type="desc">worn by ladies</additive>, <pages><page>248</page>, <page>254</page></pages></entry>
 
-  <phrase>label</phrase><pages><page>248</page></pages>
 
-  labour (of time), 258
+  <entry type="word"><term>label</term><pages><page>248</page></pages></entry>
 
-  lace, 210, 237
+  <entry type="word"><term>labour</term><additive type="desc">of time</additive>, <pages><page>258</page></pages></entry>
 
-  Lady, lady, lady, 213
+  <entry type="word"><term>lace</term><pages><page>210</page>, <page>237</page></pages></entry>
 
-  <phrase>lady-bird</phrase><pages><page>177</page></pages>
+  <entry type="phrase"><term>Lady, lady, lady</term><pages><page>213</page></pages></entry>
 
-  lamentation (metre), 235
+  <entry type="word"><term>lady-bird</term><pages><page>177</page></pages></entry>
 
-  <phrase>Lammas-tide</phrase><pages><page>178</page></pages>
+  <entry type="word"><term>lamentation</term><additive type="desc">metre</additive>, <pages><page>235</page></pages></entry>
 
-  languish (noun), 174
+  <entry type="word"><term>Lammas-tide</term><pages><page>178</page></pages></entry>
 
-  <phrase>lantern</phrase><pages><page>267</page></pages>
+  <entry type="word"><term>languish</term><additive type="desc">noun</additive>, <pages><page>174</page></pages></entry>
 
-  lay (= wager), 178
+  <entry type="word"><term>lantern</term><pages><page>267</page></pages></entry>
 
-  <phrase>lay along</phrase><pages><page>266</page></pages>
+  <entry type="word"><term>lay</term><additive type="equiv">wager</additive>, <pages><page>178</page></pages></entry>
 
-  learn (= teach), 227, 253
+  <entry type="phrase"><term>lay along</term><pages><page>266</page></pages></entry>
 
-  <phrase>leaves</phrase><pages><page>218</page></pages>
+  <entry type="word"><term>learn</term><additive type="equiv">teach</additive>, <pages><page>227</page>, <page>253</page></pages></entry>
 
-  let (noun), 200
+  <entry type="word"><term>leaves</term><pages><page>218</page></pages></entry>
 
-  level (= aim), 234
+  <entry type="word"><term>let</term><additive type="desc">noun</additive>, <pages><page>200</page></pages></entry>
 
-  <phrase>lieve</phrase><pages><page>215</page></pages>
+  <entry type="word"><term>level</term><additive type="equiv">aim</additive>, <pages><page>234</page></pages></entry>
 
-  light (play upon), 183
+  <entry type="word"><term>lieve</term><pages><page>215</page></pages></entry>
 
-  <phrase>lightning before death</phrase><pages><page>268</page></pages>
+  <entry type="word"><term>light</term><additive type="desc">play upon</additive>, <pages><page>183</page></pages></entry>
 
-  like (= likely), 254
+  <entry type="phrase"><term>lightning before death</term><pages><page>268</page></pages></entry>
 
-  <phrase>like of</phrase><pages><page>181</page></pages>
+  <entry type="word"><term>like</term><additive type="equiv">likely</additive>, <pages><page>254</page></pages></entry>
 
-  living (noun), 258
+  <entry type="phrase"><term>like of</term><pages><page>181</page></pages></entry>
 
-  <phrase>loggerhead</phrase><pages><page>257</page></pages>
+  <entry type="word"><term>living</term><additive type="desc">noun</additive>, <pages><page>258</page></pages></entry>
 
-  <phrase>long sword</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>loggerhead</term><pages><page>257</page></pages></entry>
 
-  love (= Venus), 215
+  <entry type="phrase"><term>long sword</term><pages><page>168</page></pages></entry>
 
-  <phrase>loving-jealous</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>love</term><additive type="equiv">Venus</additive>, <pages><page>215</page></pages></entry>
 
+  <entry type="word"><term>loving-jealous</term><pages><page>204</page></pages></entry>
 
-  <phrase>Mab</phrase><pages><page>185</page></pages>
 
-  made (= did), 273
+  <entry type="word"><term>Mab</term><pages><page>185</page></pages></entry>
 
-  <phrase>maidenhead</phrase><pages><page>177</page></pages>
+  <entry type="word"><term>made</term><additive type="equiv">did</additive>, <pages><page>273</page></pages></entry>
 
-  <phrase>make and mar</phrase><pages><page>172</page></pages>
+  <entry type="word"><term>maidenhead</term><pages><page>177</page></pages></entry>
 
-  <phrase>makes dainty</phrase><pages><page>190</page></pages>
+  <entry type="phrase"><term>make and mar</term><pages><page>172</page></pages></entry>
 
-  <phrase>mammet</phrase><pages><page>244</page></pages>
+  <entry type="phrase"><term>makes dainty</term><pages><page>190</page></pages></entry>
 
-  <phrase>man of wax</phrase><pages><page>179</page></pages>
+  <entry type="word"><term>mammet</term><pages><page>244</page></pages></entry>
 
-  manage (noun), 224
+  <entry type="phrase"><term>man of wax</term><pages><page>179</page></pages></entry>
 
-  <phrase>mandrake</phrase><pages><page>254</page></pages>
+  <entry type="word"><term>manage</term><additive type="desc">noun</additive>, <pages><page>224</page></pages></entry>
 
-  manners (number), 272
+  <entry type="word"><term>mandrake</term><pages><page>254</page></pages></entry>
 
-  <phrase>many's</phrase><pages><page>181</page></pages>
+  <entry type="word"><term>manners</term><additive type="desc">number</additive>, <pages><page>272</page></pages></entry>
 
-  <phrase>marchpane</phrase><pages><page>189</page></pages>
+  <entry type="word"><term>many's</term><pages><page>181</page></pages></entry>
 
-  <phrase>margent</phrase><pages><page>180</page></pages>
+  <entry type="word"><term>marchpane</term><pages><page>189</page></pages></entry>
 
-  mark (= appoint), 179
+  <entry type="word"><term>margent</term><pages><page>180</page></pages></entry>
 
-  <phrase>mark-man</phrase><pages><page>171</page></pages>
+  <entry type="word"><term>mark</term><additive type="equiv">appoint</additive>, <pages><page>179</page></pages></entry>
 
-  marriage (trisyllable), 196, 247, 272
+  <entry type="word"><term>mark-man</term><pages><page>171</page></pages></entry>
 
-  married (figurative), 180
+  <entry type="word"><term>marriage</term><additive type="desc">trisyllable</additive>, <pages><page>196</page>, <page>247</page>, <page>272</page></pages></entry>
 
-  <phrase>married and marred</phrase><pages><page>172</page></pages>
+  <entry type="word"><term>married</term><additive type="desc">figurative</additive>, <pages><page>180</page></pages></entry>
 
-  masks (ladies'), 172
+  <entry type="phrase"><term>married and marred</term><pages><page>172</page></pages></entry>
 
-  me (ethical dative), 208, 219
+  <entry type="word"><term>masks</term><additive type="desc">ladies'</additive>, <pages><page>172</page></pages></entry>
 
-  mean (noun), 233
+  <entry type="word"><term>me</term><additive type="desc">ethical dative</additive>, <pages><page>208</page>, <page>219</page></pages></entry>
 
-  measure (= dance), 182
+  <entry type="word"><term>mean</term><additive type="desc">noun</additive>, <pages><page>233</page></pages></entry>
 
-  merchant (contemptuous), 213
+  <entry type="word"><term>measure</term><additive type="equiv">dance</additive>, <pages><page>182</page></pages></entry>
 
-  <phrase>mewed up</phrase><pages><page>236</page></pages>
+  <entry type="word"><term>merchant</term><additive type="desc">contemptuous</additive>, <pages><page>213</page></pages></entry>
 
-  <phrase>mickle</phrase><pages><page>205</page></pages>
+  <entry type="phrase"><term>mewed up</term><pages><page>236</page></pages></entry>
 
-  <phrase>minion</phrase><pages><page>243</page></pages>
+  <entry type="word"><term>mickle</term><pages><page>205</page></pages></entry>
 
-  <phrase>misadventure</phrase><pages><page>262</page></pages>
+  <entry type="word"><term>minion</term><pages><page>243</page></pages></entry>
 
-  <phrase>mistempered</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>misadventure</term><pages><page>262</page></pages></entry>
 
-  mistress (trisyllable), 214
+  <entry type="word"><term>mistempered</term><pages><page>168</page></pages></entry>
 
-  modern (= trite), 231
+  <entry type="word"><term>mistress</term><additive type="desc">trisyllable</additive>, <pages><page>214</page></pages></entry>
 
-  moody (= angry), 219
+  <entry type="word"><term>modern</term><additive type="equiv">trite</additive>, <pages><page>231</page></pages></entry>
 
-  <phrase>mouse-hunt</phrase><pages><page>257</page></pages>
+  <entry type="word"><term>moody</term><additive type="equiv">angry</additive>, <pages><page>219</page></pages></entry>
 
-  <phrase>moved</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>mouse-hunt</term><pages><page>257</page></pages></entry>
 
-  <phrase>much upon these years</phrase><pages><page>179</page></pages>
+  <entry type="word"><term>moved</term><pages><page>168</page></pages></entry>
 
-  <phrase>muffle</phrase><pages><page>267</page></pages>
+  <entry type="phrase"><term>much upon these years</term><pages><page>179</page></pages></entry>
 
+  <entry type="word"><term>muffle</term><pages><page>267</page></pages></entry>
 
-  natural (= fool), 212
 
-  <phrase>naught</phrase><pages><page>230</page></pages>
+  <entry type="word"><term>natural</term><additive type="equiv">fool</additive>, <pages><page>212</page></pages></entry>
 
-  <phrase>needly</phrase><pages><page>231</page></pages>
+  <entry type="word"><term>naught</term><pages><page>230</page></pages></entry>
 
-  <phrase>needy</phrase><pages><page>241</page></pages>
+  <entry type="word"><term>needly</term><pages><page>231</page></pages></entry>
 
-  <phrase>neighbour-stained</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>needy</term><pages><page>241</page></pages></entry>
 
-  new (adverbial), 170
+  <entry type="word"><term>neighbour-stained</term><pages><page>168</page></pages></entry>
 
-  news (number), 216, 242
+  <entry type="word"><term>new</term><additive type="desc">adverbial</additive>, <pages><page>170</page></pages></entry>
 
-  nice (= petty, trifling), 224, 265
+  <entry type="word"><term>news</term><additive type="desc">number</additive>, <pages><page>216</page>, <page>242</page></pages></entry>
 
-  <phrase>nightgown</phrase><pages><page>168</page></pages>
+  <entry type="word"><term>nice</term><additive type="equiv">petty, trifling</additive>, <pages><page>224</page>, <page>265</page></pages></entry>
 
-  nor ... not, 238, 241
+  <entry type="word"><term>nightgown</term><pages><page>168</page></pages></entry>
 
-  nothing (adverb), 169
+  <entry type="phrase"><term>nor ... not</term><pages><page>238</page>, <page>241</page></pages></entry>
 
-  <phrase>nuptial</phrase><pages><page>191</page></pages>
+  <entry type="word"><term>nothing</term><additive type="desc">adverb</additive>, <pages><page>169</page></pages></entry>
 
+  <entry type="word"><term>nuptial</term><pages><page>191</page></pages></entry>
 
-  O (= grief), 233
 
-  <phrase>o'er-perch</phrase><pages><page>200</page></pages>
+  <entry type="word"><term>O</term><additive type="equiv">grief</additive>, <pages><page>233</page></pages></entry>
 
-  of (= on), 167, 216
+  <entry type="word"><term>o'er-perch</term><pages><page>200</page></pages></entry>
 
-  <phrase>of the very first house</phrase><pages><page>208</page></pages>
+  <entry type="word"><term>of</term><additive type="equiv">on</additive>, <pages><page>167</page>, <page>216</page></pages></entry>
 
-  old (= practised), 234
+  <entry type="phrase"><term>of the very first house</term><pages><page>208</page></pages></entry>
 
-  <phrase>one is no number</phrase><pages><page>173</page></pages>
+  <entry type="word"><term>old</term><additive type="equiv">practised</additive>, <pages><page>234</page></pages></entry>
 
-  operation (= effect), 219
+  <entry type="phrase"><term>one is no number</term><pages><page>173</page></pages></entry>
 
-  opposition (metre), 253
+  <entry type="word"><term>operation</term><additive type="equiv">effect</additive>, <pages><page>219</page></pages></entry>
 
-  orchard (= garden), 197
+  <entry type="word"><term>opposition</term><additive type="desc">metre</additive>, <pages><page>253</page></pages></entry>
 
-  <phrase>osier cage</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>orchard</term><additive type="equiv">garden</additive>, <pages><page>197</page></pages></entry>
 
-  outrage (= outcry), 272
+  <entry type="phrase"><term>osier cage</term><pages><page>204</page></pages></entry>
 
-  outrage (trisyllable), 222
+  <entry type="word"><term>outrage</term><additive type="equiv">outcry</additive>, <pages><page>272</page></pages></entry>
 
-  <phrase>overwhelming</phrase><pages><page>263</page></pages>
+  <entry type="word"><term>outrage</term><additive type="desc">trisyllable</additive>, <pages><page>222</page></pages></entry>
 
-  owe (= possess), 199
+  <entry type="word"><term>overwhelming</term><pages><page>263</page></pages></entry>
 
-  <phrase>pale as a clout</phrase><pages><page>215</page></pages>
+  <entry type="word"><term>owe</term><additive type="equiv">possess</additive>, <pages><page>199</page></pages></entry>
 
-  <phrase>paly</phrase><pages><page>249</page></pages>
+  <entry type="phrase"><term>pale as a clout</term><pages><page>215</page></pages></entry>
 
-  <phrase>pardonnez-mois</phrase><pages><page>209</page></pages>
+  <entry type="word"><term>paly</term><pages><page>249</page></pages></entry>
 
-  <phrase>partisan</phrase><pages><page>167</page></pages>
+  <entry type="word"><term>pardonnez-mois</term><pages><page>209</page></pages></entry>
 
-  parts (= gifts), 232, 244
+  <entry type="word"><term>partisan</term><pages><page>167</page></pages></entry>
 
-  passado, 208, 222
+  <entry type="word"><term>parts</term><additive type="equiv">gifts</additive>, <pages><page>232</page>, <page>244</page></pages></entry>
 
-  passing (adverbial), 172
+  <entry type="word"><term>passado</term><pages><page>208</page>, <page>222</page></pages></entry>
 
-  <phrase>pastry</phrase><pages><page>256</page></pages>
+  <entry type="word"><term>passing</term><additive type="desc">adverbial</additive>, <pages><page>172</page></pages></entry>
 
-  patience (trisyllable), 262, 272
+  <entry type="word"><term>pastry</term><pages><page>256</page></pages></entry>
 
-  <phrase>patience perforce</phrase><pages><page>193</page></pages>
+  <entry type="word"><term>patience</term><additive type="desc">trisyllable</additive>, <pages><page>262</page>, <page>272</page></pages></entry>
 
-  <phrase>pay that doctrine</phrase><pages><page>172</page></pages>
+  <entry type="phrase"><term>patience perforce</term><pages><page>193</page></pages></entry>
 
-  peace (metre), 243
+  <entry type="phrase"><term>pay that doctrine</term><pages><page>172</page></pages></entry>
 
-  perforce (= by force), 272
+  <entry type="word"><term>peace</term><additive type="desc">metre</additive>, <pages><page>243</page></pages></entry>
 
-  peruse (= scan), 267
+  <entry type="word"><term>perforce</term><additive type="equiv">by force</additive>, <pages><page>272</page></pages></entry>
 
-  <phrase>pestilent</phrase><pages><page>261</page></pages>
+  <entry type="word"><term>peruse</term><additive type="equiv">scan</additive>, <pages><page>267</page></pages></entry>
 
-  <phrase>Phaethon</phrase><pages><page>225</page></pages>
+  <entry type="word"><term>pestilent</term><pages><page>261</page></pages></entry>
 
-  <phrase>pilcher</phrase><pages><page>222</page></pages>
+  <entry type="word"><term>Phaethon</term><pages><page>225</page></pages></entry>
 
-  pin (in archery), 207
+  <entry type="word"><term>pilcher</term><pages><page>222</page></pages></entry>
 
-  <phrase>pinked</phrase><pages><page>211</page></pages>
+  <entry type="word"><term>pin</term><additive type="desc">in archery</additive>, <pages><page>207</page></pages></entry>
 
-  <phrase>plantain</phrase><pages><page>174</page></pages>
+  <entry type="word"><term>pinked</term><pages><page>211</page></pages></entry>
 
-  <phrase>pluck</phrase><pages><page>204</page></pages>
+  <entry type="word"><term>plantain</term><pages><page>174</page></pages></entry>
 
-  <phrase>portly</phrase><pages><page>192</page></pages>
+  <entry type="word"><term>pluck</term><pages><page>204</page></pages></entry>
 
-  <phrase>poor my lord</phrase><pages><page>230</page></pages>
+  <entry type="word"><term>portly</term><pages><page>192</page></pages></entry>
 
-  <phrase>pothecary</phrase><pages><page>273</page></pages>
+  <entry type="phrase"><term>poor my lord</term><pages><page>230</page></pages></entry>
 
-  <phrase>pout'st upon</phrase><pages><page>235</page></pages>
+  <entry type="word"><term>pothecary</term><pages><page>273</page></pages></entry>
 
-  <phrase>powerful grace</phrase><pages><page>205</page></pages>
+  <entry type="phrase"><term>pout'st upon</term><pages><page>235</page></pages></entry>
 
-  <phrase>predominant</phrase><pages><page>205</page></pages>
+  <entry type="phrase"><term>powerful grace</term><pages><page>205</page></pages></entry>
 
-  <phrase>presence</phrase><pages><page>268</page></pages>
+  <entry type="word"><term>predominant</term><pages><page>205</page></pages></entry>
 
-  present(= immediate), 264
+  <entry type="word"><term>presence</term><pages><page>268</page></pages></entry>
 
-  <phrase>presently</phrase><pages><page>262</page></pages>
+  <entry type="word"><term>present</term><additive type="equiv">immediate</additive>, <pages><page>264</page></pages></entry>
 
-  <phrase>pretty</phrase><pages><page>261</page></pages>
+  <entry type="word"><term>presently</term><pages><page>262</page></pages></entry>
 
-  prevails (= avails), 233
+  <entry type="word"><term>pretty</term><pages><page>261</page></pages></entry>
 
-  <phrase>prick of noon</phrase><pages><page>212</page></pages>
+  <entry type="word"><term>prevails</term><additive type="equiv">avails</additive>, <pages><page>233</page></pages></entry>
 
-  <phrase>prick-song</phrase><pages><page>208</page></pages>
+  <entry type="phrase"><term>prick of noon</term><pages><page>212</page></pages></entry>
 
-  <phrase>prince of cats</phrase><pages><page>207</page></pages>
+  <entry type="word"><term>prick-song</term><pages><page>208</page></pages></entry>
 
-  <phrase>princox</phrase><pages><page>193</page></pages>
+  <entry type="phrase"><term>prince of cats</term><pages><page>207</page></pages></entry>
 
-  <phrase>procure</phrase><pages><page>239</page></pages>
+  <entry type="word"><term>princox</term><pages><page>193</page></pages></entry>
 
-  <phrase>prodigious</phrase><pages><page>196</page></pages>
+  <entry type="word"><term>procure</term><pages><page>239</page></pages></entry>
 
-  proof (= experience), 171
+  <entry type="word"><term>prodigious</term><pages><page>196</page></pages></entry>
 
-  proof (of armour), 171
+  <entry type="word"><term>proof</term><additive type="equiv">experience</additive>, <pages><page>171</page></pages></entry>
 
-  <phrase>properer</phrase><pages><page>215</page></pages>
+  <entry type="word"><term>proof</term><additive type="desc">of armour</additive>, <pages><page>171</page></pages></entry>
 
-  prorogued, 200, 248
+  <entry type="word"><term>properer</term><pages><page>215</page></pages></entry>
 
-  <phrase>proverbed</phrase><pages><page>184</page></pages>
+  <entry type="word"><term>prorogued</term><pages><page>200</page>, <page>248</page></pages></entry>
 
-  pump (= shoe), 211
+  <entry type="word"><term>proverbed</term><pages><page>184</page></pages></entry>
 
-  <phrase>punto reverso</phrase><pages><page>208</page></pages>
+  <entry type="word"><term>pump</term><additive type="equiv">shoe</additive>, <pages><page>211</page></pages></entry>
 
-  <phrase>purchase out</phrase><pages><page>225</page></pages>
+  <entry type="phrase"><term>punto reverso</term><pages><page>208</page></pages></entry>
 
+  <entry type="phrase"><term>purchase out</term><pages><page>225</page></pages></entry>
 
-  question (= conversation), 172
 
-  quit (= requite), 214
+  <entry type="word"><term>question</term><additive type="equiv">conversation</additive>, <pages><page>172</page></pages></entry>
 
-  quote (= note), 183
+  <entry type="word"><term>quit</term><additive type="equiv">requite</additive>, <pages><page>214</page></pages></entry>
 
-  <phrase>quoth</phrase><pages><page>179</page></pages>
+  <entry type="word"><term>quote</term><additive type="equiv">note</additive>, <pages><page>183</page></pages></entry>
 
+  <entry type="word"><term>quoth</term><pages><page>179</page></pages></entry>
 
-  R, the dog's letter, 215
 
-  <phrase>rearward</phrase><pages><page>231</page></pages>
+  <entry type="phrase"><term>R, the dog's letter</term><pages><page>215</page></pages></entry>
 
-  <phrase>reason coldly</phrase><pages><page>220</page></pages>
+  <entry type="word"><term>rearward</term><pages><page>231</page></pages></entry>
 
-  <phrase>rebeck</phrase><pages><page>261</page></pages>
+  <entry type="phrase"><term>reason coldly</term><pages><page>220</page></pages></entry>
 
-  <phrase>receipt</phrase><pages><page>241</page></pages>
+  <entry type="word"><term>rebeck</term><pages><page>261</page></pages></entry>
 
-  receptacle (accent), 254
+  <entry type="word"><term>receipt</term><pages><page>241</page></pages></entry>
 
-  <phrase>reckoning</phrase><pages><page>172</page></pages>
+  <entry type="word"><term>receptacle</term><additive type="desc">accent</additive>, <pages><page>254</page></pages></entry>
 
-  <phrase>reeky</phrase><pages><page>249</page></pages>
+  <entry type="word"><term>reckoning</term><pages><page>172</page></pages></entry>
 
-  remember (reflexive), 178
+  <entry type="word"><term>reeky</term><pages><page>249</page></pages></entry>
 
-  <phrase>respective</phrase><pages><page>223</page></pages>
+  <entry type="word"><term>remember</term><additive type="desc">reflexive</additive>, <pages><page>178</page></pages></entry>
 
-  <phrase>rest you merry!</phrase><pages><page>175</page></pages>
+  <entry type="word"><term>respective</term><pages><page>223</page></pages></entry>
 
-  retort (= throw back), 224
+  <entry type="phrase"><term>rest you merry!</term><pages><page>175</page></pages></entry>
 
-  <phrase>riddling</phrase><pages><page>206</page></pages>
+  <entry type="word"><term>retort</term><additive type="equiv">throw back</additive>, <pages><page>224</page></pages></entry>
 
-  roe (play upon), 209
+  <entry type="word"><term>riddling</term><pages><page>206</page></pages></entry>
 
-  rood (= cross), 179
+  <entry type="word"><term>roe</term><additive type="desc">play upon</additive>, <pages><page>209</page></pages></entry>
 
-  <phrase>ropery</phrase><pages><page>213</page></pages>
+  <entry type="word"><term>rood</term><additive type="equiv">cross</additive>, <pages><page>179</page></pages></entry>
 
-  <phrase>rosemary</phrase><pages><page>259</page></pages>
+  <entry type="word"><term>ropery</term><pages><page>213</page></pages></entry>
 
-  round (= whisper), 195
+  <entry type="word"><term>rosemary</term><pages><page>259</page></pages></entry>
 
-  <phrase>runaways' eyes</phrase><pages><page>225</page></pages>
+  <entry type="word"><term>round</term><additive type="equiv">whisper</additive>, <pages><page>195</page></pages></entry>
 
-  <phrase>rushed aside the law</phrase><pages><page>232</page></pages>
+  <entry type="phrase"><term>runaways' eyes</term><pages><page>225</page></pages></entry>
 
-  <phrase>rushes</phrase><pages><page>183</page></pages>
+  <entry type="phrase"><term>rushed aside the law</term><pages><page>232</page></pages></entry>
 
+  <entry type="word"><term>rushes</term><pages><page>183</page></pages></entry>
 
-  sadly (= seriously), 171
 
-  <phrase>sadness</phrase><pages><page>171</page></pages>
+  <entry type="word"><term>sadly</term><additive type="equiv">seriously</additive>, <pages><page>171</page></pages></entry>
 
-  <phrase>savage wild</phrase><pages><page>267</page></pages>
+  <entry type="word"><term>sadness</term><pages><page>171</page></pages></entry>
 
-  scales (singular), 176
+  <entry type="phrase"><term>savage wild</term><pages><page>267</page></pages></entry>
 
-  <phrase>scant</phrase><pages><page>176</page></pages>
+  <entry type="word"><term>scales</term><additive type="desc">singular</additive>, <pages><page>176</page></pages></entry>
 
-  <phrase>scape</phrase><pages><page>219</page></pages>
+  <entry type="word"><term>scant</term><pages><page>176</page></pages></entry>
 
-  <phrase>scathe</phrase><pages><page>192</page></pages>
+  <entry type="word"><term>scape</term><pages><page>219</page></pages></entry>
 
-  <phrase>scorn at</phrase><pages><page>192</page></pages>
+  <entry type="word"><term>scathe</term><pages><page>192</page></pages></entry>
 
-  <phrase>season</phrase><pages><page>206</page></pages>
+  <entry type="phrase"><term>scorn at</term><pages><page>192</page></pages></entry>
 
-  <phrase>set abroach</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>season</term><pages><page>206</page></pages></entry>
 
-  <phrase>set up my rest</phrase><pages><page>269</page></pages>
+  <entry type="phrase"><term>set abroach</term><pages><page>169</page></pages></entry>
 
-  <phrase>sick and green</phrase><pages><page>199</page></pages>
+  <entry type="phrase"><term>set up my rest</term><pages><page>269</page></pages></entry>
 
-  siege (figurative), 171, 272
+  <entry type="phrase"><term>sick and green</term><pages><page>199</page></pages></entry>
 
-  <phrase>silver-sweet</phrase><pages><page>203</page></pages>
+  <entry type="word"><term>siege</term><additive type="desc">figurative</additive>, <pages><page>171</page>, <page>272</page></pages></entry>
 
-  simpleness, 216, 233
+  <entry type="word"><term>silver-sweet</term><pages><page>203</page></pages></entry>
 
-  simples (= herbs), 216, 263
+  <entry type="word"><term>simpleness</term><pages><page>216</page>, <page>233</page></pages></entry>
 
-  <phrase>single-soled</phrase><pages><page>211</page></pages>
+  <entry type="word"><term>simples</term><additive type="equiv">herbs</additive>, <pages><page>216</page>, <page>263</page></pages></entry>
 
-  <phrase>sir-reverence</phrase><pages><page>185</page></pages>
+  <entry type="word"><term>single-soled</term><pages><page>211</page></pages></entry>
 
-  <phrase>skains-mates</phrase><pages><page>213</page></pages>
+  <entry type="word"><term>sir-reverence</term><pages><page>185</page></pages></entry>
 
-  slip (= counterfeit), 210
+  <entry type="word"><term>skains-mates</term><pages><page>213</page></pages></entry>
 
-  <phrase>slops</phrase><pages><page>210</page></pages>
+  <entry type="word"><term>slip</term><additive type="equiv">counterfeit</additive>, <pages><page>210</page></pages></entry>
 
-  slow (verb), 247
+  <entry type="word"><term>slops</term><pages><page>210</page></pages></entry>
 
-  smooth (verb), 231
+  <entry type="word"><term>slow</term><additive type="desc">verb</additive>, <pages><page>247</page></pages></entry>
 
-  so (omitted), 241
+  <entry type="word"><term>smooth</term><additive type="desc">verb</additive>, <pages><page>231</page></pages></entry>
 
-  <phrase>so brief to part</phrase><pages><page>235</page></pages>
+  <entry type="word"><term>so</term><additive type="desc">omitted</additive>, <pages><page>241</page></pages></entry>
 
-  <phrase>so ho!</phrase><pages><page>213</page></pages>
+  <entry type="phrase"><term>so brief to part</term><pages><page>235</page></pages></entry>
 
-  <phrase>solemnity</phrase><pages><page>192</page></pages>
+  <entry type="phrase"><term>so ho!</term><pages><page>213</page></pages></entry>
 
-  <phrase>some minute</phrase><pages><page>273</page></pages>
+  <entry type="word"><term>solemnity</term><pages><page>192</page></pages></entry>
 
-  <phrase>some other where</phrase><pages><page>171</page></pages>
+  <entry type="phrase"><term>some minute</term><pages><page>273</page></pages></entry>
 
-  something (adverb), 266
+  <entry type="phrase"><term>some other where</term><pages><page>171</page></pages></entry>
 
-  <phrase>sometime</phrase><pages><page>187</page></pages>
+  <entry type="word"><term>something</term><additive type="desc">adverb</additive>, <pages><page>266</page></pages></entry>
 
-  <phrase>soon-speeding</phrase><pages><page>264</page></pages>
+  <entry type="word"><term>sometime</term><pages><page>187</page></pages></entry>
 
-  <phrase>sorrow drinks our blood</phrase><pages><page>239</page></pages>
+  <entry type="word"><term>soon-speeding</term><pages><page>264</page></pages></entry>
 
-  sort (= select), 253
+  <entry type="phrase"><term>sorrow drinks our blood</term><pages><page>239</page></pages></entry>
 
-  <phrase>sorted out</phrase><pages><page>241</page></pages>
+  <entry type="word"><term>sort</term><additive type="equiv">select</additive>, <pages><page>253</page></pages></entry>
 
-  soul (play upon), 183, 211
+  <entry type="phrase"><term>sorted out</term><pages><page>241</page></pages></entry>
 
-  sound (= utter), 231
+  <entry type="word"><term>soul</term><additive type="desc">play upon</additive>, <pages><page>183</page>, <page>211</page></pages></entry>
 
-  sour, 232, 267
+  <entry type="word"><term>sound</term><additive type="equiv">utter</additive>, <pages><page>231</page></pages></entry>
 
-  <phrase>sped</phrase><pages><page>222</page></pages>
+  <entry type="word"><term>sour</term><pages><page>232</page>, <page>267</page></pages></entry>
 
-  speed, be my, 270
+  <entry type="word"><term>sped</term><pages><page>222</page></pages></entry>
 
-  <phrase>spinners</phrase><pages><page>186</page></pages>
+  <entry type="phrase"><term>speed, be my</term><pages><page>270</page></pages></entry>
 
-  spite, 198, 247
+  <entry type="word"><term>spinners</term><pages><page>186</page></pages></entry>
 
-  <phrase>spleen</phrase><pages><page>224</page></pages>
+  <entry type="word"><term>spite</term><pages><page>198</page>, <page>247</page></pages></entry>
 
-  <phrase>spoke him fair</phrase><pages><page>224</page></pages>
+  <entry type="word"><term>spleen</term><pages><page>224</page></pages></entry>
 
-  <phrase>stand on sudden haste</phrase><pages><page>206</page></pages>
+  <entry type="phrase"><term>spoke him fair</term><pages><page>224</page></pages></entry>
 
-  <phrase>star-crossed</phrase><pages><page>165</page></pages>
+  <entry type="phrase"><term>stand on sudden haste</term><pages><page>206</page></pages></entry>
 
-  <phrase>starved</phrase><pages><page>171</page></pages>
+  <entry type="word"><term>star-crossed</term><pages><page>165</page></pages></entry>
 
-  <phrase>starveth</phrase><pages><page>264</page></pages>
+  <entry type="word"><term>starved</term><pages><page>171</page></pages></entry>
 
-  stay (= wait for), 261
+  <entry type="word"><term>starveth</term><pages><page>264</page></pages></entry>
 
-  <phrase>stay the circumstance</phrase><pages><page>216</page></pages>
+  <entry type="word"><term>stay</term><additive type="equiv">wait for</additive>, <pages><page>261</page></pages></entry>
 
-  <phrase>steads</phrase><pages><page>206</page></pages>
+  <entry type="phrase"><term>stay the circumstance</term><pages><page>216</page></pages></entry>
 
-  still (= always), 269, 273
+  <entry type="word"><term>steads</term><pages><page>206</page></pages></entry>
 
-  <phrase>strained</phrase><pages><page>205</page></pages>
+  <entry type="word"><term>still</term><additive type="equiv">always</additive>, <pages><page>269</page>, <page>273</page></pages></entry>
 
-  strange, 200, 227
+  <entry type="word"><term>strained</term><pages><page>205</page></pages></entry>
 
-  <phrase>strucken</phrase><pages><page>172</page></pages>
+  <entry type="word"><term>strange</term><pages><page>200</page>, <page>227</page></pages></entry>
 
-  <phrase>stumbling at graves</phrase><pages><page>270</page></pages>
+  <entry type="word"><term>strucken</term><pages><page>172</page></pages></entry>
 
-  substantial (quadrisyllable), 202
+  <entry type="phrase"><term>stumbling at graves</term><pages><page>270</page></pages></entry>
 
-  <phrase>surcease</phrase><pages><page>249</page></pages>
+  <entry type="word"><term>substantial</term><additive type="desc">quadrisyllable</additive>, <pages><page>202</page></pages></entry>
 
-  <phrase>swashing blow</phrase><pages><page>167</page></pages>
+  <entry type="word"><term>surcease</term><pages><page>249</page></pages></entry>
 
-  <phrase>sweet my mother</phrase><pages><page>244</page></pages>
+  <entry type="phrase"><term>swashing blow</term><pages><page>167</page></pages></entry>
 
-  <phrase>sweet water</phrase><pages><page>266</page></pages>
+  <entry type="phrase"><term>sweet my mother</term><pages><page>244</page></pages></entry>
 
-  sweet-heart (accent), 257
+  <entry type="phrase"><term>sweet water</term><pages><page>266</page></pages></entry>
 
-  <phrase>sweeting</phrase><pages><page>211</page></pages>
+  <entry type="word"><term>sweet-heart</term><additive type="desc">accent</additive>, <pages><page>257</page></pages></entry>
 
-  <phrase>sweetmeats</phrase><pages><page>187</page></pages>
+  <entry type="word"><term>sweeting</term><pages><page>211</page></pages></entry>
 
-  <phrase>swounded</phrase><pages><page>229</page></pages>
+  <entry type="word"><term>sweetmeats</term><pages><page>187</page></pages></entry>
 
-  <phrase>sycamore</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>swounded</term><pages><page>229</page></pages></entry>
 
+  <entry type="word"><term>sycamore</term><pages><page>169</page></pages></entry>
 
-  tables (turned up), 190
 
-  <phrase>tackled stair</phrase><pages><page>214</page></pages>
+  <entry type="word"><term>tables</term><additive type="desc">turned up</additive>, <pages><page>190</page></pages></entry>
 
-  <phrase>take me with you</phrase><pages><page>242</page></pages>
+  <entry type="phrase"><term>tackled stair</term><pages><page>214</page></pages></entry>
 
-  <phrase>take the wall</phrase><pages><page>166</page></pages>
+  <entry type="phrase"><term>take me with you</term><pages><page>242</page></pages></entry>
 
-  <phrase>take truce</phrase><pages><page>224</page></pages>
+  <entry type="phrase"><term>take the wall</term><pages><page>166</page></pages></entry>
 
-  <phrase>tassel-gentle</phrase><pages><page>203</page></pages>
+  <entry type="phrase"><term>take truce</term><pages><page>224</page></pages></entry>
 
-  <phrase>teen</phrase><pages><page>178</page></pages>
+  <entry type="word"><term>tassel-gentle</term><pages><page>203</page></pages></entry>
 
-  temper (= mix), 241
+  <entry type="word"><term>teen</term><pages><page>178</page></pages></entry>
 
-  tender (noun), 244
+  <entry type="word"><term>temper</term><additive type="equiv">mix</additive>, <pages><page>241</page></pages></entry>
 
-  tender (= regard), 221
+  <entry type="word"><term>tender</term><additive type="desc">noun</additive>, <pages><page>244</page></pages></entry>
 
-  <phrase>tetchy</phrase><pages><page>179</page></pages>
+  <entry type="word"><term>tender</term><additive type="equiv">regard</additive>, <pages><page>221</page></pages></entry>
 
-  <phrase>thank me no thankings</phrase><pages><page>243</page></pages>
+  <entry type="word"><term>tetchy</term><pages><page>179</page></pages></entry>
 
-  that (affix), 233
+  <entry type="phrase"><term>thank me no thankings</term><pages><page>243</page></pages></entry>
 
-  <phrase>therewithal</phrase><pages><page>273</page></pages>
+  <entry type="word"><term>that</term><additive type="desc">affix</additive>, <pages><page>233</page></pages></entry>
 
-  <phrase>this three hours</phrase><pages><page>265</page></pages>
+  <entry type="word"><term>therewithal</term><pages><page>273</page></pages></entry>
 
-  thorough (= through), 207
+  <entry type="phrase"><term>this three hours</term><pages><page>265</page></pages></entry>
 
-  thought(= hoped), 258
+  <entry type="word"><term>thorough</term><additive type="equiv">through</additive>, <pages><page>207</page></pages></entry>
 
-  <phrase>thou's</phrase><pages><page>178</page></pages>
+  <entry type="word"><term>thought</term><additive type="equiv">hoped</additive>, <pages><page>258</page></pages></entry>
 
-  thumb, rings for, 186
+  <entry type="word"><term>thou's</term><pages><page>178</page></pages></entry>
 
-  tidings (number), 241
+  <entry type="phrase"><term>thumb, rings for</term><pages><page>186</page></pages></entry>
 
-  <phrase>timeless</phrase><pages><page>271</page></pages>
+  <entry type="word"><term>tidings</term><additive type="desc">number</additive>, <pages><page>241</page></pages></entry>
 
-  't is an ill cook, etc., 252
+  <entry type="word"><term>timeless</term><pages><page>271</page></pages></entry>
 
-  <phrase>Titan</phrase><pages><page>204</page></pages>
+  <entry type="phrase"><term>'t is an ill cook, etc.</term><pages><page>252</page></pages></entry>
 
-  <phrase>toes</phrase><pages><page>190</page></pages>
+  <entry type="word"><term>Titan</term><pages><page>204</page></pages></entry>
 
-  to-night (= last night), 185, 207
+  <entry type="word"><term>toes</term><pages><page>190</page></pages></entry>
 
-  torch-bearer, 182, 237
+  <entry type="word"><term>to-night</term><additive type="equiv">last night</additive>, <pages><page>185</page>, <page>207</page></pages></entry>
 
-  towards (= ready), 195
+  <entry type="word"><term>torch-bearer</term><pages><page>182</page>, <page>237</page></pages></entry>
 
-  toy (= caprice), 252
+  <entry type="word"><term>towards</term><additive type="equiv">ready</additive>, <pages><page>195</page></pages></entry>
 
-  <phrase>trencher</phrase><pages><page>188</page></pages>
+  <entry type="word"><term>toy</term><additive type="equiv">caprice</additive>, <pages><page>252</page></pages></entry>
 
-  tried (= proved), 254
+  <entry type="word"><term>trencher</term><pages><page>188</page></pages></entry>
 
-  <phrase>truckle-bed</phrase><pages><page>198</page></pages>
+  <entry type="word"><term>tried</term><additive type="equiv">proved</additive>, <pages><page>254</page></pages></entry>
 
-  <phrase>tutor me from</phrase><pages><page>219</page></pages>
+  <entry type="word"><term>truckle-bed</term><pages><page>198</page></pages></entry>
 
-  <phrase>two and forty hours</phrase><pages><page>249</page></pages>
+  <entry type="phrase"><term>tutor me from</term><pages><page>219</page></pages></entry>
 
-  two hours (of a play), 166
+  <entry type="phrase"><term>two and forty hours</term><pages><page>249</page></pages></entry>
 
-  <phrase>two may keep counsel</phrase><pages><page>214</page></pages>
+  <entry type="phrase"><term>two hours</term><additive type="desc">of a play</additive>, <pages><page>166</page></pages></entry>
 
-  <phrase>Tybalt</phrase><pages><page>207</page></pages>
+  <entry type="phrase"><term>two may keep counsel</term><pages><page>214</page></pages></entry>
 
+  <entry type="word"><term>Tybalt</term><pages><page>207</page></pages></entry>
 
-  <phrase>unattainted</phrase><pages><page>176</page></pages>
 
-  <phrase>uncomfortable</phrase><pages><page>259</page></pages>
+  <entry type="word"><term>unattainted</term><pages><page>176</page></pages></entry>
 
-  uneven (= indirect), 247
+  <entry type="word"><term>uncomfortable</term><pages><page>259</page></pages></entry>
 
-  <phrase>unfirm</phrase><pages><page>266</page></pages>
+  <entry type="word"><term>uneven</term><additive type="equiv">indirect</additive>, <pages><page>247</page></pages></entry>
 
-  unkind (accent, etc.), 270
+  <entry type="word"><term>unfirm</term><pages><page>266</page></pages></entry>
 
-  <phrase>unmanned</phrase><pages><page>227</page></pages>
+  <entry type="word"><term>unkind</term><additive type="desc">accent, etc.</additive>, <pages><page>270</page></pages></entry>
 
-  <phrase>unsavoury</phrase><pages><page>270</page></pages>
+  <entry type="word"><term>unmanned</term><pages><page>227</page></pages></entry>
 
-  <phrase>unstuffed</phrase><pages><page>205</page></pages>
+  <entry type="word"><term>unsavoury</term><pages><page>270</page></pages></entry>
 
-  untimely (adverb), 223, 273
+  <entry type="word"><term>unstuffed</term><pages><page>205</page></pages></entry>
 
-  up (transposed), 253
+  <entry type="word"><term>untimely</term><additive type="desc">adverb</additive>, <pages><page>223</page>, <page>273</page></pages></entry>
 
-  use (tense), 196
+  <entry type="word"><term>up</term><additive type="desc">transposed</additive>, <pages><page>253</page></pages></entry>
 
-  utters (= sells), 264
+  <entry type="word"><term>use</term><additive type="desc">tense</additive>, <pages><page>196</page></pages></entry>
 
+  <entry type="word"><term>utters</term><additive type="equiv">sells</additive>, <pages><page>264</page></pages></entry>
 
-  <phrase>validity</phrase><pages><page>233</page></pages>
 
-  <phrase>vanished</phrase><pages><page>232</page></pages>
+  <entry type="word"><term>validity</term><pages><page>233</page></pages></entry>
 
-  <phrase>vanity</phrase><pages><page>218</page></pages>
+  <entry type="word"><term>vanished</term><pages><page>232</page></pages></entry>
 
-  vaulty (heaven), 238
+  <entry type="word"><term>vanity</term><pages><page>218</page></pages></entry>
 
-  <phrase>Verona</phrase><pages><page>165</page></pages>
+  <entry type="word"><term>vaulty</term><additive type="desc">heaven</additive>, <pages><page>238</page></pages></entry>
 
-  <phrase>versal</phrase><pages><page>215</page></pages>
+  <entry type="word"><term>Verona</term><pages><page>165</page></pages></entry>
 
-  very (adjective), 222
+  <entry type="word"><term>versal</term><pages><page>215</page></pages></entry>
 
-  view (= appearance), 170
+  <entry type="word"><term>very</term><additive type="desc">adjective</additive>, <pages><page>222</page></pages></entry>
 
-  volume (figurative), 180
+  <entry type="word"><term>view</term><additive type="equiv">appearance</additive>, <pages><page>170</page></pages></entry>
 
-  wanton (masculine), 203
+  <entry type="word"><term>volume</term><additive type="desc">figurative</additive>, <pages><page>180</page></pages></entry>
 
-  ware (= aware), 169, 200
+  <entry type="word"><term>wanton</term><additive type="desc">masculine</additive>, <pages><page>203</page></pages></entry>
 
-  <phrase>was I with you?</phrase><pages><page>211</page></pages>
+  <entry type="word"><term>ware</term><additive type="equiv">aware</additive>, <pages><page>169</page>, <page>200</page></pages></entry>
 
-  weeds (= garments), 263
+  <entry type="phrase"><term>was I with you?</term><pages><page>211</page></pages></entry>
 
-  well (of the dead), 258, 262
+  <entry type="word"><term>weeds</term><additive type="equiv">garments</additive>, <pages><page>263</page></pages></entry>
 
-  well said (= well done), 193
+  <entry type="word"><term>well</term><additive type="desc">of the dead</additive>, <pages><page>258</page>, <page>262</page></pages></entry>
 
-  what (= how, why), 191
+  <entry type="phrase"><term>well said</term><additive type="equiv">well done</additive>, <pages><page>193</page></pages></entry>
 
-  what (= who), 194
+  <entry type="word"><term>what</term><additive type="equiv">how, why</additive>, <pages><page>191</page></pages></entry>
 
-  wherefore (accent), 200
+  <entry type="word"><term>what</term><additive type="equiv">who</additive>, <pages><page>194</page></pages></entry>
 
-  who (= which), 169, 188, 233, 242
+  <entry type="word"><term>wherefore</term><additive type="desc">accent</additive>, <pages><page>200</page></pages></entry>
 
-  <phrase>wild-goose chase</phrase><pages><page>211</page></pages>
+  <entry type="word"><term>who</term><additive type="equiv">which</additive>, <pages><page>169</page>, <page>188</page>, <page>233</page>, <page>242</page></pages></entry>
 
-  <phrase>will none</phrase><pages><page>242</page></pages>
+  <entry type="phrase"><term>wild-goose chase</term><pages><page>211</page></pages></entry>
 
-  wit, 235, 240
+  <entry type="phrase"><term>will none</term><pages><page>242</page></pages></entry>
 
-  with (= by), 170, 267
+  <entry type="word"><term>wit</term><pages><page>235</page>, <page>240</page></pages></entry>
 
-  <phrase>withal</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>with</term><additive type="equiv">by</additive>, <pages><page>170</page>, <page>267</page></pages></entry>
 
-  wits, five, 185
+  <entry type="word"><term>withal</term><pages><page>169</page></pages></entry>
 
-  worm (in fingers), 186
+  <entry type="phrase"><term>wits, five</term><pages><page>185</page></pages></entry>
 
-  <phrase>wormwood</phrase><pages><page>178</page></pages>
+  <entry type="word"><term>worm</term><additive type="desc">in fingers</additive>, <pages><page>186</page></pages></entry>
 
-  worser, 205, 221
+  <entry type="word"><term>wormwood</term><pages><page>178</page></pages></entry>
 
-  <phrase>worshipped sun</phrase><pages><page>169</page></pages>
+  <entry type="word"><term>worser</term><pages><page>205</page>, <page>221</page></pages></entry>
 
-  worth (= wealth), 218
+  <entry type="phrase"><term>worshipped sun</term><pages><page>169</page></pages></entry>
 
-  <phrase>wot</phrase><pages><page>232</page></pages>
+  <entry type="word"><term>worth</term><additive type="equiv">wealth</additive>, <pages><page>218</page></pages></entry>
 
-  wrought (= effected), 242
+  <entry type="word"><term>wot</term><pages><page>232</page></pages></entry>
 
+  <entry type="word"><term>wrought</term><additive type="equiv">effected</additive>, <pages><page>242</page></pages></entry>
 
-  <phrase>yet not</phrase><pages><page>199</page></pages>
 
+  <entry type="phrase"><term>yet not</term><pages><page>199</page></pages></entry>
 
-  <phrase>zounds</phrase><pages><page>220</page></pages>
 
-    +------------------------------------------------------------------+
-    |                     Transcriber's notes:                         |
-    |                                                                  |
-    | Fixed various punctuation.                                       |
-    | P.73. 'thorough the ear' is in another volume, keeping.          |
-    | P.143. 'Some villanous shame' is in another volume, keeping.     |
-    | P.191. 'iustly' means 'justly' but not changed as other words    |
-    | in this poem are the same, 'i' for 'j'.                          |
-    | P.199. 'Gf.' changed to 'Cf.'.                                   |
-    | P.255. v. 'i.' 12, changed to v. '1.' 12,.                       |
-    | P.236. 'ii. i. 102:' changed to 'ii. 1. 102:'.                   |
-    | P.288. 'happpy' changed to 'happy'.                              |
-    | Both words 'loggerhead' and 'logger-head' are present, leaving.  |
-    | Both words 'a-bed' and 'abed' are present, leaving.              |
-    | Note: underscores to surround _italic text_.                     |
-    +------------------------------------------------------------------+
+  <entry type="word"><term>zounds</term><pages><page>220</page></pages></entry>
+
+
+</index>
