@@ -1,4 +1,8 @@
-Regex stepfile by Avi Zilberman to add sex and house attributes to all speakers.
+Stepfile by Avi Zilberman to add sex and house attributes to all speakers in the play's XML.
+
+For an XSLT solution, run the "xslt/avi_add_attributes_to_speakers.xsl" XSLT file on "xml/thePlay_MJB.xml". It does the same replacements as in this file, but automatically.
+
+***
 
 Speakers have any of the following sexes, or neither:
 

@@ -453,7 +453,11 @@
       
       <line><speaker char="Romeo">Romeo</speaker>Stay, fellow; I can read.</line>
       
+<<<<<<< HEAD
+  <line><stagedirection>Reads</stagedirection>'Signior Martino and his wife and daughters;
+=======
       <stagedirection>[Reads] _'Signior Martino and his wife and daughters;
+>>>>>>> 4e3b3acca91e32dd33389cce53008adc059df068
       County Anselme and his beauteous sisters; the
       lady widow of Vitruvio; Signior Placentio and his
       lovely nieces; Mercutio and his brother Valentine;

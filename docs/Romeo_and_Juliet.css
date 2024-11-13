@@ -1,0 +1,66 @@
+body 
+{
+   background: #e2cba5;
+   color: #744700;
+}
+
+/* Ensure the body has no margin or padding to avoid space around the nav */
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav bar styling */
+    nav 
+        {
+            background-color: #a66703; /* nav bar background color */
+            text-align: center; /* aligns nav bar text */
+            width: 100%; /* Ensure it spans the full width of the viewport */
+        }
+        
+        /* Ensure nav items are displayed inline to prevent breaking to a new line */
+        nav div 
+        {
+            padding: 14px 20px; /* Padding for nav items */
+            display: inline-block; /* Display inline to avoid breaking lines */
+        }
+        
+        /* Nav links styling */
+        nav a 
+        {
+            font-size: 20px;
+            text-decoration: none; /* No underline */
+            color: black; /* Text color */
+        }
+        
+        /* Hover effect for nav items */
+        nav div:hover 
+        {
+            background-color: #555; /* Change background color on hover */
+            color: white; /* Change text color on hover */
+        }
+
+h1
+    {
+        font-size: 40px;
+        text-align: center;
+        text-decoration: underline;
+        margin-top: 40px;
+    }
+
+a 
+{
+    padding-left: 100px;  /* Adds space to the left for all lines */
+    max-width: 1500px;   /* Limits the width of the text for wrapping */
+    font-size: 20px;
+    text-decoration: none; /* Removes underline */
+    color: #744700; /* Sets text color to tan */
+}
+
+p
+    {
+        padding-left: 100px;  /* Adds space to the left for all lines */
+        max-width: 1500px;   /* Limits the width of the text for wrapping */
+        font-size: 20px;
+    }

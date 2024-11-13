@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/avi_list_of_speakers.rnc" type="application/relax-ng-compact-syntax"?>
+
+<!-- AZ: List of all speakers, manually created, by Avi Zilberman -->
+<!--
+Speakers have any of the following sexes, or neither:
+    "F" - Female
+    "M" - Male
+    "N" - Neither, unknown, or not given
+
+Speakers also are in either of the houses, or neither:
+    "M" - House of Montague
+    "C" - House of Capulet
+    "N" - Neither, unknown, or not given
+
+I looked at the DRAMATIS PERSONÆ section and looked at all the unique "@char" values, but didn't do anything more to get the character names.
+-->
+
+<speakers>
+	<!-- AZ: Men in neither house -->
+	<set sex='M' house='N'>
+		<ch>Prince</ch>
+		<ch>Paris</ch>
+		<ch>Mercutio</ch>
+		<ch>Friar Laurence</ch>
+		<ch>Friar John</ch>
+	</set>
+
+	<!-- AZ: No female speakers who are in neither house -->
+
+	<!-- AZ: Unknown sex in neither house -->
+	<set sex='N' house='N'>
+		<ch>Apothecary</ch>
+		<ch>1 Musician</ch>
+		<ch>2 Musician</ch>
+		<ch>3 Musician</ch>
+		<ch>Page</ch>
+	</set>
+
+	<!-- AZ: Men in Montague's house -->
+	<set sex='M' house ='M'>
+		<ch>Montague</ch>
+		<ch>Romeo</ch>
+		<ch>Benvolio</ch>
+		<ch>Balthasar</ch>
+		<ch>Abram</ch>
+	</set>
+
+	<!-- AZ: Women in Montague's house -->
+	<set sex='F' house='M'>
+		<ch>Lady Montague</ch>
+	</set>
+
+	<!-- AZ: No speakers of unknown sex who are in Montague's house -->
+
+	<!-- AZ: Men in Capulet's house -->
+	<set sex='M' house='C'>
+	    <ch>Capulet</ch>
+	    <ch>Tybalt</ch>
+	    <ch>Sampson</ch>
+	    <ch>Gregory</ch>
+	    <ch>Peter</ch>
+	</set>
+
+	<!-- AZ: Women in Capulet's house -->
+	<set sex='F' house='C'>
+	    <ch>Juliet</ch>
+	    <ch>Lady Capulet</ch>
+	</set>
+
+	<!-- AZ: Unknown sex in Capulet's house -->
+	<set sex='N' house='C'>
+	    <ch>Nurse</ch>
+	</set>
+</speakers>
