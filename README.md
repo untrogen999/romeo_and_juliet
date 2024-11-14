@@ -1,4 +1,4 @@
-This is the Romeo and Juliet project for HUMAN-1030 Fall 2024. We're working on an analysis of that play.
+This is the Romeo and Juliet project for HUMAN-1030 Fall 2024. We're working on an analysis of that play to make an augmented reading view.
 
 The project's done by four people:
 
@@ -6,3 +6,5 @@ The project's done by four people:
 * Aania: Subject Expert
 * Nidhi: Quality Control Officer
 * Avi: Team Co-Ordinator
+
+The link to our website with our augmented reading view is here: [Link](https://untrogen999.github.io/romeo_and_juliet/)
