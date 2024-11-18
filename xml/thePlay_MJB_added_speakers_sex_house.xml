@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="../schema/thePlay_MJB.rnc" type="application/relax-ng-compact-syntax"?><ShakespearPlay>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/thePlay_MJB_sex_house.rnc" type="application/relax-ng-compact-syntax"?>
+<ShakespearPlay>
   <act n="I">ACT I</act>
   
      <scene n="I">SCENE I. Verona. A Public Place</scene>
@@ -452,14 +454,15 @@
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Stay, fellow; I can read.</line>
       
-      <stagedirection>[Reads] _'Signior Martino and his wife and daughters;
+      <!-- AZ: Merge conflict with two different versions of this speech, manually fixed -->
+      <line><stagedirection>Reads</stagedirection>'Signior Martino and his wife and daughters;
       County Anselme and his beauteous sisters; the
       lady widow of Vitruvio; Signior Placentio and his
       lovely nieces; Mercutio and his brother Valentine;
       mine uncle Capulet, his wife and daughters; my fair
       niece Rosaline; Livia; Signior Valentio and his
       cousin Tybalt; Lucio and the lively Helena?'_
-      A fair assembly; whither should they come?</stagedirection>
+      A fair assembly; whither should they come?</line>
       
       <line><speaker char="Servant" sex="" house="">Servant</speaker>Up.</line>
       

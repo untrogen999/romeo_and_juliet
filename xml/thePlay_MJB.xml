@@ -453,18 +453,15 @@
       
       <line><speaker char="Romeo">Romeo</speaker>Stay, fellow; I can read.</line>
       
-<<<<<<< HEAD
-  <line><stagedirection>Reads</stagedirection>'Signior Martino and his wife and daughters;
-=======
-      <stagedirection>[Reads] _'Signior Martino and his wife and daughters;
->>>>>>> 4e3b3acca91e32dd33389cce53008adc059df068
+      <!-- AZ: Merge conflict with two different versions of this speech, manually fixed -->
+      <line><stagedirection>Reads</stagedirection>'Signior Martino and his wife and daughters;
       County Anselme and his beauteous sisters; the
       lady widow of Vitruvio; Signior Placentio and his
       lovely nieces; Mercutio and his brother Valentine;
       mine uncle Capulet, his wife and daughters; my fair
       niece Rosaline; Livia; Signior Valentio and his
       cousin Tybalt; Lucio and the lively Helena?'_
-      A fair assembly; whither should they come?</stagedirection>
+      A fair assembly; whither should they come?</line>
       
       <line><speaker char="Servant">Servant</speaker>Up.</line>
       
