@@ -20,7 +20,7 @@
     <!-- AZ: See this wrox.com thread for an example: https://p2p.wrox.com/xslt/87315-result-document-output-problem-s-identity-transform.html -->
     <xsl:template match='/'>
         <!-- AZ: Always output to a new XML file with the given name -->
-        <xsl:result-document href="../xml/thePlay_MJB_fixed_tagging.xml">
+        <xsl:result-document href="../xml/thePlay_MJB_fixed_tagging_automated_draft.xml">
             <xsl:apply-templates select="ShakespearPlay"/>
         </xsl:result-document>
     </xsl:template>
@@ -38,7 +38,7 @@
             disable-output-escaping="yes"
             select="replace(
                 string(),
-                '([^>])\n',
+                '([^>\s])\n',
                 '$1&lt;br/&gt;&#xa;'
             )"/></speech>
     </xsl:template>
