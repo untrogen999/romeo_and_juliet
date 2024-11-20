@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="Appendix_Schema_AK.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix: Concerning Arthur Brooke and Characters in Romeo and Juliet</title>
+                <author>William Shakespeare</author>
+                <editor>W. J. Rolfe</editor>
+            </titleStmt>
+            <publicationStmt>
+                <publisher>Project Gutenberg</publisher>
+                <pubPlace>United States</pubPlace>
+                <date when="2015">2015</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Shakespeare's Tragedy of Romeo and Juliet</title>
+                    <author>William Shakespeare</author>
+                    <editor>W. J. Rolfe</editor>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="appendix" n="1">
+                <head>Concerning Arthur Brooke</head>
+                <p>
+                    Little is known of the life of <name type="person">Arthur Brooke</name>, or Brooke, except that he
+                    wrote <title type="work">Romeus and Juliet</title> (1562) and the next year published a book
+                    entitled <title type="work">Agreement of Sundry Places of Scripture</title>, ... He died that same
+                    year (<date>1563</date>), and an <title type="work">Epitaph</title> by <name type="person">George Turbervile</name>
+                    informs us that he was "drowned in passing to Newhaven."
+                </p>
+                <p>
+                    So far as I am aware, no editor or commentator has referred to the singular prose introduction
+                    to the 1562 edition of <title type="work">Romeus and Juliet</title>. ... It is signed "Ar. Br."—the
+                    form in which his name also appears on the title-page.
+                </p>
+            </div>
+            
+            <div type="appendix" n="2">
+                <head>Comments on Some of the Characters</head>
+                <div type="character" n="1">
+                    <head>Juliet</head>
+                    <p>
+                        <name type="person">Juliet</name> is not fortunate in her parents. ... Her father is
+                        <num type="age">sixty</num> or more years old, while her mother is about
+                        <num type="age">twenty-eight</num>. ...
+                    </p>
+                    <p>
+                        Earlier in the play, <name type="person">Capulet</name> says to <name type="person">Paris</name>: ...
+                        <quote>
+                            "But woo her, gentle Paris, get her heart,
+                            My will to her consent is but a part;
+                            An she agree, within her scope of choice,
+                            Lies my consent and fair according voice;"
+                        </quote>
+                    </p>
+                </div>
+                
+                <div type="character" n="2">
+                    <head>Romeo</head>
+                    <p>
+                        Some critics have expressed surprise that <name type="person">Shakespeare</name> should have preluded the
+                        main story of the drama with the "superfluous complication" of Romeo's love for Rosaline.
+                    </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
