@@ -1,0 +1,60 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0">
+
+    <!-- Root Element -->
+    <start>
+        <element name="Appendix">
+            <zeroOrMore>
+                <ref name="Section"/>
+            </zeroOrMore>
+        </element>
+    </start>
+
+    <!-- Section Definition -->
+    <define name="Section">
+        <element name="Section">
+            <element name="Title">
+                <text/>
+            </element>
+            <zeroOrMore>
+                <ref name="Subsection"/>
+            </zeroOrMore>
+        </element>
+    </define>
+
+    <!-- Subsection Definition -->
+    <define name="Subsection">
+        <element name="Subsection">
+            <element name="Title">
+                <text/>
+            </element>
+            <element name="Body">
+                <zeroOrMore>
+                    <choice>
+                        <ref name="Paragraph"/>
+                        <ref name="Quote"/>
+                    </choice>
+                </zeroOrMore>
+            </element>
+        </element>
+    </define>
+
+    <!-- Paragraph Definition -->
+    <define name="Paragraph">
+        <element name="Paragraph">
+            <text/>
+        </element>
+    </define>
+
+    <!-- Quote Definition -->
+    <define name="Quote">
+        <element name="Quote">
+            <optional>
+                <attribute name="source">
+                    <text/>
+                </attribute>
+            </optional>
+            <text/>
+        </element>
+    </define>
+
+</grammar>
