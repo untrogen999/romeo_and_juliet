@@ -13,7 +13,8 @@ Speakers also are in either of the houses, or neither:
     "C" - House of Capulet
     "N" - Neither, unknown, or not given
 
-I looked at the DRAMATIS PERSONÆ section and looked at all the unique "@char" values, but didn't do anything more to get the character names.
+I looked at the DRAMATIS PERSONÆ section and looked at all the unique "@char" values. Also, I looked at the speakers who are not in the DRAMATIS PERSONÆ
+and added them as well.
 -->
 
 <speakers>
@@ -35,6 +36,18 @@ I looked at the DRAMATIS PERSONÆ section and looked at all the unique "@char" v
 		<ch>2 Musician</ch>
 		<ch>3 Musician</ch>
 		<ch>Page</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>First Citizen</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>Chorus</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>1 Citizen</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>1 Watch</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>2 Watch</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>3 Watch</ch>
 	</set>
 
 	<!-- AZ: Men in Montague's house -->
@@ -66,10 +79,26 @@ I looked at the DRAMATIS PERSONÆ section and looked at all the unique "@char" v
 	<set sex='F' house='C'>
 	    <ch>Juliet</ch>
 	    <ch>Lady Capulet</ch>
+		<!-- AZ: Not in DRAMATIS.
+			TODO: Fix the typo in the play and remove this entry.
+		-->
+		<ch>Lady Capule</ch>
 	</set>
 
 	<!-- AZ: Unknown sex in Capulet's house -->
 	<set sex='N' house='C'>
 	    <ch>Nurse</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>Servant</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>2 Capulet</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>2 Servant</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>1 Servant</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>Re</ch>
+		<!-- AZ: Not in DRAMATIS -->
+		<ch>Servingman</ch>
 	</set>
 </speakers>

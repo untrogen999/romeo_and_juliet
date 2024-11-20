@@ -127,14 +127,14 @@
       <stagedirection>_Enter several of both houses who join the fray; then enter_ Citizens,
         _with clubs_</stagedirection>
        
-       <line><speaker char="First Citizen" sex="" house="">First Citizen</speaker>Clubs, bills, and partisans! strike! beat them down!
+       <line><speaker char="First Citizen" sex="N" house="N">First Citizen</speaker>Clubs, bills, and partisans! strike! beat them down!
        Down with the Capulets! down with the Montagues!</line>
        
        <stagedirection>_Enter_ CAPULET _in his gown, and_ LADY CAPULET</stagedirection>
        
        <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>What noise is this? Give me my long sword, ho!</line>
        
-       <line><speaker char="Lady Capule" sex="" house="">Lady Capule</speaker>. A crutch, a crutch! why call you for a sword?</line>
+       <line><speaker char="Lady Capule" sex="F" house="C">Lady Capule</speaker>. A crutch, a crutch! why call you for a sword?</line>
        
        <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>My sword, I say! Old Montague is come,
        And flourishes his blade in spite of me.</line>
@@ -410,7 +410,7 @@
       My house and welcome on their pleasure stay.
        <stagedirection>Exeunt Capulet and Paris</stagedirection></line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Find them out whose names are written
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Find them out whose names are written
       here! It is written that the shoemaker should meddle
       with his yard and the tailor with his last, the
       fisher with his pencil and the painter with his nets;
@@ -440,17 +440,17 @@
       Shut up in prison, kept without my food,
       Whipp'd and tormented and--Good-den, good fellow.</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>God gi' good-den.--I pray, sir, can you
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>God gi' good-den.--I pray, sir, can you
       read?</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Ay, mine own fortune in my misery.</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Perhaps you have learned it without book;
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Perhaps you have learned it without book;
       but, I pray, can you read any thing you see?</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Ay, if I know the letters and the language.</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Ye say honestly; rest you merry!</line>
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Ye say honestly; rest you merry!</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Stay, fellow; I can read.</line>
       
@@ -464,19 +464,19 @@
       cousin Tybalt; Lucio and the lively Helena?'_
       A fair assembly; whither should they come?</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Up.</line>
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Up.</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Whither?</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>To supper; to our house.</line>
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>To supper; to our house.</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Whose house?</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>My master's.</line>
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>My master's.</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>Indeed, I should have ask'd you that before.</line>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Now I'll tell you without asking. My
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Now I'll tell you without asking. My
       master is the great rich Capulet; and if you be not
       of the house of Montagues, I pray, come and crush
       a cup of wine. Rest you merry! <stagedirection>Exit</stagedirection></line>
@@ -615,7 +615,7 @@
       
       <stagedirection>_Enter a_ Servant</stagedirection>
       
-      <line><speaker char="Servant" sex="" house="">Servant</speaker>Madam, the guests are come, supper
+      <line><speaker char="Servant" sex="N" house="C">Servant</speaker>Madam, the guests are come, supper
       served up, you called, my young lady asked for,
       the nurse cursed in the pantry, and every thing in
       extremity. I must hence to wait; I beseech you,
@@ -780,23 +780,23 @@
     
       <stagedirection>Musicians _waiting_. _Enter_ Servingmen _with napkins_</stagedirection>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>Where's Potpan, that he helps not to take away? He shift
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>Where's Potpan, that he helps not to take away? He shift
     a trencher! he scrape a trencher!</line>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>When good manners shall lie all in one or two men's
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>When good manners shall lie all in one or two men's
         hands and they unwashed too, 'tis a foul thing.</line>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>Away with the joint-stools, remove the court-cupboard,
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>Away with the joint-stools, remove the court-cupboard,
       look to the plate.--Good thou, save me a piece of marchpane; and, as
       thou lovest me, let the porter let in Susan Grindstone and
       Nell.--Antony!--and Potpan!</line>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>Ay, boy, ready.</line>
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>Ay, boy, ready.</line>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>You are looked for and called for, asked for and sought
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>You are looked for and called for, asked for and sought
         for, in the great chamber.</line>
       
-  <line><speaker char="Servingman" sex="" house="">Servingman</speaker>We cannot be here and there too.--Cheerly, boys; be
+  <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>We cannot be here and there too.--Cheerly, boys; be
       brisk a while, and the longer liver take all.</line>
       
       <stagedirection>_Enter_ CAPULET, _with_ JULIET _and others of his house_, _meeting the_
@@ -823,14 +823,14 @@
       How long is 't now since last yourself and I
       Were in a mask?</line>
       
-      <line><speaker char="2 Capulet" sex="" house="">2 Capulet</speaker>By 'r lady, thirty years.</line>
+      <line><speaker char="2 Capulet" sex="N" house="C">2 Capulet</speaker>By 'r lady, thirty years.</line>
       
       <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>What, man! 'tis not so much, 'tis not so much!
       'Tis since the nuptial of Lucentio,
       Come Pentecost as quickly as it will,
       Some five and twenty years; and then we mask'd.</line>
       
-      <line><speaker char="2 Capulet" sex="" house="">2 Capulet</speaker>'Tis more, 'tis more! His son is elder, sir;
+      <line><speaker char="2 Capulet" sex="N" house="C">2 Capulet</speaker>'Tis more, 'tis more! His son is elder, sir;
       His son is thirty.</line>
       
       <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>Will you tell me that?
@@ -840,7 +840,7 @@
       hand
       Of yonder knight?</line>
       
-      <line><speaker char="Servingman" sex="" house="">Servingman</speaker>I know not, sir.</line>
+      <line><speaker char="Servingman" sex="N" house="C">Servingman</speaker>I know not, sir.</line>
       
       <line><speaker char="Romeo" sex="M" house="M">Romeo</speaker>O, she doth teach the torches to burn bright!
       Her beauty hangs upon the cheek of night
@@ -998,7 +998,7 @@
   
     <stagedirection>_Enter_ Chorus</stagedirection>
     
-  <line><speaker char="Chorus" sex="" house="">Chorus</speaker>Now old desire doth in his death-bed lie,
+  <line><speaker char="Chorus" sex="N" house="N">Chorus</speaker>Now old desire doth in his death-bed lie,
     And young affection gapes to be his heir;
     That fair for which love groan'd for and would die,
     With tender Juliet match'd, is now not fair.
@@ -2138,12 +2138,12 @@
       
       <stagedirection>_Enter_ Citizens, _etc_.</stagedirection>
       
-      <line><speaker char="1 Citizen" sex="" house="">1 Citizen</speaker>Which way ran he that kill'd Mercutio?
+      <line><speaker char="1 Citizen" sex="N" house="N">1 Citizen</speaker>Which way ran he that kill'd Mercutio?
       Tybalt, that murtherer, which way ran he?</line>
       
       <line><speaker char="Benvolio" sex="M" house="M">Benvolio</speaker>There lies that Tybalt.</line>
       
-      <line><speaker char="1 Citizen" sex="" house="">1 Citizen</speaker>Up, sir, go with me;
+      <line><speaker char="1 Citizen" sex="N" house="N">1 Citizen</speaker>Up, sir, go with me;
       I charge thee in the prince's name, obey.</line>
       
   <stagedirection>_Enter_ Prince, _attended_; MONTAGUE, CAPULET, _their_ Wives, _and
@@ -3183,12 +3183,12 @@
        <stagedirection>Exit Servant</stagedirection>
       Sirrah, go hire me twenty cunning cooks.</line>
       
-      <line><speaker char="2 Servant" sex="" house="">2 Servant</speaker>You shall have none ill, sir, for I'll
+      <line><speaker char="2 Servant" sex="N" house="C">2 Servant</speaker>You shall have none ill, sir, for I'll
       try if they can lick their fingers.</line>
       
       <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>How canst thou try them so?</line>
       
-      <line><speaker char="2 Servant" sex="" house="">2 Servant</speaker>Marry, sir, 'tis an ill cook that cannot
+      <line><speaker char="2 Servant" sex="N" house="C">2 Servant</speaker>Marry, sir, 'tis an ill cook that cannot
       lick his own fingers; therefore he that cannot lick his
       fingers goes not with me.</line>
       
@@ -3356,13 +3356,13 @@
   <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>Now, fellow,
       What's there?</line>
       
-      <line><speaker char="1 Servant" sex="" house="">1 Servant</speaker>Things for the cook, sir, but I know not what.</line>
+      <line><speaker char="1 Servant" sex="N" house="C">1 Servant</speaker>Things for the cook, sir, but I know not what.</line>
       
       <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>Make haste, make haste.--<stagedirection>Exit Servant</stagedirection>
       Sirrah, fetch drier logs;
       Call Peter, he will show thee where they are.</line>
       
-      <line><speaker char="2 Servant" sex="" house="">2 Servant</speaker>I have a head, sir, that will find out logs,
+      <line><speaker char="2 Servant" sex="N" house="C">2 Servant</speaker>I have a head, sir, that will find out logs,
       And never trouble Peter for the matter.<stagedirection>Exit</stagedirection></line>
       
       <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>Mass, and well said; a merry whoreson, ha!
@@ -3372,9 +3372,9 @@
       
   <line><speaker char="Capulet" sex="M" house="C">Capulet</speaker>Nurse!--Wife!--What, ho!--What, nurse, I say!</line>
       
-      <line><speaker char="Re" sex="" house="">Re</speaker>Nurse</line>
+      <line><speaker char="Re" sex="N" house="C">Re</speaker>Nurse</line>
       
-  <line><speaker char="Re" sex="" house="">Re</speaker>Go waken Juliet, go and trim her up;
+  <line><speaker char="Re" sex="N" house="C">Re</speaker>Go waken Juliet, go and trim her up;
       I'll go and chat with Paris.--Hie, make haste,
       Make haste; the bridegroom he is come already;
       Make haste, I say. <stagedirection>Exeunt</stagedirection></line>
@@ -3975,7 +3975,7 @@
       To make me die with a restorative. <stagedirection>Kisses him</stagedirection>
       Thy lips are warm.</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker><stagedirection>Within</stagedirection> Lead, boy; which way?</line>
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker><stagedirection>Within</stagedirection> Lead, boy; which way?</line>
       
       <line><speaker char="Juliet" sex="F" house="C">Juliet</speaker>Yea, noise? then I'll be brief.--O happy dagger!
       <stagedirection>Snatching Romeo</stagedirection></line>
@@ -3987,7 +3987,7 @@
       
       <line><speaker char="Page" sex="N" house="N">Page</speaker>This is the place; there, where the torch doth burn.</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker>The ground is bloody; search about the churchyard.
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker>The ground is bloody; search about the churchyard.
       Go, some of you, whoe'er you find attach.-- <stagedirection>Exeunt some</stagedirection>
       Pitiful sight! here lies the county slain;
       And Juliet bleeding, warm, and newly dead,
@@ -4001,17 +4001,17 @@
       
       <stagedirection>_Re-enter some of the_ Watch, _with_ BALTHASAR</stagedirection>
       
-      <line><speaker char="2 Watch" sex="" house="">2 Watch</speaker>Here's Romeo's man; we found him in the churchyard.</line>
+      <line><speaker char="2 Watch" sex="N" house="N">2 Watch</speaker>Here's Romeo's man; we found him in the churchyard.</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker>Hold him in safety till the prince come hither.</line>
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker>Hold him in safety till the prince come hither.</line>
       
       <stagedirection>_Re-enter others of the_ Watch, _with_ FRIAR LAURENCE</stagedirection>
       
-      <line><speaker char="3 Watch" sex="" house="">3 Watch</speaker>Here is a friar, that trembles, sighs, and weeps.
+      <line><speaker char="3 Watch" sex="N" house="N">3 Watch</speaker>Here is a friar, that trembles, sighs, and weeps.
       We took this mattock and this spade from him,
       As he was coming from this churchyard side.</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker>A great suspicion; stay the friar too.</line>
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker>A great suspicion; stay the friar too.</line>
       
       <stagedirection>_Enter the_ PRINCE _and_ Attendants</stagedirection>
       
@@ -4028,13 +4028,13 @@
       
       <line><speaker char="Prince" sex="M" house="N">Prince</speaker>What fear is this which startles in our ears?</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker>Sovereign, here lies the County Paris slain;
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker>Sovereign, here lies the County Paris slain;
       And Romeo dead; and Juliet, dead before,
       Warm and new kill'd.</line>
       
       <line><speaker char="Prince" sex="M" house="N">Prince</speaker>Search, seek, and know how this foul murther comes.</line>
       
-      <line><speaker char="1 Watch" sex="" house="">1 Watch</speaker>Here is a friar, and slaughter'd Romeo's man,
+      <line><speaker char="1 Watch" sex="N" house="N">1 Watch</speaker>Here is a friar, and slaughter'd Romeo's man,
       With instruments upon them fit to open
       These dead men's tombs.</line>
       
