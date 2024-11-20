@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Stylesheet to fix some tagging decisions in the play, by Avi Zilberman -->
-<!-- Run this stylesheet on the XML file with the sex and house attributes added to it already -->
+<!-- Stylesheet to fix some tagging decisions in the play and add @sex and @house attributes
+    to speakers, by Avi Zilberman -->
+<!-- Run this stylesheet on the XML file "thePlay_MJB.xml" in oXygen -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -14,6 +15,9 @@
     
     <!-- Output an XML file -->
     <xsl:output method="xml" version="1.0" encoding="UTF-8"/>
+    
+    <!-- AZ: Store the list of speakers file as a variable -->
+    <xsl:variable name="speakersFile" select="document('../xml/avi_list_of_speakers.xml')"/>
     
     <!-- AZ: Make a top-level template to be able to use <xsl:result-document> to output a
         single output file. -->
@@ -42,6 +46,19 @@
         <xsl:text disable-output-escaping="yes">&#xa;&lt;?xml-model href="../schema/thePlay_MJB_fixed_tagging.rnc" type="application/relax-ng-compact-syntax"?&gt;&#xa;</xsl:text>
     </xsl:template>
     
+    <!-- AZ: Add @sex and @house attributes to speakers -->
+    <xsl:template match="speaker">
+        <!-- AZ: Look up the sex and belonging house of each speaker in "$speakersFile" -->
+        <!-- AZ: To work around an issue with referencing "@char" in "$speakerSex" and "$speakerHouse",
+            I had to save "@char" to its own variable first. -->
+        <xsl:variable name="character" select="@char"/>
+        <xsl:variable name="sex" select="$speakersFile//set[ch/text() = $character]/@sex"/>
+        <xsl:variable name="house" select="$speakersFile//set[ch/text() = $character]/@house"/>
+        
+        <speaker char="{$character}" sex="{$sex}" house="{$house}">
+            <xsl:apply-templates/>
+        </speaker>
+    </xsl:template>
     
     <!-- AZ: Add <br/> tags in the text of *all* elements with multiple lines (not each element as one whole)
         This excludes elements that are only a single line and it excludes the last line of
@@ -67,7 +84,7 @@
         />
     </xsl:template>
     
-    <!-- AZ: Then convert all <line> elements to <speech> --> 
+    <!-- AZ: Convert all <line> elements to <speech> --> 
     <xsl:template match="line">
         <speech><xsl:apply-templates/></speech>
     </xsl:template>
