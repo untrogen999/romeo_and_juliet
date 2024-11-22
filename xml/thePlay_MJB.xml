@@ -1,9 +1,8 @@
 ﻿<?xml-model href="../schema/thePlay_MJB.rnc" type="application/relax-ng-compact-syntax"?>
 <ShakespearPlay>
-  <act n="I">ACT I</act>
+  <act n="I"><title>ACT I</title>
   
   <scene n="I"><title>SCENE I. Verona. A Public Place</title>
-     
        <stagedirection>_Enter_ SAMPSON _and_ GREGORY, _of the house of Capulet, with swords and
        bucklers_</stagedirection>
        
@@ -992,8 +991,9 @@
       Come, let's away; the strangers all are gone.<stagedirection>Exeunt</stagedirection></line>
       
       <line>[Illustration: Capulet's Garden]</line>
-  <!--not part of the play but part of the book-->
-  <act n="II">ACT II</act>
+  <!--not part of the play but part of the book--></scene>
+  </act>
+  <act n="II"><title>ACT II</title>
   
     <stagedirection>_Enter_ Chorus</stagedirection>
     
@@ -1012,7 +1012,7 @@
     But passion lends them power, time means, to meet,
     Tempering extremities with extreme sweet.
       <stagedirection>Exit</stagedirection></line>
-    </scene>
+    
     <scene n="I"><title>SCENE I. A Lane by the Wall of Capulet's Orchard</title>
     
       <stagedirection>_Enter_ ROMEO</stagedirection>
@@ -1336,7 +1336,7 @@
       Hence will I to my ghostly father's cell,
       His help to crave and my dear hap to tell. <stagedirection>Exit</stagedirection></line>
     </scene>
-    <scene n="III"><ttile>SCENE III. Friar Laurence's Cell</ttile>
+    <scene n="III"><title>SCENE III. Friar Laurence's Cell</title>
     
       <stagedirection>_Enter_ FRIAR LAURENCE, _with a basket_</stagedirection>
       
@@ -1925,9 +1925,10 @@
       Till holy church incorporate two in one. <stagedirection>Exeunt</stagedirection></line>
       
       <line>[Illustration: Loggia of Capulet's House]</line>
-  <!--not part of the play but part of the book-->
-  <act n="III">ACT III</act>
-    </scene>
+        <!--not part of the play but part of the book--></scene>
+  </act>
+  <act n="III"><title>ACT III</title>
+    
     <scene n="I"><title>SCENE I. A Public Place</title>
     
       <stagedirection>_Enter_ MERCUTIO, BENVOLIO, Page, _and_ Servants</stagedirection>
@@ -3006,8 +3007,10 @@
       
       <line>[Illustration: JULIET AT LAURENCE'S CELL.]</line>
   <!--not part of the play but part of the book-->
-  <act n="IV">ACT IV</act>
     </scene>
+  </act>
+  <act n="IV"><title>ACT IV</title>
+    
     <scene n="I"><title>SCENE I. Friar Laurence's Cell</title>
     
       <stagedirection>_Enter_ FRIAR LAURENCE _and_ PARIS</stagedirection>
@@ -3591,8 +3594,10 @@
       
       <line>[Illustration: TOMB OF THE SCALIGERS, VERONA]</line>
   <!--not part of the play but part of the book-->
-  <act n="V">ACT V</act>
     </scene>
+  </act>
+  <act n="V"><title>ACT V</title>
+    
     <scene n="I"><title>SCENE I. Mantua. A Street</title>
     
       <stagedirection>_Enter_ ROMEO</stagedirection>
@@ -4168,4 +4173,5 @@
       For never was a story of more woe
       Than this of Juliet and her Romeo. <stagedirection>Exeunt</stagedirection></line>
     </scene>
+  </act>
 </ShakespearPlay>
