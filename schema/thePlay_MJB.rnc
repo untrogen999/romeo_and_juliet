@@ -6,11 +6,13 @@ ShakespearPlay = element ShakespearPlay {(act | scene | line | stagedirection)*}
 act = element act {n, (text | scene)*}
 n = attribute n {text}
 
-scene = element scene {n, (text | line | stagedirection)*}
+scene = element scene {n, (text | line | title | stagedirection)*}
 
 line = element line {(speaker | stagedirection? | text)*}
 
 speaker = element speaker {char, text}
 char = attribute char {text}
+
+title = element  title {text}
 
 stagedirection = element stagedirection {text}

@@ -992,8 +992,8 @@
       <speech><speaker char="Nurse" sex="N" house="C">Nurse</speaker>Anon, anon!--<br/>
       Come, let's away; the strangers all are gone.<stagedirection>Exeunt</stagedirection></speech>
       
-      <speech>[Illustration: Capulet's Garden]</speech>
-  <!--not part of the play but part of the book-->
+      <speech>[Illustration: Capulet's Garden]</speech> <!--not part of the play but part of the book-->
+  
   <act n="II">ACT II</act>
   
     <stagedirection>_Enter_ Chorus</stagedirection>
@@ -1925,8 +1925,8 @@
       For, by your leaves, you shall not stay alone<br/>
       Till holy church incorporate two in one. <stagedirection>Exeunt</stagedirection></speech>
       
-      <speech>[Illustration: Loggia of Capulet's House]</speech>
-  <!--not part of the play but part of the book-->
+      <speech>[Illustration: Loggia of Capulet's House]</speech> <!--not part of the play but part of the book-->
+  
   <act n="III">ACT III</act>
   
     <scene n="I">SCENE I. A Public Place</scene>
@@ -3005,8 +3005,8 @@
       I'll to the friar, to know his remedy;<br/>
       If all else fail, myself have power to die.<stagedirection>Exit</stagedirection></speech>
       
-      <speech>[Illustration: JULIET AT LAURENCE'S CELL.]</speech>
-  <!--not part of the play but part of the book-->
+      <speech>[Illustration: JULIET AT LAURENCE'S CELL.]</speech> <!--not part of the play but part of the book-->
+  
   <act n="IV">ACT IV</act>
   
     <scene n="I">SCENE I. Friar Laurence's Cell</scene>
@@ -3590,8 +3590,8 @@
       <speech><speaker char="2 Musician" sex="N" house="N">2 Musician</speaker>Hang him, Jack!--Come, we'll in<br/>
       here, tarry for the mourners, and stay dinner. <stagedirection>Exeunt</stagedirection></speech>
       
-      <speech>[Illustration: TOMB OF THE SCALIGERS, VERONA]</speech>
-  <!--not part of the play but part of the book-->
+      <speech>[Illustration: TOMB OF THE SCALIGERS, VERONA]</speech> <!--not part of the play but part of the book-->
+  
   <act n="V">ACT V</act>
   
     <scene n="I">SCENE I. Mantua. A Street</scene>
