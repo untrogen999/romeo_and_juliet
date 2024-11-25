@@ -1,19 +1,20 @@
 datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
 
 start = ShakespearPlay
-ShakespearPlay = element ShakespearPlay {(act | scene | speech | stagedirection)*}
+ShakespearPlay = element ShakespearPlay {act+}
 
-act = element act {n, (text | scene)*}
+act = element act {n, title, (stagedirection | speech | scene)+}
 n = attribute n {text}
 
-scene = element scene {n, (text | speech | stagedirection)*}
+scene = element scene {n, title, (speech | stagedirection)+}
 
-speech = element speech {(speaker | stagedirection? | br | text)*}
+speech = element speech {(speaker | stagedirection | br | text)+}
 
 speaker = element speaker {char, sex, house, text}
+char = attribute char {text}
 sex = attribute sex {text}
 house = attribute house {text}
-char = attribute char {text}
 
-stagedirection = element stagedirection {(br | text)*}
+stagedirection = element stagedirection {(br | text)+}
 br = element br {text}
+title = element title {text}
