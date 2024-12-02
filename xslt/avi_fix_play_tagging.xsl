@@ -43,7 +43,9 @@
             will NOT be converted to the actual angle brackets in the output. Thus we need to set it to "yes".
             "&#xa;" is the newline character and one is added both before and after the schema association.
         -->
-        <xsl:text disable-output-escaping="yes">&#xa;&lt;?xml-model href="../schema/thePlay_MJB_fixed_tagging.rnc" type="application/relax-ng-compact-syntax"?&gt;&#xa;</xsl:text>
+        <xsl:text disable-output-escaping="yes">&#xa;&lt;</xsl:text>
+        <xsl:text>?xml-model href="../schema/thePlay_MJB_fixed_tagging.rnc" type="application/relax-ng-compact-syntax"?</xsl:text>
+        <xsl:text disable-output-escaping="yes">&gt;&#xa;</xsl:text>
     </xsl:template>
     
     <!-- AZ: Add @sex and @house attributes to speakers -->
@@ -66,7 +68,7 @@
         This template also only works on the text, so child elements (ex. <stagedirection> inside a <line>)
         are passed through as-is.
     -->
-    <xsl:template match="*/text()">
+    <xsl:template match="element()/text()">
         <!-- AZ: What this code does is look for lines where the last character is NOT '>' (i.e. not the end of
             an element, like </speech>). Then it reinserts the last character of those lines before ending the line
             with "<br/>\n", written in one regex as "$1&lt;br/&gt;&#xa;" since you can't have angle brackets in the "select" attribute.
