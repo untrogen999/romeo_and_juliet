@@ -96,7 +96,7 @@
                     <!-- AZ: The meat of this stylesheet. Creates and spaces all the objects for each scene in the play. -->
                     <xsl:for-each select="//scene">
                         <!-- AZ: The number of this scene in the current act -->
-                        <xsl:variable name="sceneNum" select="count(preceding-sibling::scene) + 1"/>
+                        <xsl:variable name="sceneNum" select="count(preceding::scene) + 1"/>
                         <!-- AZ: The number of the act this scene is a part of -->
                         <xsl:variable name="actNum" select="../position()"/>
                         <!-- AZ: Count the number of lines for this scene.
@@ -116,7 +116,7 @@
                             <xsl:variable name="barXPos" select="$lineCount * $barScale"/>
                             
                             <!-- AZ: This scene's number as a label, arranged in a column for all scenes -->
-                            <text x="-15" y="0" font-size="16"><xsl:value-of select="$sceneNum"/></text>
+                            <text x="-15" y="0" font-size="18"><xsl:value-of select="$sceneNum"/></text>
                             
                             <!-- AZ: The bar for this scene.
                                 Note the spacing was already determined in the definition of $barWidth to leave some
