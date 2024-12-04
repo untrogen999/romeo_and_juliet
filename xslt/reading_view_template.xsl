@@ -29,7 +29,8 @@
         <xsl:result-document href="../docs/OUTPUT_FILENAME.html">
             <html>
                 <head>
-                    <title>Avi's Romeo and Juliet Reading View</title>
+                    <!-- AZ: Change the page title to whatever you want -->
+                    <title>YOUR WEBPAGE TITLE</title>
                 </head>
                 <body>
                     <xsl:apply-templates select="$playFile//ShakespearPlay"/>
