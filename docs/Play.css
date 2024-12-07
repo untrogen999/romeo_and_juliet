@@ -1,0 +1,37 @@
+/* By Avi Zilberman */
+/* CSS file for styling all important play elements across all reading views on the website */
+
+/* AZ: Define the First Folio font so that it can be referenced in the rest of the file */
+@font-face {
+    /* AZ: Full font name is "Shakespeare First Folio, Bold" */
+    font-family: "FirstFolio";
+    src: url("images/Shakespeare_First_Folio_Font.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* AZ: Style speeches */
+.speech {
+    color: white;
+    background-color: #756356;
+}
+
+/* AZ: Style the speaker names that are at the start of every speech */
+.speaker {
+    color: #d4d4d4;
+}
+
+/* AZ: Styles the titles of acts */
+.act-title {
+    font-family: "FirstFolio";
+}
+
+/* AZ: Styles the titles of scenes */
+.scene-title {
+    font-family: "FirstFolio";
+}
+
+/* AZ: Styles stage directions (note not all of them are inside a scene or act) */
+.stagedirection {
+    font-style: italic;
+}
