@@ -22,7 +22,7 @@
         omit-xml-declaration="yes" indent="yes"/>
     
     <!-- AZ: Store the index file as a variable -->
-    <xsl:variable name="indexFile" select="document('../xml/avi_index_markup.xml')"/>
+    <xsl:variable name="indexFile" select="document('../../xml/unused/avi_index_markup.xml')"/>
     <xsl:key name="indexEntries" match="$indexFile//entry" use="term/text()"/>
     
     
@@ -31,7 +31,7 @@
     <!-- AZ: See this wrox.com thread for an example: https://p2p.wrox.com/xslt/87315-result-document-output-problem-s-identity-transform.html -->
     <xsl:template match='/'>
         <!-- AZ: Always output to a new XML file with the given name -->
-        <xsl:result-document href="../docs/reading_view_index.html">
+        <xsl:result-document href="../../docs/unused/reading_view_index.html">
             <html>
                 <head>
                     <title>Avi's Romeo and Juliet Reading View</title>
@@ -71,7 +71,26 @@
     
     <!-- AZ: For each piece of text in the speech -->
     <xsl:template match="speech/text()">
-        <xsl:apply-templates select="az:replaceTerms(., key('indexEntries', ''))"/>
+        <!--<xsl:apply-templates select="az:replaceTerms(., key('indexEntries', ''))"/>-->
+        
+        <!-- AZ: Look at each word in the speech text segment -->
+        <xsl:for-each select="tokenize(., '\s+')">
+            <xsl:variable name="word" select="current()"/>
+            
+            <xsl:choose>
+                <!-- AZ: Check for an exact match -->
+                <xsl:when test="$indexFile//entry/term = $word">
+                    <term>
+                        <xsl:value-of select="$word"/>
+                    </term>
+                </xsl:when>
+                <xsl:otherwise>
+                    <xsl:value-of select="$word"/>
+                </xsl:otherwise>
+            </xsl:choose>
+            <!-- AZ: Add a space to the end -->
+            <xsl:text> </xsl:text>
+        </xsl:for-each>
     </xsl:template>
     
     <!-- AZ: Style the speakers in a special way -->
@@ -85,6 +104,8 @@
     <!-- AZ: The HTML equivalent of <br/> is exactly the same element --> 
     <xsl:template match="br">
         <br/>
+        <!-- AZ: Newline -->
+        <xsl:text disable-output-escaping="yes">&#xa;</xsl:text>
     </xsl:template>
     
     
