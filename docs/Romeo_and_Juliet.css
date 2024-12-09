@@ -4,11 +4,12 @@ body
    color: #744700;
 }
 
-/* Ensure the body has no margin or padding to avoid space around the nav */
-body 
+/* Ensure the body and html take up the full height of the page */
+html, body 
 {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 /* Nav bar styling */
