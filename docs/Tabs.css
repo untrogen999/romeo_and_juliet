@@ -84,3 +84,32 @@ p
         max-width: 1500px;   /* Limits the width of the text for wrapping */
         font-size: 20px;
     }
+    
+/* Container for the team members */
+.team-container {
+    display: grid; /* Enable grid layout */
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Space between items */
+    margin: 20px auto; /* Center the grid */
+    max-width: 800px; /* Optional: Limit the container width */
+    text-align: left; /* Align text to the left */
+}
+
+/* Individual team member styling */
+.team-member {
+    border: 1px solid #ccc; /* Optional: Add a border */
+    padding: 10px; /* Optional: Add padding */
+    background-color: #e2cba5; /* Optional: Light background */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+/* Adjust headings for better readability */
+.h3-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.h3-details {
+    font-size: 1rem;
+    color: #744700;
+}
