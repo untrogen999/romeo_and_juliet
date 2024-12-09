@@ -74,16 +74,20 @@
         <!--<xsl:apply-templates select="az:replaceTerms(., key('indexEntries', ''))"/>-->
         
         <!-- AZ: Look at each word in the speech text segment -->
-        <xsl:for-each select="tokenize(., '\s+')">
+        <!-- AZ: Use tokenize() to group characters as "words" by whitespace and punctuation -->
+        <!-- AZ: NOTE: This doesn't find phrases that are multiple words separated by whitespace -->
+        <xsl:for-each select="tokenize(., '[\.\s]+')">
             <xsl:variable name="word" select="current()"/>
             
             <xsl:choose>
-                <!-- AZ: Check for an exact match -->
+                <!-- AZ: Style the term in a special way if it appears in the index -->
                 <xsl:when test="$indexFile//entry/term = $word">
-                    <term>
+                    <span class="term">
                         <xsl:value-of select="$word"/>
-                    </term>
+                    </span>
                 </xsl:when>
+                
+                <!-- AZ: Otherwise just return the word as-is -->
                 <xsl:otherwise>
                     <xsl:value-of select="$word"/>
                 </xsl:otherwise>
