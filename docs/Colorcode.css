@@ -1,0 +1,21 @@
+/* Male in neither of the houses */
+.speaker.M.N
+{ color: darkblue;} 
+
+/* neither none */
+.speaker.N.N { color: white} 
+
+/* Male in Montague's house */
+.speaker.M.M { color: darkgreen; } 
+
+/* Female in Montague'house */
+.speaker.F.M { color: purple; } 
+
+/* Male in Capulet's house */
+.speaker.M.C { color: brown ;}
+
+/* Female in Capulet's house */
+.speaker.F.C { color: pink;}
+
+/* unknown sex in Capulet's house */
+.speaker.N.C { color: white}
