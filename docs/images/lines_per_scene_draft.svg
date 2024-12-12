@@ -22,103 +22,77 @@
         </text>
         
         <!-- Bars and Data Labels -->
-        <!-- Random values for demonstration -->
+        <!-- Scene numbers above, line numbers on bars, Act numbers below -->
         <g font-size="12" text-anchor="middle">
             <rect x="10" y="350" width="30" height="50" fill="#9CAF88"/>
-            <text x="25" y="370" fill="black">50</text>
-            <text x="25" y="420">1</text>
+            <text x="25" y="340" fill="black">Scene 1</text>
+            <text x="25" y="420" fill="black">Act I</text>
+            <text x="25" y="375" fill="black">50</text>
             
             <rect x="50" y="320" width="30" height="80" fill="#9CAF88"/>
-            <text x="65" y="340" fill="black">80</text>
-            <text x="65" y="420">2</text>
+            <text x="65" y="310" fill="black">Scene 2</text>
+            <text x="65" y="420" fill="black">Act I</text>
+            <text x="65" y="360" fill="black">80</text>
             
             <rect x="90" y="280" width="30" height="120" fill="#9CAF88"/>
-            <text x="105" y="300" fill="black">120</text>
-            <text x="105" y="420">3</text>
+            <text x="105" y="270" fill="black">Scene 3</text>
+            <text x="105" y="420" fill="black">Act I</text>
+            <text x="105" y="320" fill="black">120</text>
             
             <rect x="130" y="250" width="30" height="150" fill="#9CAF88"/>
-            <text x="145" y="270" fill="black">150</text>
-            <text x="145" y="420">4</text>
+            <text x="145" y="240" fill="black">Scene 1</text>
+            <text x="145" y="420" fill="black">Act II</text>
+            <text x="145" y="310" fill="black">150</text>
             
             <rect x="170" y="300" width="30" height="100" fill="#9CAF88"/>
-            <text x="185" y="320" fill="black">100</text>
-            <text x="185" y="420">5</text>
+            <text x="185" y="290" fill="black">Scene 2</text>
+            <text x="185" y="420" fill="black">Act II</text>
+            <text x="185" y="350" fill="black">100</text>
             
             <rect x="210" y="380" width="30" height="20" fill="#9CAF88"/>
+            <text x="225" y="370" fill="black">Scene 3</text>
+            <text x="225" y="420" fill="black">Act II</text>
             <text x="225" y="390" fill="black">20</text>
-            <text x="225" y="420">6</text>
             
             <rect x="250" y="290" width="30" height="110" fill="#9CAF88"/>
-            <text x="265" y="310" fill="black">110</text>
-            <text x="265" y="420">7</text>
+            <text x="265" y="280" fill="black">Scene 1</text>
+            <text x="265" y="420" fill="black">Act III</text>
+            <text x="265" y="340" fill="black">110</text>
             
             <rect x="290" y="220" width="30" height="180" fill="#9CAF88"/>
-            <text x="305" y="240" fill="black">180</text>
-            <text x="305" y="420">8</text>
+            <text x="305" y="210" fill="black">Scene 2</text>
+            <text x="305" y="420" fill="black">Act III</text>
+            <text x="305" y="310" fill="black">180</text>
             
             <rect x="330" y="260" width="30" height="140" fill="#9CAF88"/>
-            <text x="345" y="280" fill="black">140</text>
-            <text x="345" y="420">9</text>
+            <text x="345" y="250" fill="black">Scene 3</text>
+            <text x="345" y="420" fill="black">Act III</text>
+            <text x="345" y="330" fill="black">140</text>
             
             <rect x="370" y="300" width="30" height="100" fill="#9CAF88"/>
-            <text x="385" y="320" fill="black">100</text>
-            <text x="385" y="420">10</text>
+            <text x="385" y="290" fill="black">Scene 1</text>
+            <text x="385" y="420" fill="black">Act IV</text>
+            <text x="385" y="350" fill="black">100</text>
             
             <rect x="410" y="350" width="30" height="50" fill="#9CAF88"/>
-            <text x="425" y="370" fill="black">50</text>
-            <text x="425" y="420">11</text>
+            <text x="425" y="340" fill="black">Scene 2</text>
+            <text x="425" y="420" fill="black">Act IV</text>
+            <text x="425" y="375" fill="black">50</text>
             
             <rect x="450" y="200" width="30" height="200" fill="#9CAF88"/>
-            <text x="465" y="220" fill="black">200</text>
-            <text x="465" y="420">12</text>
+            <text x="465" y="190" fill="black">Scene 1</text>
+            <text x="465" y="420" fill="black">Act V</text>
+            <text x="465" y="300" fill="black">200</text>
             
             <rect x="490" y="280" width="30" height="120" fill="#9CAF88"/>
-            <text x="505" y="300" fill="black">120</text>
-            <text x="505" y="420">13</text>
+            <text x="505" y="270" fill="black">Scene 2</text>
+            <text x="505" y="420" fill="black">Act V</text>
+            <text x="505" y="320" fill="black">120</text>
             
             <rect x="530" y="250" width="30" height="150" fill="#9CAF88"/>
-            <text x="545" y="270" fill="black">150</text>
-            <text x="545" y="420">14</text>
-            
-            <rect x="570" y="310" width="30" height="90" fill="#9CAF88"/>
-            <text x="585" y="330" fill="black">90</text>
-            <text x="585" y="420">15</text>
-            
-            <rect x="610" y="380" width="30" height="20" fill="#9CAF88"/>
-            <text x="625" y="390" fill="black">20</text>
-            <text x="625" y="420">16</text>
-            
-            <rect x="650" y="220" width="30" height="180" fill="#9CAF88"/>
-            <text x="665" y="240" fill="black">180</text>
-            <text x="665" y="420">17</text>
-            
-            <rect x="690" y="270" width="30" height="130" fill="#9CAF88"/>
-            <text x="705" y="290" fill="black">130</text>
-            <text x="705" y="420">18</text>
-            
-            <rect x="730" y="320" width="30" height="80" fill="#9CAF88"/>
-            <text x="745" y="340" fill="black">80</text>
-            <text x="745" y="420">19</text>
-            
-            <rect x="770" y="290" width="30" height="110" fill="#9CAF88"/>
-            <text x="785" y="310" fill="black">110</text>
-            <text x="785" y="420">20</text>
-            
-            <rect x="810" y="370" width="30" height="30" fill="#9CAF88"/>
-            <text x="825" y="380" fill="black">30</text>
-            <text x="825" y="420">21</text>
-            
-            <rect x="850" y="200" width="30" height="200" fill="#9CAF88"/>
-            <text x="865" y="220" fill="black">200</text>
-            <text x="865" y="420">22</text>
-            
-            <rect x="890" y="280" width="30" height="120" fill="#9CAF88"/>
-            <text x="905" y="300" fill="black">120</text>
-            <text x="905" y="420">23</text>
-            
-            <rect x="930" y="250" width="30" height="150" fill="#9CAF88"/>
-            <text x="945" y="270" fill="black">150</text>
-            <text x="945" y="420">24</text>
+            <text x="545" y="240" fill="black">Scene 3</text>
+            <text x="545" y="420" fill="black">Act V</text>
+            <text x="545" y="310" fill="black">150</text>
         </g>
         
         <!-- Horizontal Grid Lines -->
