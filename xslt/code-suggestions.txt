@@ -1,0 +1,30 @@
+<p class="m">
+<span class="Montague">
+	<b>speaker's name</b> text of speech
+</span>
+</p>
+
+XSLT:
+
+<p>
+<xsl:attribute name="class">
+<xsl:value-of select="$sex"/>
+</xsl:attribute>
+            <span> 
+                <xsl:attribute name="class">
+                    <xsl:value-of select="$house"/>
+                </xsl:attribute>
+		<b><xsl:value-of select="speaker"/></b>
+		<xsl:text>: </xsl:text>
+		<xsl:apply-templates/>
+            </span>
+</p>
+
+
+CSS:
+
+/*Males*/
+p.m {color:blue;}
+
+/*Capulets*/
+span.Capulet {background-color:brown;}

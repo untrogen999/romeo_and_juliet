@@ -27,7 +27,9 @@
     <!-- AZ: Stores a sequence of the number of speeches each speaker made in the play -->
     <!-- AZ: The "as" parameter is needed to force the result to be a sequence of numbers -->
     <xsl:variable name="speakerCounts" as="xs:integer*">
+        <!-- AZ: Group speeches by the character who speaks them -->
         <xsl:for-each-group select="$playFile//speech" group-by="speaker/@char">
+            <!-- AZ: Count the number of speeches the character made -->
             <xsl:value-of select="count(current-group())"/>
         </xsl:for-each-group>
     </xsl:variable>
@@ -103,7 +105,7 @@
                                <!-- AZ: Vertical axis, its label and the label for the scenes' line counts -->
                                <!-- AZ: Draw the y-axis at the left side of the chart -->
                                <line x1="0" x2="0" y1="0" y2="{$chartBottom}" stroke="black" stroke-width="2"/>
-                               <text x="-105" y="{$yMiddle}" text-anchor="middle" font-weight="bold" transform="rotate(-90,-105,{$yMiddle})" font-size="16">Scenes</text>
+                               <text x="-120" y="{$yMiddle}" text-anchor="middle" font-weight="bold" transform="rotate(-90,-120,{$yMiddle})" font-size="16">Scenes</text>
                                <text x="{$xLength}" y="-15" text-anchor="middle" font-size="18">Lines</text>
                                
                                <!-- AZ: Horizontal axis and its label. Draw the axis at the bottom of the chart, and draw the axis label both above y=0 of the chart and below -->
@@ -134,7 +136,7 @@
                            
                            <!-- AZ: The meat of this stylesheet. Creates and spaces all the objects for each scene in the play. -->
                            <xsl:for-each select="distinct-values($playFile//speaker/@char)">
-                               <!-- AZ: Ordered by who gives the most speeches -->
+                               <!-- AZ: Ordered by who gave the most speeches -->
                                <xsl:sort select="count($playFile//speech[speaker/@char=current()])" order="descending"/>
                                
                                <!-- AZ: The number of this scene in the current act -->
