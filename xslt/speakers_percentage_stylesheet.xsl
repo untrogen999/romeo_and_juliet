@@ -82,8 +82,8 @@
                             <div class="dropdown-content">
                                 <a href="play_speech_percentages_chart.html">Speeches per Character Bar Graph</a>
                                 <a href="lines_per_scene.html">Lines per Scene Bar Graph</a>
-                                <a href="?.html">Table of Contents Reading View</a>
-                                <a href="?.html">Color-coding Genders and House Reading View</a>
+                                <a href="reading_view_with_navigation_AK.html">Table of Contents Reading View</a>
+                                <a href="Color_Coding_sex_house.html">Color-coding Genders and House Reading View</a>
                             </div>
                         </div>
                         <div><a href="teamTab.html">Team Info</a></div>
