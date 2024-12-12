@@ -89,8 +89,6 @@
                 <xsl:attribute name="class">
                     <xsl:value-of select="$house"/>
                 </xsl:attribute>
-                <b><xsl:value-of select="speaker"/></b>
-                <xsl:text>: </xsl:text>
                 <xsl:apply-templates/>
             </span>
         </p>

@@ -1,11 +1,11 @@
 /* males*/
-p.m{color:blue;}
+p.M{color:#566727;}
 
 /* females */
-f.m{color:pink;}
+p.F{color:pink;}
 
 /* Capulets */
-span.Capulet{background-color: brown;}
+span.C{background-color: #DCAF92;}
 
 /* Montague */
-span.Montague{background-color: purple;}
+span.M{background-color: #BC8F8F;}
