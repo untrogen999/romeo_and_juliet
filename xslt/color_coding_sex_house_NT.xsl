@@ -81,32 +81,26 @@
         <xsl:variable name="sex" select="speaker/@sex"/>
         <xsl:variable name="house" select="speaker/@house"/>
         
-        <p class="speech">
+        <p>
+            <xsl:attribute name="class">
+                <xsl:value-of select="$sex"/>
+            </xsl:attribute>
             <span> 
                 <xsl:attribute name="class">
-                    <xsl:text>speaker</xsl:text>
-                    <xsl:value-of select="$sex"/>
-                    <xsl:text> </xsl:text>
-                    <xsl:value-of select="speaker"/>
+                    <xsl:value-of select="$house"/>
                 </xsl:attribute>
+                <b><xsl:value-of select="speaker"/></b>
+                <xsl:text>: </xsl:text>
+                <xsl:apply-templates/>
             </span>
-            <xsl:apply-templates select="text()"/>
-            <xsl:apply-templates/>
         </p>
+        
     </xsl:template>
            
-    <!-- applying classes based on speakers -->
+    <!-- applying classes based on speakers-->
     <xsl:template match="speaker">
-        <xsl:variable name="name" select="text()"/>
-        <xsl:for-each select="document('avi_list_of_speakers.xml')/speakers/set[ch = $name]">
-            <xsl:attribute name="class">
-                <xsl:text>speaker </xsl:text>
-                <xsl:value-of select="@sex"/>
-                <xsl:text> </xsl:text>
-                <xsl:value-of select="@house"/>
-            </xsl:attribute>
-        </xsl:for-each>
-        <xsl:value-of select="."/>
+        <b><xsl:apply-templates/>
+            <xsl:text>: </xsl:text> </b>
     </xsl:template>
  
     <xsl:template match="$playFile//br">
