@@ -62,6 +62,7 @@ a
 p
     {
         padding-left: 100px;  /* Adds space to the left for all lines */
+        padding-right: 100px;
         max-width: 1500px;   /* Limits the width of the text for wrapping */
         font-size: 20px;
     }
