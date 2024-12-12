@@ -81,7 +81,7 @@
                             </h3>
                             <!-- Scenes under the act -->
                             <xsl:for-each select="scene">
-                                <a href="#scene-{generate-id()}">Scene <xsl:value-of select="position()"/></a>
+                                <a href="#scene-{generate-id()}">Scene <xsl:value-of select="@n"/></a>
                             </xsl:for-each>
                         </xsl:for-each>
                     </div>
@@ -106,7 +106,7 @@
     <!-- Process Scene Titles -->
     <xsl:template match="scene">
         <h2 id="scene-{generate-id()}">
-            Scene <xsl:value-of select="position()"/>
+            Scene <xsl:value-of select="@n"/>
         </h2>
         <xsl:apply-templates/>
     </xsl:template>
