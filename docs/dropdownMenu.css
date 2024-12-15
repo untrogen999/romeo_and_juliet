@@ -1,38 +1,40 @@
 /* Style for the dropdown menu */
-.dropdown 
-{
+.dropdown {
     position: relative;
     display: inline-block;
 }
 
 /* Style for the dropdown menu content */
-.dropdown-content 
-{
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+
+    /* Move the dropdown below the navbar */
+    top: 100%; /* Places it directly below the dropdown element */
+    left: 0; /* Aligns it to the left of the dropdown element */
 }
 
 /* Style for the dropdown menu links */
-.dropdown-content a 
-{
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+
+    /* Adjust font size for dropdown links */
+    font-size: 16px; /* Modify as needed */
 }
 
 /* Style for the dropdown menu links on hover */
-.dropdown-content a:hover 
-{
+.dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
 /* Show the dropdown menu content when hovering over the dropdown */
-.dropdown:hover .dropdown-content 
-{
+.dropdown:hover .dropdown-content {
     display: block;
 }
