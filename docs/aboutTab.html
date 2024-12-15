@@ -38,6 +38,51 @@
             <div><a href="aboutTab.html">About</a></div>
             <div><a href="teamTab.html">Team Info</a></div>
         </nav>
+        
+        <!-- AZ: Page text begins here -->
+        
         <h2>About</h2>
-        <p>[text]</p>
+        
+        <!-- AZ: General about of Romeo and Juliet itself and the project's goals. Details below this section -->
+        
+        <p>The Tragedy of Romeo and Juliet, or just Romeo and Juliet, is one of the most famous romances in the Western world which, as the name suggests, is a tragedy between the love of Romeo and Juliet. The two this play is named after lived in different houses who despise each other, Montague and Capulet. Romeo, belonging to the Montague house, attended a ball in the Capulet house in disguise to meet his crush, Rosaline. However, he then met and fell in love with Juliet, the daughter of the head of Capulet. When Juliet's cousin, Tybalt, discovered that Romeo had infiltrated the Capulet's ball, everything begins to escalate, eventually leading to the tragic deaths of both Romeo and Juliet and peace between the two houses.</p>
+
+        <p>The goal of this project is to analyze Romeo and Juliet and experiment with how the play itself could be read. This was done with two reading views, each with a different sub-goal. The reading views were then combined into a single, third, reading view.</p>
+        
+        <hr/>
+        
+        <!-- AZ: Talking about the changes to the play XML that had to be done before working on the reading views and SVGs -->
+        
+        <h2>Modifying the Play XML</h2>
+        
+        <p>After the play was marked up with regex and manual editing, there were attributes that needed to be added to the XML before the reading views could be created. Namely, the elements called &lt;line&gt; needed to be changed to &lt;speech&gt;, &lt;br/&gt; tags needed to be added everytime there was a linebreak, and attributes saying what gender and house each speaker belonged to needed to be added. Avi created an "identity transformation" stylesheet (XSLT stylesheet that outputs an XML file) to automate all this.</p>
+        
+        <p>The first thing Avi had to do with the <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xslt/avi_fix_play_tagging.xsl">avi_fix_play_tagging.xsl</a> file was encase the contents of all &lt;line&gt; elements in new &lt;speech&gt; elements using &lt;xsl:apply-templates/&gt;. <br/>
+        Secondly, he manually wrote a new XML file that associates the sex and house attributes with each speaker, called <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xml/avi_list_of_speakers.xml">avi_list_of_speakers.xml</a>, and retrieved and added those attributes for every &lt;speaker&gt; element in the play. <br/>
+        Thirdly, he wanted to automatically replace the schema association line in the stylesheet to point to the schema of the output document, so he matched on the association line itself with "processing-instruction('xml-model')", inserting newlines and angle brackets along with the inner contents of the line. "disable-output-escaping='yes'" was used to make sure that the escaped characters are output as the characters themselves. <br/>
+        And lastly, he had to search for line breaks in the XML file itself and insert &lt;br/&gt; elements. He did this by matching on the text content itself of the speeches, and by combining &lt;xsl:value-of&gt;, the "replace()" XPath function, escaped angle brackets (&lt;&gt;) and newlines (&amp;#xa), regex capture groups and backreferencing, and the "disable-output-escaping" attribute that turns escaped characters into the characters themselves in the output.</p>
+        
+        <hr/>
+        
+        <!-- AZ: SVG bar graphs discussion -->
+        
+        <h2>Bar Graphs</h2>
+
+        <p>After the identity transformation mentioned above was made and working, Avi and Aania worked together on creating some SVGs for the project, doing some simple numbers-based analyses of the play. Two bar graphs were made, namely a bar graph showing the percentages of speeches made by each character across the play, and a second bar graph counting the number of lines (indicated by &lt;br/&gt; tags) in each scene. <br/>
+        Aania manually wrote a draft SVG of the lines-per-scene bar graph, which Avi then wrote an XSLT to generated an adapted (and slightly modified) version of Aania's draft.</p>
+        
+        <p>There are two bar graphs made for this project, both quite similar to each other. Both are horizontal bar graphs, descending downwards and with the bars scaled (horizontally) slightly to emphasize the differences in lengths. The main difference between them is that due to the extra information that needs to be shown in the lines-per-scene bar graph, a column to the right of the bars was created, with each row showing what scene the counted lines correlates to. <br/>
+        Since the two bar graphs, defined in the <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xslt/speakers_percentage_stylesheet.xsl">speakers_percentage_stylesheet.xsl</a> and <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xslt/lines_per_scene_stylesheet.xsl">lines_per_scene_stylesheet.xsl</a> stylesheets and outputted in the "<a href="https://github.com/untrogen999/romeo_and_juliet/tree/main/docs">docs</a> folder, are so similar in structure, only the former will be discussed.</p>
+        
+        <p>In the <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xslt/speakers_percentage_stylesheet.xsl">XSLT</a> defining the speeches-per-character bar graph is a single root template defining an SVG embedded inside an HTML page. This was done so the site's navigation bar will appear above the SVG. In addition, many variables were created to be able to easily change the spacing and positioning of the graph and bars, such as how wide the bars should be. <br/> 
+        In terms of the actual SVG code, everything is contained in groups (&lt;g&gt;). This both made the stylesheet and output SVG easier to read when debugging them, and made it easier to set common properties across sets of elements. <br/>
+        Firstly, a so-called "root" group was made to position everything and set the font to be used across all text in the graph. <br/>
+        Secondly, a group was made to setup the bar graph, such as the graph title and the axes and axes' labels. <br/>
+        Thirdly, a group dedicated to adding vertical grid lines at equally-spaced intervals were created, and their position had to account for the bars being scaled from their "true" lengths. <br/>
+        And lastly, the stylesheet iterated through each speaker to generate the elements for each bar, such as character name, the percentage of speeches that character spoke, and the bars themselves. Each "row" of elements for a particular character was set up inside a group so that all positioning of individual elements could be done relative to some y-coordinate on the vertical axis.</p>
+        
+        <hr/>
+        
+        <!-- AZ: You can add your stuff here -->
+    </body>
 </html>
