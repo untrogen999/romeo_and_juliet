@@ -15,7 +15,9 @@
 
     /* Move the dropdown below the navbar */
     top: 100%; /* Places it directly below the dropdown element */
-    left: 0; /* Aligns it to the left of the dropdown element */
+    left: 50%; /* Start from the center */
+    transform: translateX(-50%); /* Shift content back by half its width to center align */
+    text-align: center; /* Center-align the text */
 }
 
 /* Style for the dropdown menu links */

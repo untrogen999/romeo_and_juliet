@@ -1,5 +1,6 @@
 /* Set background and text color for the body */
-body, html {
+body, html 
+{
     background: #e2cba5; /* Light tan background */
     color: #744700; /* Dark tan text */
     margin: 0; /* Remove default margin */
@@ -8,7 +9,8 @@ body, html {
 }
 
 /* Link styling */
-a {
+a 
+{
     padding-left: 100px;  /* Adds space to the left for all lines */
     max-width: 1500px;   /* Limits the width of the text for wrapping */
     font-size: 20px; /* Sets font size */
@@ -17,33 +19,44 @@ a {
 }
 
 /* Nav bar styling */
-nav {
+nav 
+{
     background-color: #a66703; /* nav bar background color */
-    text-align: center; /* aligns nav bar text */
     width: 100%; /* Ensure it spans the full width of the viewport */
+    display: flex; /* Use flexbox to center the nav items */
+    justify-content: center; /* Center nav items horizontally */
+    align-items: center; /* Align nav items vertically */
 }
 
-/* Ensure nav items are displayed inline to prevent breaking to a new line */
-nav div {
-    padding: 14px 20px; /* Padding for nav items */
-    display: inline-block; /* Display inline to avoid breaking lines */
-}
+    /* Ensure nav items are displayed inline to prevent breaking to a new line */
+    nav div 
+    {
+        padding: 12px 15px; /* Padding for nav items */
+        align-items: center; /* Vertically center the content */
+    }
 
-/* Nav links styling */
-nav a {
-    font-size: 20px; /* Set font size for nav links */
-    text-decoration: none; /* No underline */
-    color: black; /* Text color */
-}
+    /* Nav links styling */
+    nav a 
+    {
+        font-size: 20px; /* Set font size for nav links */
+        text-decoration: none; /* No underline */
+        color: black; /* Text color */
+        display: block; /* Ensure it behaves like a block to avoid any alignment issues */
+        text-align: center; /* Ensure text inside each link is centered */
+    }
 
-/* Hover effect for nav items */
-nav div:hover {
-    background-color: #555; /* Change background color on hover */
-    color: white; /* Change text color on hover */
-}
+    /* Hover effect for nav items */
+    nav div:hover 
+    {
+        background-color: #555; /* Change background color on hover */
+        color: white; /* Change text color on hover */
+        text-decoration: underline; /*  Underlines text when hovered over */
+    }
+
 
 /* Header 1 styling */
-h1 {
+h1 
+{
     font-size: 40px; /* Large font size for main headings */
     text-align: center; /* Center align the heading */
     text-decoration: underline; /* Add an underline */
@@ -51,27 +64,31 @@ h1 {
 }
 
 /* Header 2 styling */
-h2 {
+h2 
+{
     font-size: 40px; /* Large font size for secondary headings */
     text-align: center; /* Center align the heading */
     margin-bottom: 5px; /* Reduce space below the header */
 }
 
 /* Header 3 styling */
-h3 {
+h3 
+{
     font-size: 30px; /* Medium font size for tertiary headings */
     padding-left: 50px; /* Adds space to the left for all h3 */
     text-decoration: underline; /* Adds an underline to h3 */
 }
 
 /* Header 4 styling */
-h4 {
+h4 
+{
     font-size: 20px; /* Smaller font size for subheadings */
     padding-left: 50px; /* Adds space to the left for all h4 */
 }
 
 /* Paragraph styling */
-p {
+p 
+{
     padding-left: 100px;  /* Adds space to the left for all lines */
     padding-right: 100px; /* Adds space to the right for all lines */
     max-width: 1500px;   /* Limits the width of the text for wrapping */
@@ -79,7 +96,8 @@ p {
 }
 
 /* Container for the team members */
-.team-container {
+.team-container 
+{
     display: grid; /* Enable grid layout */
     grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
     gap: 20px; /* Space between items */
@@ -90,6 +108,7 @@ p {
 
 /* Individual team member styling */
 .team-member {
+
     border: 1px solid #ccc; /* Optional: Add a border */
     padding: 2px 3px; /* Reduced padding for tighter boxes */
     background-color: #e2cba5; /* Optional: Light background */
@@ -97,12 +116,14 @@ p {
 }
 
 /* Adjust headings for better readability inside team boxes */
-.h3-name {
+.h3-name 
+{
     font-size: 1.1rem; /* Slightly smaller font */
     font-weight: bold;
 }
 
-.h3-details {
+.h3-details 
+{
     font-size: 0.9rem; /* Adjust detail font size */
     color: #744700;
     margin: 0; /* Remove default margin */
