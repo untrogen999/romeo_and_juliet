@@ -30,8 +30,7 @@
     <!-- AZ: Variables related to the x-axis -->
     <xsl:variable name="xSpacer" select="$sceneMaxLines div $sceneTotal"/>
     <!-- AZ: Add the length by a little bit to extend the horizontal axis further right -->
-    <!-- AZ: Make the number on the right of the addition be 125 if you want to have the number of lines to be to the right of the x-axis -->
-    <xsl:variable name="xLength" select="$sceneMaxLines * $barScale + 95"/>
+    <xsl:variable name="xLength" select="$sceneMaxLines * $barScale + 75"/>
     <!-- AZ: Used for positioning the title text and horizontal axis label -->
     <xsl:variable name="xMiddle" select="$xLength div 2"/>
     
@@ -95,13 +94,11 @@
                                <!-- AZ: Title text of the chart -->
                                <text x="{$xMiddle}" y="-100" font-size="26" text-anchor="middle" font-weight="bold" text-decoration="underline">Lines per Scene in <tspan font-style="italic">Romeo and Juliet</tspan></text>
                                
-                               <!-- AZ: Vertical axis and its label -->
+                               <!-- AZ: Vertical axis, its label, and the label for the scene numbers column -->
                                <!-- AZ: Draw the y-axis at the left side of the chart -->
                                <line x1="0" x2="0" y1="0" y2="{$chartBottom}" stroke="black" stroke-width="2"/>
                                <text x="-75" y="{$yMiddle}" text-anchor="middle" font-weight="bold" transform="rotate(-90,-75,{$yMiddle})" font-size="16">Scenes</text>
-                               
-                               <!-- AZ: Uncomment if you want to have the number of lines to be to the right of the x-axis -->
-                               <!--<text x="{$xLength}" y="-15" text-anchor="middle" font-size="18">Lines</text>-->
+                               <text x="{$xLength}" y="-15" text-anchor="middle" font-weight="bold" font-size="18">Scenes</text>-->
                                
                                <!-- AZ: Horizontal axis and its label. Draw the axis at the bottom of the chart, and draw the axis label both above y=0 of the chart and below -->
                                <line x1="0" x2="{$xLength}" y1="{$chartBottom}" y2="{$chartBottom}" stroke="black" stroke-width="2"/>
@@ -132,7 +129,7 @@
                            <!-- AZ: The meat of this stylesheet. Creates and spaces all the objects for each scene in the play. -->
                            <xsl:for-each select="$playFile//scene">
                                <!-- AZ: The number of this scene in the current act -->
-                               <xsl:variable name="sceneNum" select="count(preceding-sibling::scene) + 1"/>
+                               <xsl:variable name="sceneNum" select="@n"/>
                                <!-- AZ: The number of the act this scene is a part of, as a Roman Numeral -->
                                <xsl:variable name="actNum" select="../@n"/>
                                <!-- AZ: Count the number of lines for this scene.
@@ -160,15 +157,11 @@
                                    -->
                                    <line x1="0" x2="{$barXPos}" y1="0" y2="0" stroke="#9CAF88" stroke-width="{$barWidth}"/>
                                    
-                                   <!-- AZ: The scene number in this act that correspondes to this bar. Placed a little inside the bar from the right side -->
-                                   <text x="{$barXPos + 15}" y="0" text-anchor="start" font-size="18">Scene <xsl:value-of select="$sceneNum"/></text>
-                                   
                                    <!-- AZ: The number of lines in this scene, placed inside the (horizontal) middle of the bar -->
                                    <text x="{$barXPos div 2}" y="0" font-size="18"><xsl:value-of select="$lineCount"/></text>
                                    
-                                   <!-- AZ: The number of lines in this scene, placed to the right of the bar -->
-                                   <!-- AZ: Uncomment if you want to have the number of lines to be to the right of the x-axis -->
-                                   <!--<text x="{$xLength}" y="0" font-size="18"><xsl:value-of select="$lineCount"/></text>-->
+                                   <!-- AZ: The scene number in the current act, placed to the right of the bar -->
+                                   <text x="{$xLength}" y="0" font-size="18">Scene <xsl:value-of select="$sceneNum"/></text>
                                </g>
                            </xsl:for-each>
                        </g>
