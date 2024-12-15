@@ -49,7 +49,7 @@ nav
     nav div:hover 
     {
         background-color: #555; /* Change background color on hover */
-        color: white; /* Change text color on hover */
+        color: black; /* Change text color on hover */
         text-decoration: underline; /*  Underlines text when hovered over */
     }
 
