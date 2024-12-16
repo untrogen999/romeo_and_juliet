@@ -90,5 +90,11 @@
         
         <p>The navigation bar lists acts and their respective scenes using Roman numerals, mirroring the play's original format. Users can click on any act or scene, and the view will scroll to the appropriate section. The reading view itself preserves the formatting of speeches and speaker names, presenting the play in a clean and accessible way. Additionally, the stylesheet prepares the output as an XHTML document, ensuring it is ready to be linked to a homepage or integrated into a broader website. The navigation bar enhances the reading experience by providing structured and quick access to different sections of the play. Currently, the code is ready to be connected to a main website via an HTML link, as demonstrated in the homepage tab integration.</p>
         <hr/>
+        
+        <h2> Color Coding by sex and house </h2>
+        
+        <p> This XSLT stylesheet was created by Nidhi to color code the Romeo and Juliet play by sex and house. The goal was to make the site more creative and interactive. The XSLT processes the XML file to extract details about each speech, including the speaker's gender  and house, and uses these attributes to assign CSS classes. This approach allows the HTML output to style each speech differently based on the speaker's characteristics, such as applying text color based on the sex of the character or background color for the houses that the characters are from. The speeches are wrapped in p tags, with additional nested span tags for further customization, ensuring that the visual presentation highlights these attributes effectively while maintaining a clean and readable structure.</p>
+        
+        <p> Each speech is wrapped in a "p" tag, and the speaker’s name is formatted using a "b" tag to indicate who is speaking. The speaker's name is followed by a colon, creating a clear and consistent format for dialogue. Additionally, the attributes of the speaker, such as gender and house, are used to apply CSS classes, allowing for gender-based(colored-text)and house-based styling(text background).</p>
     </body>
 </html>

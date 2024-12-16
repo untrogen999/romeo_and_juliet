@@ -1,11 +1,19 @@
 /* males*/
-p.M{color:#03396C;}
+p.M{color: black;}
 
 /* females */
-p.F{color:#481C33;}
+p.F{color: maroon;}
 
 /* Capulets */
-span.C{background-color: #DBBBA7;}
+span.C{background-color: #FFEDE9;}
 
 /* Montague */
-span.M{background-color: #E5CFC1;}
+span.M{background-color: #E3EEFF;}
+
+body,html{
+    background-color: white;
+    color: #523A28;}
+
+nav{background-color: #523A28;}
+nav a{ color: #CBC3BE;}
+a{color: #523A28;}
