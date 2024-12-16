@@ -18,58 +18,33 @@
         <xsl:result-document href="../docs/reading_view_with_navigation.html">
             <html>
                 <head>
-                    <title>Reading View - Romeo and Juliet</title>
-                    <style>
-                        body {
-                        font-family: Times New Roman, serif;
-                        line-height: 1.6;
-                        margin: 20px;
-                        }
-                        .scene-nav {
-                        position: fixed;
-                        top: 10px;
-                        left: 10px;
-                        background: #f4f4f4;
-                        border: 1px solid #ddd;
-                        padding: 10px;
-                        width: 200px;
-                        height: calc(100vh - 20px);
-                        overflow-y: auto;
-                        }
-                        .scene-nav a {
-                        display: block;
-                        margin: 5px 0;
-                        text-decoration: none;
-                        color: black;
-                        }
-                        .scene-nav a:hover {
-                        text-decoration: underline;
-                        }
-                        .content {
-                        margin-left: 230px;
-                        padding: 10px;
-                        }
-                        h1, h2 {
-                        color: #333;
-                        }
-                        h1 {
-                        font-size: 24px;
-                        margin-top: 20px;
-                        }
-                        h2 {
-                        font-size: 20px;
-                        margin-top: 20px;
-                        }
-                        .speaker {
-                        font-weight: bold;
-                        }
-                        i {
-                        color: #555;
-                        }
-                    </style>
+                    <title>Reading View with Navigation</title>
+                    <link type="text/css" href="Romeo_and_Juliet.css" rel="stylesheet" />
+                    <link type="text/css" href="Tabs.css" rel="stylesheet" />
+                    <link type="text/css" href="dropdownMenu.css" rel="stylesheet" />
                 </head>
                 <body>
-                    <!-- Navigation Sidebar -->
+                    <!-- Link to homepage -->
+                    <a href="index.html">
+                        <h1>Romeo and Juliet Analysis</h1>
+                    </a>
+                    
+                    <!-- Navigation bar -->
+                    <nav>
+                        <div><a href="index.html">Homepage</a></div>
+                        <div class="dropdown">
+                            <a href="analysisTab.html">Analysis</a>
+                            <div class="dropdown-content">
+                                <a href="play_speech_percentages_chart.html">Speeches per Character Bar Graph</a>
+                                <a href="lines_per_scene.html">Lines per Scene Bar Graph</a>
+                                <a href="reading_view_with_navigation.html">Reading View - Scene Navigation</a>
+                                <a href="color_coding_sex_house.html">Reading View - Color-coding Sex and House</a>
+                            </div>
+                        </div>
+                        <div><a href="teamTab.html">Team Info</a></div>
+                    </nav>
+                    
+                    <!-- Scene Navigation -->
                     <div class="scene-nav">
                         <h2>Scene Navigation</h2>
                         <xsl:for-each select="$playFile//act">
@@ -129,10 +104,5 @@
     <!-- Line Breaks -->
     <xsl:template match="br">
         <br/>
-    </xsl:template>
-    
-    <!-- Stage Directions -->
-    <xsl:template match="stagedirection">
-        <i>[<xsl:apply-templates/>]</i>
     </xsl:template>
 </xsl:stylesheet>
