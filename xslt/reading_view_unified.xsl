@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- Unified reading view stylesheet by Aania, Nidhi, and Avi. Aania's stylesheet was the basis
+<!-- Unified reading view stylesheet by the entire team. Aania's stylesheet was the basis
     for this file, while the color-coding-related templates and styling were Nidhi's work.
-    Avi created this file and took whatever was needed from both files to combine the two reading
-    view stylesheets into this one new stylesheet.
+    Pieces of Myles' site HTML and CSS were used to add and style a navigation bar to the view, based off
+    of Nidhi's styling of it for her own reading view.
+    Avi created this file and took whatever was needed to combine everything into this one new stylesheet.
 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"

@@ -1,3 +1,7 @@
+/* All-inclusive CSS file for styling the unified reading view.
+    Everyone in the team had a large part to play in the making of this file.
+*/
+
 /* AZ: Define the First Folio font so that it can be referenced in the rest of the file */
 @font-face {
     /* AZ: Full font name is "Shakespeare First Folio, Bold" */

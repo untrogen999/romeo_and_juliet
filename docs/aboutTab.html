@@ -69,7 +69,6 @@
         
         <hr/>
         
-        <!-- AZ: You can add your stuff here -->
         <h2>Table of Contents Reading View</h2>
         
         <p>This XSLT stylesheet was created by Aania to transform XML content from Romeo and Juliet into a dynamic and interactive reading view. The key feature is the side navigation bar, which allows users to navigate through the play by acts and scenes efficiently. The XML file is processed, extracting the structure of the play (acts and their scenes) and presenting it neatly on the left side of the webpage. Each act and scene in the navigation bar is clickable and links directly to its corresponding section in the main content, improving usability. The code uses xsl for each to iterate through the XML structure and dynamically generate IDs using the generate-id() function. This ensures each scene and act has a unique identifier, making the links work seamlessly. CSS styling ensures that the navigation bar remains fixed on the left side, offering a consistent user experience, while the main reading content flows on the right side.</p>
@@ -82,5 +81,19 @@
         <p> This XSLT stylesheet was created by Nidhi to color code the Romeo and Juliet play by sex and house. The goal was to make the site more creative and interactive. The XSLT processes the XML file to extract details about each speech, including the speaker's gender  and house, and uses these attributes to assign CSS classes. This approach allows the HTML output to style each speech differently based on the speaker's characteristics, such as applying text color based on the sex of the character or background color for the houses that the characters are from. The speeches are wrapped in p tags, with additional nested span tags for further customization, ensuring that the visual presentation highlights these attributes effectively while maintaining a clean and readable structure.</p>
         
         <p> Each speech is wrapped in a "p" tag, and the speaker’s name is formatted using a "b" tag to indicate who is speaking. The speaker's name is followed by a colon, creating a clear and consistent format for dialogue. Additionally, the attributes of the speaker, such as gender and house, are used to apply CSS classes, allowing for gender-based(colored-text)and house-based styling(text background).</p>
+
+        <hr/>
+
+        <h2>Unified Reading View</h2>
+
+        <p>After Aania and Nidhi created their reading views, Avi combined them into a new, combined reading view that has both a table of contents and color-coding of genders and houses. The new stylesheet that generates it, called <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/xslt/reading_view_unified.xsl">reading_view_unified.xsl</a>, is based off of Aania's table of contents reading view with changes from Myles and Nidhi's works.</p>
+
+        <p>In the stylesheet itself, the overall structure is the same as Aania's reading view, but there are some big differences. The first is that Avi copied the navigation bar and link to homepage HTML that Myles made for the website and modified its coloring to match Nidhi's changes to it for her reading view. The second difference is that Nidhi's color-coding templates were copied over to the unified view stylesheet. The last difference is that Aania's embedded CSS was removed so that every CSS rule for this reading view was in its own file, called <a href="https://github.com/untrogen999/romeo_and_juliet/blob/main/docs/Unified.css">Unified.css</a>.</p>
+
+        <p>For this new reading view, while originally based on Aania's styling, the CSS has gone through some notable changes. <br/>
+        Firstly, Myles' CSS for the dropdown menu (what appears when you hover over the "Analysis" entry in the navigation bar) was copied verbatim into this CSS. <br/>
+        Secondly, Act and Scene titles have been changed to use a custom font, matching Nidhi's reading view styling. <br/>
+        Thirdly, the navigation bar and link to homepage HTML and styling were taken from Myles' own CSS, modified slightly to closer match Nidhi's styling. <br/>
+        And lastly, stage directions are styled in italics.</p>
     </body>
 </html>
