@@ -1,0 +1,19 @@
+FINAL REVIEW
+
+Romeo and Juliet Project
+
+Fall 2024
+
+
+The strengths of this project are in its multiple reading views and multiple analysis graphs.
+
+Two separate reading views were created with two separate XSLT stylesheets: one to create a linking table of contents and the other to color-code speakers by gender and house. These were kept intact in the project while a third reading view combined the two of them. The advantage to future students in the course is that they can learn how each of these separate tasks was accomplished in the separate XSLTs. It also offers a variety of stylings that could be copied or adapted in future projects.
+
+The graphs show the number of speeches per character, by both absolute number and percent of the total, and the number of lines per scene. These are clear and attractive graphs, though the pages that contain them would have benefited from some commentary.
+
+The about page does a very good job of describing the code used, and the code itself contains a lot of comments to help a reader understand what each part of it is and does.
+
+Earlier ambitions in the project would have included the introduction and index of terms from the early 20th-century printing that was the source for the project. These had to be set aside for lack of time, but some code, particularly working towards the index, was created and remains in the repo.
+
+
+-Dr. Campbell, 17-DEC-2024
