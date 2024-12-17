@@ -25,7 +25,6 @@
             <html>
                 <head>
                     <title>Unified Reading View - Romeo and Juliet</title>
-                    <link type="text/css" href="dropdownMenu.css" rel="stylesheet" />
                     <!-- Colors -->
                     <link type="text/css" href="Unified.css" rel="stylesheet" />
                 </head>
