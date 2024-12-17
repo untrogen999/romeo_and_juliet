@@ -8,3 +8,5 @@ The project's done by four people:
 * Avi: Team Co-Ordinator
 
 The link to our website with our augmented reading view is here: [Link](https://untrogen999.github.io/romeo_and_juliet/)
+
+All the project's code is released under the public domain.
