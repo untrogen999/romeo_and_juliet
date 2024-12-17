@@ -5,7 +5,7 @@ The project's done by four people:
 * Myles: Documentation Officer and Web Designer
 * Aania: Subject Expert
 * Nidhi: Quality Control Officer
-* Avi: Team Co-Ordinator
+* Avi: Team Co-Ordinator and Web Designer Assistant
 
 The link to our website with our augmented reading view is here: [Link](https://untrogen999.github.io/romeo_and_juliet/)
 
