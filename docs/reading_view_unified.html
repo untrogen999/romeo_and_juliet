@@ -4,95 +4,26 @@
    <head>
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
       <title>Unified Reading View - Romeo and Juliet</title>
-      <link type="text/css" href="Colorcode.css" rel="stylesheet" />
-      <style>
-                        /* AZ: Define the First Folio font so that it can be referenced in the rest of the file */
-                        @font-face {
-                            /* AZ: Full font name is "Shakespeare First Folio, Bold" */
-                            font-family: "FirstFolio";
-                            src: url("images/Shakespeare_First_Folio_Font.otf");
-                            font-weight: normal;
-                            font-style: normal;
-                        }
-                        
-                        body {
-                            font-family: "Times New Roman", "serif";
-                            line-height: 1.6;
-                            margin: 20px;
-                        }
-                        
-                        .scene-nav {
-                            position: fixed;
-                            top: 10px;
-                            left: 10px;
-                            background: #f4f4f4;
-                            border: 1px solid #ddd;
-                            padding: 10px;
-                            width: 200px;
-                            height: calc(100vh - 20px);
-                            overflow-y: auto;
-                        }
-                        
-                        .scene-nav a {
-                            display: block;
-                            margin: 5px 0;
-                            text-decoration: none;
-                            color: black;
-                        }
-                        
-                        .scene-nav a:hover {
-                            text-decoration: underline;
-                        }
-                        
-                        .content {
-                            margin-left: 230px;
-                            padding: 10px;
-                        }
-                        
-                        h1, h2 {
-                            color: #333;
-                        }
-                        
-                        h1 {
-                            font-size: 24px;
-                            margin-top: 20px;
-                        }
-                        
-                        h2 {
-                            font-size: 20px;
-                            margin-top: 20px;
-                        }
-                        
-                        .speaker {
-                            font-weight: bold;
-                        }
-                        
-                        i {
-                            color: #555;
-                        }
-                        
-                        /* AZ: Titles gotta look old-fashioned */
-                        .title {
-                            font-family: "FirstFolio";
-                        }
-                        
-                        /* AZ: Styles stage directions */
-                        .stagedirection {
-                            font-style: italic;
-                        }
-                        
-                    </style>
+      <link type="text/css" href="dropdownMenu.css" rel="stylesheet" />
+      <link type="text/css" href="Unified.css" rel="stylesheet" />
    </head>
    <body>
       <div class="scene-nav">
          <h2>Scene Navigation</h2>
-         <h3><a href="#d2e4">ACT I</a></h3><a href="#scene-d2e7">Scene I</a><a href="#scene-d2e839">Scene II</a><a href="#scene-d2e1168">Scene III</a><a href="#scene-d2e1438">Scene IV</a><a href="#scene-d2e1779">Scene V</a><h3><a href="#d2e2291">ACT II</a></h3><a href="#scene-d2e2332">Scene I</a><a href="#scene-d2e2455">Scene II</a><a href="#scene-d2e3070">Scene III</a><a href="#scene-d2e3347">Scene IV</a><a href="#scene-d2e4066">Scene V</a><a href="#scene-d2e4304">Scene VI</a><h3><a href="#d2e4424">ACT III</a></h3><a href="#scene-d2e4427">Scene I</a><a href="#scene-d2e5080">Scene II</a><a href="#scene-d2e5473">Scene III</a><a href="#scene-d2e5995">Scene IV</a><a href="#scene-d2e6103">Scene V</a><h3><a href="#d2e6869">ACT IV</a></h3><a href="#scene-d2e6872">Scene I</a><a href="#scene-d2e7251">Scene II</a><a href="#scene-d2e7419">Scene III</a><a href="#scene-d2e7580">Scene IV</a><a href="#scene-d2e7708">Scene V</a><h3><a href="#d2e8198">ACT V</a></h3><a href="#scene-d2e8201">Scene I</a><a href="#scene-d2e8452">Scene II</a><a href="#scene-d2e8549">Scene III</a></div>
-      <main class="content">
+         <h3><a href="#d3e4">ACT I</a></h3><a href="#scene-d3e7">Scene I</a><a href="#scene-d3e839">Scene II</a><a href="#scene-d3e1168">Scene III</a><a href="#scene-d3e1438">Scene IV</a><a href="#scene-d3e1779">Scene V</a><h3><a href="#d3e2291">ACT II</a></h3><a href="#scene-d3e2332">Scene I</a><a href="#scene-d3e2455">Scene II</a><a href="#scene-d3e3070">Scene III</a><a href="#scene-d3e3347">Scene IV</a><a href="#scene-d3e4066">Scene V</a><a href="#scene-d3e4304">Scene VI</a><h3><a href="#d3e4424">ACT III</a></h3><a href="#scene-d3e4427">Scene I</a><a href="#scene-d3e5080">Scene II</a><a href="#scene-d3e5473">Scene III</a><a href="#scene-d3e5995">Scene IV</a><a href="#scene-d3e6103">Scene V</a><h3><a href="#d3e6869">ACT IV</a></h3><a href="#scene-d3e6872">Scene I</a><a href="#scene-d3e7251">Scene II</a><a href="#scene-d3e7419">Scene III</a><a href="#scene-d3e7580">Scene IV</a><a href="#scene-d3e7708">Scene V</a><h3><a href="#d3e8198">ACT V</a></h3><a href="#scene-d3e8201">Scene I</a><a href="#scene-d3e8452">Scene II</a><a href="#scene-d3e8549">Scene III</a></div>
+      <main class="content"><a href="index.html">
+            <h1 id="homepage-link">Romeo and Juliet Analysis</h1></a><nav>
+            <div><a href="index.html">Homepage</a></div>
+            <div class="dropdown"><a href="analysisTab.html">Analysis</a><div class="dropdown-content"><a href="play_speech_percentages_chart.html">Speeches per Character Bar Graph</a><a href="lines_per_scene.html">Lines per Scene Bar Graph</a><a href="reading_view_with_navigation_AK.html">Table of Contents Reading View</a><a href="Color_Coding_sex_house.html">Color-coding Genders and House Reading View</a><a href="reading_view_unified.html">Unified Reading View with Table of Contents and Color-coding</a></div>
+            </div>
+            <div><a href="aboutTab.html">About</a></div>
+            <div><a href="teamTab.html">Team Info</a></div>
+         </nav>
          
-         <h1 id="d2e4" class="title">ACT I</h1>ACT I
+         <h1 id="d3e4" class="title">ACT I</h1>ACT I
          
          
-         <h2 id="scene-d2e7" class="title">
+         <h2 id="scene-d3e7" class="title">
             Scene I</h2>SCENE I. Verona. A Public Place
          <span class="stagedirection">[_Enter_ SAMPSON _and_ GREGORY, _of the house of Capulet, with swords and<br />
             bucklers_]</span>
@@ -543,7 +474,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e839" class="title">
+         <h2 id="scene-d3e839" class="title">
             Scene II</h2>SCENE II. A Street
          
          <span class="stagedirection">[_Enter_ CAPULET, PARIS, _and_ Servant]</span>
@@ -719,7 +650,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e1168" class="title">
+         <h2 id="scene-d3e1168" class="title">
             Scene III</h2>SCENE III. A Room in Capulet's House
          
          <span class="stagedirection">[_Enter_ LADY CAPULET _and_ Nurse]</span>
@@ -864,7 +795,7 @@
          <p class="N"><span class="C"><span class="speaker">Nurse: </span>Go, girl, seek happy nights to happy days.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e1438" class="title">
+         <h2 id="scene-d3e1438" class="title">
             Scene IV</h2>SCENE IV. A Street
          
          <span class="stagedirection">[_Enter_ ROMEO, MERCUTIO, BENVOLIO, _with five or six_ Maskers,<br />
@@ -1044,7 +975,7 @@
          <p class="M"><span class="M"><span class="speaker">Benvolio: </span>Strike, drum.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e1779" class="title">
+         <h2 id="scene-d3e1779" class="title">
             Scene V</h2>SCENE V. A Hall in Capulet's House
          
          <span class="stagedirection">[Musicians _waiting_. _Enter_ Servingmen _with napkins_]</span>
@@ -1321,7 +1252,7 @@
          
          
          
-         <h1 id="d2e2291" class="title">ACT II</h1>ACT II
+         <h1 id="d3e2291" class="title">ACT II</h1>ACT II
          
          <span class="stagedirection">[_Enter_ Chorus]</span>
          
@@ -1343,7 +1274,7 @@
                <span class="stagedirection">[Exit]</span></span></p>
          
          
-         <h2 id="scene-d2e2332" class="title">
+         <h2 id="scene-d3e2332" class="title">
             Scene I</h2>SCENE I. A Lane by the Wall of Capulet's Orchard
          
          <span class="stagedirection">[_Enter_ ROMEO]</span>
@@ -1410,7 +1341,7 @@
                To seek him here that means not to be found. <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e2455" class="title">
+         <h2 id="scene-d3e2455" class="title">
             Scene II</h2>SCENE II. Capulet's Orchard
          
          <span class="stagedirection">[_Enter_ ROMEO]</span>
@@ -1735,7 +1666,7 @@
                His help to crave and my dear hap to tell. <span class="stagedirection">[Exit]</span></span></p>
          
          
-         <h2 id="scene-d2e3070" class="title">
+         <h2 id="scene-d3e3070" class="title">
             Scene III</h2>SCENE III. Friar Laurence's Cell
          
          <span class="stagedirection">[_Enter_ FRIAR LAURENCE, _with a basket_]</span>
@@ -1880,7 +1811,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e3347" class="title">
+         <h2 id="scene-d3e3347" class="title">
             Scene IV</h2>SCENE IV. A Street
          
          <span class="stagedirection">[_Enter_ BENVOLIO _and_ MERCUTIO]</span>
@@ -2276,7 +2207,7 @@
          <p class="N"><span class="C"><span class="speaker">Nurse: </span>Before, and apace.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e4066" class="title">
+         <h2 id="scene-d3e4066" class="title">
             Scene V</h2>SCENE V. Capulet's Orchard
          
          <span class="stagedirection">[_Enter_ JULIET]</span>
@@ -2404,7 +2335,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e4304" class="title">
+         <h2 id="scene-d3e4304" class="title">
             Scene VI</h2>SCENE VI. Friar Laurence's Cell
          
          <span class="stagedirection">[_Enter_ FRIAR LAURENCE _and_ ROMEO]</span>
@@ -2473,10 +2404,10 @@
          
          
          
-         <h1 id="d2e4424" class="title">ACT III</h1>ACT III
+         <h1 id="d3e4424" class="title">ACT III</h1>ACT III
          
          
-         <h2 id="scene-d2e4427" class="title">
+         <h2 id="scene-d3e4427" class="title">
             Scene I</h2>SCENE I. A Public Place
          
          <span class="stagedirection">[_Enter_ MERCUTIO, BENVOLIO, Page, _and_ Servants]</span>
@@ -2826,7 +2757,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e5080" class="title">
+         <h2 id="scene-d3e5080" class="title">
             Scene II</h2>SCENE II. Capulet's Orchard
          
          <span class="stagedirection">[_Enter_ JULIET]</span>
@@ -3029,7 +2960,7 @@
                <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e5473" class="title">
+         <h2 id="scene-d3e5473" class="title">
             Scene III</h2>SCENE III. Friar Laurence's Cell
          
          <span class="stagedirection">[_Enter_ FRIAR LAURENCE]</span>
@@ -3301,7 +3232,7 @@
                Farewell.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e5995" class="title">
+         <h2 id="scene-d3e5995" class="title">
             Scene IV</h2>SCENE IV. A Room in Capulet's House
          
          <span class="stagedirection">[_Enter_ CAPULET, LADY CAPULET, _and_ PARIS]</span>
@@ -3359,7 +3290,7 @@
                May call it early by and by.--Good night.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e6103" class="title">
+         <h2 id="scene-d3e6103" class="title">
             Scene V</h2>SCENE V. Juliet's Chamber
          
          <span class="stagedirection">[_Enter_ ROMEO _and_ JULIET]</span>
@@ -3767,10 +3698,10 @@
          
          
          
-         <h1 id="d2e6869" class="title">ACT IV</h1>ACT IV
+         <h1 id="d3e6869" class="title">ACT IV</h1>ACT IV
          
          
-         <h2 id="scene-d2e6872" class="title">
+         <h2 id="scene-d3e6872" class="title">
             Scene I</h2>SCENE I. Friar Laurence's Cell
          
          <span class="stagedirection">[_Enter_ FRIAR LAURENCE _and_ PARIS]</span>
@@ -3971,7 +3902,7 @@
                Farewell, dear father! <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e7251" class="title">
+         <h2 id="scene-d3e7251" class="title">
             Scene II</h2>SCENE II. Hall in Capulet's House
          
          <span class="stagedirection">[_Enter_ CAPULET, LADY CAPULET, Nurse, _and two_ Servingmen]</span>
@@ -4065,7 +3996,7 @@
                Since this same wayward girl is so reclaim'd.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e7419" class="title">
+         <h2 id="scene-d3e7419" class="title">
             Scene III</h2>Scene III. Juliet's Chamber
          
          <span class="stagedirection">[_Enter_ JULIET _and_ Nurse]</span>
@@ -4147,7 +4078,7 @@
                <span class="stagedirection">[She throws herself on the bed]</span></span></p>
          
          
-         <h2 id="scene-d2e7580" class="title">
+         <h2 id="scene-d3e7580" class="title">
             Scene IV</h2>SCENE IV. Hall in Capulet's House
          
          <span class="stagedirection">[_Enter_ LADY CAPULET _and_ Nurse]</span>
@@ -4220,7 +4151,7 @@
                Make haste, I say. <span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e7708" class="title">
+         <h2 id="scene-d3e7708" class="title">
             Scene V</h2>SCENE V. Juliet's Chamber
          
          <span class="stagedirection">[_Enter_ Nurse]</span>
@@ -4490,10 +4421,10 @@
          
          
          
-         <h1 id="d2e8198" class="title">ACT V</h1>ACT V
+         <h1 id="d3e8198" class="title">ACT V</h1>ACT V
          
          
-         <h2 id="scene-d2e8201" class="title">
+         <h2 id="scene-d3e8201" class="title">
             Scene I</h2>SCENE I. Mantua. A Street
          
          <span class="stagedirection">[_Enter_ ROMEO]</span>
@@ -4625,7 +4556,7 @@
                To Juliet's grave, for there must I use thee.<span class="stagedirection">[Exeunt]</span></span></p>
          
          
-         <h2 id="scene-d2e8452" class="title">
+         <h2 id="scene-d3e8452" class="title">
             Scene II</h2>SCENE II. Friar Laurence's Cell
          
          <span class="stagedirection">[_Enter_ FRIAR JOHN]</span>
@@ -4679,7 +4610,7 @@
                Poor living corse, clos'd in a dead man's tomb!<span class="stagedirection">[Exit]</span></span></p>
          
          
-         <h2 id="scene-d2e8549" class="title">
+         <h2 id="scene-d3e8549" class="title">
             Scene III</h2>SCENE III. A Churchyard; in it a Tomb belonging to the Capulets
          
          <span class="stagedirection">[_Enter_ PARIS, _and his_ Page _bearing flowers and a torch_]</span>

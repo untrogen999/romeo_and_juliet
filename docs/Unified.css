@@ -1,0 +1,129 @@
+/* AZ: Define the First Folio font so that it can be referenced in the rest of the file */
+@font-face {
+    /* AZ: Full font name is "Shakespeare First Folio, Bold" */
+    font-family: "FirstFolio";
+    src: url("images/Shakespeare_First_Folio_Font.otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Aania's original styling */
+
+body {
+    font-family: "Times New Roman", "serif";
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.scene-nav {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+    height: calc(100vh - 20px);
+    overflow-y: auto;
+}
+
+.scene-nav a {
+    display: block;
+    margin: 5px 0;
+    text-decoration: none;
+    color: black;
+}
+
+.scene-nav a:hover { text-decoration: underline; }
+
+.content {
+    margin-left: 230px;
+    padding: 10px;
+}
+
+h1, h2 { color: #333; }
+
+h1 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.speaker { font-weight: bold; }
+
+i { color: #555; }
+
+/* Nidhi's color-coding styling */
+
+/* males*/
+p.M { color: black; }
+
+/* females */
+p.F { color: maroon; }
+
+/* Capulets */
+span.C { background-color: #FFEDE9; }
+
+/* Montague */
+span.M { background-color: #E3EEFF; }
+
+/* Myles' styling for the nav bar and the text above it, from the Romeo_and_Juliet.css file */
+
+/* Nav bar styling */
+nav {
+    /* AZ: Changed to match Nidhi's styling */
+    background-color: #523A28;
+
+    width: 100%; /* Ensure it spans the full width of the viewport */
+    display: flex; /* Use flexbox to center the nav items */
+    justify-content: center; /* Center nav items horizontally */
+    align-items: center; /* Align nav items vertically */
+}
+
+/* Ensure nav items are displayed inline to prevent breaking to a new line */
+nav div {
+    padding: 12px 15px; /* Padding for nav items */
+    align-items: center; /* Vertically center the content */
+}
+
+/* Nav links styling */
+nav a {
+    /* AZ: Changed to match Nidhi's styling */
+    color: #CBC3BE;
+
+    /* AZ: Re-added from Myles' a {} styling */
+    padding-left: 100px;  /* Adds space to the left for all lines */
+    max-width: 1500px;   /* Limits the width of the text for wrapping */
+
+    font-size: 20px; /* Set font size for nav links */
+    text-decoration: none; /* No underline */
+    display: block; /* Ensure it behaves like a block to avoid any alignment issues */
+    text-align: center; /* Ensure text inside each link is centered */
+}
+
+/* Hover effect for nav items */
+nav div:hover {
+    background-color: #555; /* Change background color on hover */
+    color: black; /* Change text color on hover */
+    text-decoration: underline; /*  Underlines text when hovered over */
+}
+
+/* AZ: My styling */
+
+/* AZ: Homepage link is styled separately from the rest of the file */
+#homepage-link {
+    font-size: 40px;
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 40px;
+}
+
+/* AZ: Titles gotta look old-fashioned */
+.title { font-family: "FirstFolio"; }
+
+/* AZ: Styles stage directions */
+.stagedirection { font-style: italic; }

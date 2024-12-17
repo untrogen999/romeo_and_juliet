@@ -25,85 +25,9 @@
             <html>
                 <head>
                     <title>Unified Reading View - Romeo and Juliet</title>
+                    <link type="text/css" href="dropdownMenu.css" rel="stylesheet" />
                     <!-- Colors -->
-                    <link type="text/css" href="Colorcode.css" rel="stylesheet" />
-                    <style>
-                        /* AZ: Define the First Folio font so that it can be referenced in the rest of the file */
-                        @font-face {
-                            /* AZ: Full font name is "Shakespeare First Folio, Bold" */
-                            font-family: "FirstFolio";
-                            src: url("images/Shakespeare_First_Folio_Font.otf");
-                            font-weight: normal;
-                            font-style: normal;
-                        }
-                        
-                        body {
-                            font-family: "Times New Roman", "serif";
-                            line-height: 1.6;
-                            margin: 20px;
-                        }
-                        
-                        .scene-nav {
-                            position: fixed;
-                            top: 10px;
-                            left: 10px;
-                            background: #f4f4f4;
-                            border: 1px solid #ddd;
-                            padding: 10px;
-                            width: 200px;
-                            height: calc(100vh - 20px);
-                            overflow-y: auto;
-                        }
-                        
-                        .scene-nav a {
-                            display: block;
-                            margin: 5px 0;
-                            text-decoration: none;
-                            color: black;
-                        }
-                        
-                        .scene-nav a:hover {
-                            text-decoration: underline;
-                        }
-                        
-                        .content {
-                            margin-left: 230px;
-                            padding: 10px;
-                        }
-                        
-                        h1, h2 {
-                            color: #333;
-                        }
-                        
-                        h1 {
-                            font-size: 24px;
-                            margin-top: 20px;
-                        }
-                        
-                        h2 {
-                            font-size: 20px;
-                            margin-top: 20px;
-                        }
-                        
-                        .speaker {
-                            font-weight: bold;
-                        }
-                        
-                        i {
-                            color: #555;
-                        }
-                        
-                        /* AZ: Titles gotta look old-fashioned */
-                        .title {
-                            font-family: "FirstFolio";
-                        }
-                        
-                        /* AZ: Styles stage directions */
-                        .stagedirection {
-                            font-style: italic;
-                        }
-                        
-                    </style>
+                    <link type="text/css" href="Unified.css" rel="stylesheet" />
                 </head>
                 <body>
                     <!-- Navigation Sidebar -->
@@ -125,6 +49,27 @@
                     
                     <!-- Content Area -->
                     <main class="content">
+                        <!-- AZ: Added id to modify this link specifically -->
+                        <a href="index.html">
+                            <h1 id="homepage-link">Romeo and Juliet Analysis</h1>
+                        </a>
+                        
+                        <nav>
+                            <div><a href="index.html">Homepage</a></div>
+                            <div class="dropdown">
+                                <a href="analysisTab.html">Analysis</a>
+                                <div class="dropdown-content">
+                                    <a href="play_speech_percentages_chart.html">Speeches per Character Bar Graph</a>
+                                    <a href="lines_per_scene.html">Lines per Scene Bar Graph</a>
+                                    <a href="reading_view_with_navigation_AK.html">Table of Contents Reading View</a>
+                                    <a href="Color_Coding_sex_house.html">Color-coding Genders and House Reading View</a>
+                                    <a href="reading_view_unified.html">Unified Reading View with Table of Contents and Color-coding</a>
+                                </div>
+                            </div>
+                            <div><a href="aboutTab.html">About</a></div>
+                            <div><a href="teamTab.html">Team Info</a></div>
+                        </nav>
+                        
                         <xsl:apply-templates select="$playFile//ShakespearPlay"/>
                     </main>
                 </body>
@@ -156,7 +101,7 @@
         <xsl:variable name="sex" select="speaker/@sex"/>
         <xsl:variable name="house" select="speaker/@house"/>
         
-        <!-- Sex attribute in paragraph element itself, house attribute in the inner span -->
+        <!-- AZ: Sex attribute in paragraph element itself, house attribute in the inner span -->
         <p class="{$sex}">
             <span class="{$house}"> 
                 <xsl:apply-templates/>
