@@ -1,7 +1,9 @@
 /* Set background and text color for the body */
 body, html 
 {
-    background: #e2cba5; /* Light tan background */
+    background: #e2cba5; /* Fallback light tan background */
+    background-image: url('images/background.jpg');
+    background-size: cover; /* Sizes the image to fill the entire container */
     color: #744700; /* Dark tan text */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
@@ -11,10 +13,7 @@ body, html
 /* Link styling */
 a 
 {
-    padding-left: 100px;  /* Adds space to the left for all lines */
-    max-width: 1500px;   /* Limits the width of the text for wrapping */
-    font-size: 20px; /* Sets font size */
-    text-decoration: none; /* Removes underline */
+    text-decoration: underline; /* Removes underline */
     color: #744700; /* Sets text color to tan */
 }
 
@@ -31,7 +30,7 @@ nav
     /* Ensure nav items are displayed inline to prevent breaking to a new line */
     nav div 
     {
-        padding: 12px 15px; /* Padding for nav items */
+        padding: 12px 30px; /* Padding for nav items */
         align-items: center; /* Vertically center the content */
     }
 
@@ -95,6 +94,15 @@ p
     font-size: 20px; /* Set font size */
 }
 
+/* List styling */
+ul
+{
+    padding-left: 100px;  /* Adds space to the left for all lines */
+    padding-right: 100px; /* Adds space to the right for all lines */
+    max-width: 1500px;   /* Limits the width of the text for wrapping */
+    font-size: 20px; /* Set font size */
+}
+
 /* Container for the team members */
 .team-container 
 {
@@ -128,3 +136,47 @@ p
     color: #744700;
     margin: 0; /* Remove default margin */
 }
+
+/* Style for the dropdown menu */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Style for the dropdown menu content */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+    /* Move the dropdown below the navbar */
+    top: 100%; /* Places it directly below the dropdown element */
+    left: 50%; /* Start from the center */
+    transform: translateX(-50%); /* Shift content back by half its width to center align */
+    text-align: center; /* Center-align the text */
+}
+
+/* Style for the dropdown menu links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    /* Adjust font size for dropdown links */
+    font-size: 16px; /* Modify as needed */
+}
+
+/* Style for the dropdown menu links on hover */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Show the dropdown menu content when hovering over the dropdown */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
